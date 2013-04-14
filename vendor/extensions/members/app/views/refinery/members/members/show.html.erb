@@ -1,0 +1,75 @@
+<% content_for :body_content_title do %>
+  <%= @member.name %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Name</h1>
+    <p>
+      <%=raw @member.name %>
+    </p>
+  </section>
+  <section>
+    <h1>Password Digest</h1>
+    <p>
+      <%=raw @member.password_digest %>
+    </p>
+  </section>
+  <section>
+    <h1>Email</h1>
+    <p>
+      <%=raw @member.email %>
+    </p>
+  </section>
+  <section>
+    <h1>Password Cleartext</h1>
+    <p>
+      <%=raw @member.password_cleartext %>
+    </p>
+  </section>
+  <section>
+    <h1>Builder</h1>
+    <p>
+      <%=raw @member.builder_id %>
+    </p>
+  </section>
+  <section>
+    <h1>Last Sign In At</h1>
+    <p>
+      <%=raw @member.last_sign_in_at %>
+    </p>
+  </section>
+  <section>
+    <h1>Remember Created At</h1>
+    <p>
+      <%=raw @member.remember_created_at %>
+    </p>
+  </section>
+  <section>
+    <h1>Current Sign In Ip</h1>
+    <p>
+      <%=raw @member.current_sign_in_ip %>
+    </p>
+  </section>
+  <section>
+    <h1>Last Sign In Ip</h1>
+    <p>
+      <%=raw @member.last_sign_in_ip %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="members">
+      <% @members.each do |member| %>
+        <li>
+          <%= link_to member.name, refinery.members_member_path(member) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

@@ -1,0 +1,36 @@
+es:
+  refinery:
+    plugins:
+      members:
+        title: Members
+#        article: masculino/femenino
+    members:
+      admin:
+        members:
+          actions:
+            create_new: Crear nuevo member
+            reorder: Reordenar members
+            reorder_done: Reordenación de members completada
+          records:
+            title: Members
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay members todavía. Pulsa en "Crear nuevo Member" para crear tu primer member.
+          member:
+            view_live_html: Ver este member como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este member
+            delete: Borrar este member para siempre
+      members:
+        show:
+          other: Otros members
+  activerecord:
+    attributes:
+      'refinery/members/member':
+        name: Name
+        password_digest: Password Digest
+        email: Email
+        password_cleartext: Password Cleartext
+        builder_id: Builder
+        last_sign_in_at: Last Sign In At
+        remember_created_at: Remember Created At
+        current_sign_in_ip: Current Sign In Ip
+        last_sign_in_ip: Last Sign In Ip
