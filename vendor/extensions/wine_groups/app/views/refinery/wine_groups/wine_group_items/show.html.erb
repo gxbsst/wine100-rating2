@@ -1,0 +1,33 @@
+<% content_for :body_content_title do %>
+  <%= @wine_group_item.title %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Wine</h1>
+    <p>
+      <%=raw @wine_group_item.wine_id %>
+    </p>
+  </section>
+  <section>
+    <h1>Group</h1>
+    <p>
+      <%=raw @wine_group_item.group_id %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="wine_group_items">
+      <% @wine_group_items.each do |wine_group_item| %>
+        <li>
+          <%= link_to wine_group_item.title, refinery.wine_groups_wine_group_item_path(wine_group_item) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

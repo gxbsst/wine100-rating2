@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="wine_group_items">
+    <% @wine_group_items.each do |wine_group_item| %>
+      <li>
+        <%= link_to wine_group_item, refinery.wine_groups_wine_group_item_path(wine_group_item) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

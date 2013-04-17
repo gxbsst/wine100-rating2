@@ -9,6 +9,11 @@ Wine100::Application.routes.draw do
   # We ask that you don't use the :as option here, as Refinery relies on it being the default of "refinery"
   resources :sessions, :as => :users
 
+  #match "refinery/wine_groups/:id/wine_group_items", :to => "refinery/wine_groups/admin/wine_group_sub_items#index"
+
+  #post "refinery/wine_groups/wine_group_items", :to => "refinery/wine_groups/admin/wine_group_sub_items#create"
+
+
   mount Refinery::Core::Engine, :at => '/'
 
   # The priority is based upon order of creation:

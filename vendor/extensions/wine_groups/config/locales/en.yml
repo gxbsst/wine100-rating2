@@ -1,0 +1,52 @@
+en:
+  refinery:
+    plugins:
+      wine_group_items:
+        title: Wine Group Items
+      wine_groups:
+        title: Wine Groups
+    wine_groups:
+      admin:
+        wine_group_items:
+          actions:
+            create_new: Add New Wine Group Item
+            reorder: Reorder Wine Group Items
+            reorder_done: Done Reordering Wine Group Items
+          records:
+            title: Wine Group Items
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Wine Group Items yet. Click "Add New Wine Group
+              Item" to add your first wine group item.
+          wine_group_item:
+            view_live_html: View this wine group item live <br/><em>(opens in a new
+              window)</em>
+            edit: Edit this wine group item
+            delete: Remove this wine group item forever
+        wine_groups:
+          actions:
+            create_new: Add New Wine Group
+            reorder: Reorder Wine Groups
+            reorder_done: Done Reordering Wine Groups
+          records:
+            title: Wine Groups
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Wine Groups yet. Click "Add New Wine Group"
+              to add your first wine group.
+          wine_group:
+            view_live_html: View this wine group live <br/><em>(opens in a new window)</em>
+            edit: Edit this wine group
+            delete: Remove this wine group forever
+      wine_group_items:
+        show:
+          other: Other Wine Group Items
+      wine_groups:
+        show:
+          other: Other Wine Groups
+  activerecord:
+    attributes:
+      refinery/wine_groups/wine_group_item:
+        wine_id: Wine
+        group_id: Group
+      refinery/wine_groups/wine_group:
+        name: Name
+        judge_id: Judge

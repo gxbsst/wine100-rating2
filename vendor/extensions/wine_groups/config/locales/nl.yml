@@ -1,0 +1,54 @@
+nl:
+  refinery:
+    plugins:
+      wine_group_items:
+        title: Wine Group Items
+      wine_groups:
+        title: Wine Groups
+    wine_groups:
+      admin:
+        wine_group_items:
+          actions:
+            create_new: Maak een nieuwe Wine Group Item
+            reorder: Wijzig de volgorde van de Wine Group Items
+            reorder_done: Klaar met het wijzingen van de volgorde van de Wine Group
+              Items
+          records:
+            title: Wine Group Items
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Wine Group Items. Druk op 'Maak een nieuwe
+              Wine Group Item' om de eerste aan te maken.
+          wine_group_item:
+            view_live_html: Bekijk deze wine group item op de website <br/><em>(opent
+              een nieuw venster)</em>
+            edit: Bewerk deze wine group item
+            delete: Verwijder deze wine group item voor eeuwig
+        wine_groups:
+          actions:
+            create_new: Maak een nieuwe Wine Group
+            reorder: Wijzig de volgorde van de Wine Groups
+            reorder_done: Klaar met het wijzingen van de volgorde van de Wine Groups
+          records:
+            title: Wine Groups
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Wine Groups. Druk op 'Maak een nieuwe Wine
+              Group' om de eerste aan te maken.
+          wine_group:
+            view_live_html: Bekijk deze wine group op de website <br/><em>(opent een
+              nieuw venster)</em>
+            edit: Bewerk deze wine group
+            delete: Verwijder deze wine group voor eeuwig
+      wine_group_items:
+        show:
+          other: Andere Wine Group Items
+      wine_groups:
+        show:
+          other: Andere Wine Groups
+  activerecord:
+    attributes:
+      refinery/wine_groups/wine_group_item:
+        wine_id: Wine
+        group_id: Group
+      refinery/wine_groups/wine_group:
+        name: Name
+        judge_id: Judge

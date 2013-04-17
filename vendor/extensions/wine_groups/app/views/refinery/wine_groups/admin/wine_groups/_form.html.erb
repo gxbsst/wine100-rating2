@@ -1,0 +1,20 @@
+<%= form_for [refinery, :wine_groups_admin, @wine_group] do |f| -%>
+  <%= render '/refinery/admin/error_messages',
+              :object => @wine_group,
+              :include_object_name => true %>
+
+  <div class='field'>
+    <%= f.label :name -%>
+    <%= f.text_field :name, :class => 'larger widest' -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :judge_id -%>
+    <%= f.number_field :judge_id -%>
+  </div>
+
+  <%= render '/refinery/admin/form_actions', :f => f,
+             :continue_editing => false,
+             :delete_title => t('delete', :scope => 'refinery.wine_groups.admin.wine_groups.wine_group'),
+             :delete_confirmation => t('message', :scope => 'refinery.admin.delete', :title => @wine_group.name) -%>
+<% end -%>

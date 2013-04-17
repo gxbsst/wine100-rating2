@@ -1,0 +1,56 @@
+zh-CN:
+  refinery:
+    plugins:
+      styles:
+        title: Styles
+      wines:
+        title: Wines
+    styles:
+      admin:
+        styles:
+          actions:
+            create_new: 建立新的 Style
+            reorder: 对 Styles 重新排序
+            reorder_done: 对 Styles 的重新排序结束
+          records:
+            title: Styles
+            sorry_no_results: 对不起，未找到结果。
+            no_items_yet: 目前没有 Styles . 点击 "Add New Style" 创建一个style.
+          style:
+            view_live_html: 查看 style 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 style
+            delete: 永久删除 style
+      styles:
+        show:
+          other: 其他 Styles
+    wines:
+      admin:
+        wines:
+          actions:
+            create_new: 建立新的 Wine
+            reorder: 对 Wines 重新排序
+            reorder_done: 对 Wines 的重新排序结束
+          records:
+            title: Wines
+            sorry_no_results: 对不起，未找到结果。
+            no_items_yet: 目前没有 Wines . 点击 "Add New Wine" 创建一个wine.
+          wine:
+            view_live_html: 查看 wine 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 wine
+            delete: 永久删除 wine
+      wines:
+        show:
+          other: 其他 Wines
+  activerecord:
+    attributes:
+      refinery/styles/style:
+        name: Name
+      refinery/wines/wine:
+        name_zh: Name Zh
+        name_en: Name En
+        region_en: Region En
+        region_zh: Region Zh
+        vingate: Vingate
+        sugar: Sugar
+        grape_vairety: Grape Vairety
+        description: Description

@@ -1,0 +1,58 @@
+fr:
+  refinery:
+    plugins:
+      styles:
+        title: Styles
+      wines:
+        title: Wines
+    styles:
+      admin:
+        styles:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Style
+            reorder: Réordonner les Styles
+            reorder_done: Fin de réordonnancement des Styles
+          records:
+            title: Styles
+            sorry_no_results: Désolé ! Aucun résultat.
+            no_items_yet: Il n'y a actuellement aucun(e) Style. Cliquer sur "Créer
+              un(e) nouve(au/l/lle) Style" pour créer votre premi(er/ère) style.
+          style:
+            view_live_html: Voir ce(t/tte) style <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) style
+            delete: Supprimer définitivement ce(t/tte) style
+      styles:
+        show:
+          other: Autres Styles
+    wines:
+      admin:
+        wines:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Wine
+            reorder: Réordonner les Wines
+            reorder_done: Fin de réordonnancement des Wines
+          records:
+            title: Wines
+            sorry_no_results: Désolé ! Aucun résultat.
+            no_items_yet: Il n'y a actuellement aucun(e) Wine. Cliquer sur "Créer
+              un(e) nouve(au/l/lle) Wine" pour créer votre premi(er/ère) wine.
+          wine:
+            view_live_html: Voir ce(t/tte) wine <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) wine
+            delete: Supprimer définitivement ce(t/tte) wine
+      wines:
+        show:
+          other: Autres Wines
+  activerecord:
+    attributes:
+      refinery/styles/style:
+        name: Name
+      refinery/wines/wine:
+        name_zh: Name Zh
+        name_en: Name En
+        region_en: Region En
+        region_zh: Region Zh
+        vingate: Vingate
+        sugar: Sugar
+        grape_vairety: Grape Vairety
+        description: Description

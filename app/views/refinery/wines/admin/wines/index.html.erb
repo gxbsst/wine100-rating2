@@ -1,0 +1,39 @@
+<section id='records'>
+  <%= form_tag refinery.create_wine_group_items_wine_groups_admin_wine_groups_path do -%>
+
+      <%= render 'records' %>
+
+      <%=
+          #TODO:fixed to helper
+          if params[:group_id]
+            select_tag(:group_id,
+                       options_from_collection_for_select(Refinery::WineGroups::WineGroup.all,
+                                                          "id",
+                                                          "name",
+                                                          :selected => params[:group_id]),
+                       :prompt => "请选择要加入的酒组"
+            )
+          else
+            select_tag(:group_id,
+                       options_from_collection_for_select(Refinery::WineGroups::WineGroup.all,
+                                                          "id",
+                                                          "name"
+                       ),
+                       :prompt => "请选择要加入的组"
+            )
+          end
+      %>
+
+      <div class="form-actions" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; ">
+        <div class="form-actions-left">
+          <%= submit_tag "将酒导入酒组", :class => "wymupdate button", :style => "border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;" %>
+        </div>
+      </div>
+
+  <% end %>
+
+</section>
+<aside id='actions'>
+  <%= render 'actions' %>
+</aside>
+<%= render '/refinery/admin/make_sortable', :tree => false if !searching? and ::Refinery::Wines::Admin::WinesController.sortable? and ::Refinery::Wines::Wine.count > 1 %>

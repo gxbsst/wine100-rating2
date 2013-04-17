@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::WineGroups::Admin::WineGroupItemsController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.wine_groups_admin_wine_group_items_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_wine_groups_admin_wine_group_item_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::WineGroups::Admin::WineGroupItemsController.sortable? && ::Refinery::WineGroups::WineGroupItem.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Wine Group Items"),
+                 refinery.wine_groups_admin_wine_group_items_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Wine Group Items"),
+                 refinery.wine_groups_admin_wine_group_items_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

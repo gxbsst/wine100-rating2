@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Wines::Admin::WinesController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.wines_admin_wines_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_wines_admin_wine_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Wines::Admin::WinesController.sortable? && ::Refinery::Wines::Wine.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Wines"),
+                 refinery.wines_admin_wines_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Wines"),
+                 refinery.wines_admin_wines_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

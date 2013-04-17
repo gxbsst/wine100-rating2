@@ -1,0 +1,58 @@
+en:
+  refinery:
+    plugins:
+      styles:
+        title: Styles
+      wines:
+        title: Wines
+    styles:
+      admin:
+        styles:
+          actions:
+            create_new: Add New Style
+            reorder: Reorder Styles
+            reorder_done: Done Reordering Styles
+          records:
+            title: Styles
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Styles yet. Click "Add New Style" to add your
+              first style.
+          style:
+            view_live_html: View this style live <br/><em>(opens in a new window)</em>
+            edit: Edit this style
+            delete: Remove this style forever
+      styles:
+        show:
+          other: Other Styles
+    wines:
+      admin:
+        wines:
+          actions:
+            create_new: Add New Wine
+            reorder: Reorder Wines
+            reorder_done: Done Reordering Wines
+          records:
+            title: Wines
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Wines yet. Click "Add New Wine" to add your
+              first wine.
+          wine:
+            view_live_html: View this wine live <br/><em>(opens in a new window)</em>
+            edit: Edit this wine
+            delete: Remove this wine forever
+      wines:
+        show:
+          other: Other Wines
+  activerecord:
+    attributes:
+      refinery/styles/style:
+        name: Name
+      refinery/wines/wine:
+        name_zh: Name Zh
+        name_en: Name En
+        region_en: Region En
+        region_zh: Region Zh
+        vingate: Vingate
+        sugar: Sugar
+        grape_vairety: Grape Vairety
+        description: Description

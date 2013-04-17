@@ -1,0 +1,55 @@
+fr:
+  refinery:
+    plugins:
+      wine_group_items:
+        title: Wine Group Items
+      wine_groups:
+        title: Wine Groups
+    wine_groups:
+      admin:
+        wine_group_items:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Wine Group Item
+            reorder: Réordonner les Wine Group Items
+            reorder_done: Fin de réordonnancement des Wine Group Items
+          records:
+            title: Wine Group Items
+            sorry_no_results: Désolé ! Aucun résultat.
+            no_items_yet: Il n'y a actuellement aucun(e) Wine Group Item. Cliquer
+              sur "Créer un(e) nouve(au/l/lle) Wine Group Item" pour créer votre premi(er/ère)
+              wine group item.
+          wine_group_item:
+            view_live_html: Voir ce(t/tte) wine group item <br/><em>(Ouvre une nouvelle
+              fenêtre)</em>
+            edit: Modifier ce(t/tte) wine group item
+            delete: Supprimer définitivement ce(t/tte) wine group item
+        wine_groups:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Wine Group
+            reorder: Réordonner les Wine Groups
+            reorder_done: Fin de réordonnancement des Wine Groups
+          records:
+            title: Wine Groups
+            sorry_no_results: Désolé ! Aucun résultat.
+            no_items_yet: Il n'y a actuellement aucun(e) Wine Group. Cliquer sur "Créer
+              un(e) nouve(au/l/lle) Wine Group" pour créer votre premi(er/ère) wine
+              group.
+          wine_group:
+            view_live_html: Voir ce(t/tte) wine group <br/><em>(Ouvre une nouvelle
+              fenêtre)</em>
+            edit: Modifier ce(t/tte) wine group
+            delete: Supprimer définitivement ce(t/tte) wine group
+      wine_group_items:
+        show:
+          other: Autres Wine Group Items
+      wine_groups:
+        show:
+          other: Autres Wine Groups
+  activerecord:
+    attributes:
+      refinery/wine_groups/wine_group_item:
+        wine_id: Wine
+        group_id: Group
+      refinery/wine_groups/wine_group:
+        name: Name
+        judge_id: Judge

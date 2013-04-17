@@ -1,0 +1,60 @@
+nb:
+  refinery:
+    plugins:
+      styles:
+        title: Styles
+      wines:
+        title: Wines
+    styles:
+      admin:
+        styles:
+          actions:
+            create_new: Lag en ny Style
+            reorder: Endre rekkefølgen på Styles
+            reorder_done: Ferdig å endre rekkefølgen Styles
+          records:
+            title: Styles
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Styles enda. Klikk på "Lag en ny Style" for
+              å legge til din første style.
+          style:
+            view_live_html: Vis hvordan denne style ser ut offentlig <br/><em>(åpner
+              i et nytt vindu)</em>
+            edit: Rediger denne style
+            delete: Fjern denne style permanent
+      styles:
+        show:
+          other: Andre Styles
+    wines:
+      admin:
+        wines:
+          actions:
+            create_new: Lag en ny Wine
+            reorder: Endre rekkefølgen på Wines
+            reorder_done: Ferdig å endre rekkefølgen Wines
+          records:
+            title: Wines
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Wines enda. Klikk på "Lag en ny Wine" for å
+              legge til din første wine.
+          wine:
+            view_live_html: Vis hvordan denne wine ser ut offentlig <br/><em>(åpner
+              i et nytt vindu)</em>
+            edit: Rediger denne wine
+            delete: Fjern denne wine permanent
+      wines:
+        show:
+          other: Andre Wines
+  activerecord:
+    attributes:
+      refinery/styles/style:
+        name: Name
+      refinery/wines/wine:
+        name_zh: Name Zh
+        name_en: Name En
+        region_en: Region En
+        region_zh: Region Zh
+        vingate: Vingate
+        sugar: Sugar
+        grape_vairety: Grape Vairety
+        description: Description

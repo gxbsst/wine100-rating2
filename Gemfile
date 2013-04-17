@@ -11,6 +11,7 @@ group :development, :test do
   gem "better_errors", '0.2.0'
   gem "binding_of_caller", '0.6.8'
   gem 'pry'  # "binding.pry" in action
+  gem 'sextant'
 end
 
 
@@ -60,3 +61,5 @@ gem 'refinerycms-i18n', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
 
 gem 'refinerycms-members', :path => 'vendor/extensions'
+gem 'refinerycms-wines', :path => 'vendor/extensions'
+gem 'refinerycms-wine_groups', :path => 'vendor/extensions'

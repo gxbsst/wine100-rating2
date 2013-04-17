@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130414053353) do
+ActiveRecord::Schema.define(:version => 20130414102926) do
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -124,6 +124,13 @@ ActiveRecord::Schema.define(:version => 20130414053353) do
   add_index "refinery_roles_users", ["role_id", "user_id"], :name => "index_refinery_roles_users_on_role_id_and_user_id"
   add_index "refinery_roles_users", ["user_id", "role_id"], :name => "index_refinery_roles_users_on_user_id_and_role_id"
 
+  create_table "refinery_styles", :force => true do |t|
+    t.string   "name"
+    t.integer  "position"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "refinery_user_plugins", :force => true do |t|
     t.integer "user_id"
     t.string  "name"
@@ -150,6 +157,36 @@ ActiveRecord::Schema.define(:version => 20130414053353) do
   end
 
   add_index "refinery_users", ["id"], :name => "index_refinery_users_on_id"
+
+  create_table "refinery_wine_groups", :force => true do |t|
+    t.string   "name"
+    t.integer  "judge_id"
+    t.integer  "position"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "refinery_wine_groups_wine_group_items", :force => true do |t|
+    t.integer  "wine_id"
+    t.integer  "group_id"
+    t.integer  "position"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "refinery_wines", :force => true do |t|
+    t.string   "name_zh"
+    t.string   "name_en"
+    t.string   "region_en"
+    t.string   "region_zh"
+    t.string   "vingate"
+    t.string   "sugar"
+    t.string   "grape_vairety"
+    t.text     "description"
+    t.integer  "position"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "seo_meta", :force => true do |t|
     t.integer  "seo_meta_id"

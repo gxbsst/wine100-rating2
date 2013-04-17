@@ -11,3 +11,12 @@ Refinery::Pages::Engine.load_seed
 
 # Added by Refinery CMS Members extension
 Refinery::Members::Engine.load_seed
+
+# Added by Refinery CMS Wines extension
+Refinery::Wines::Engine.load_seed
+
+# Added by Refinery CMS Wine Groups extension
+Refinery::WineGroups::Engine.load_seed
+
+# Added by Refinery CMS Wine Group Items extension
+Refinery::WineGroups::Engine.load_seed

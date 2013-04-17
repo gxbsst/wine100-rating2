@@ -1,0 +1,60 @@
+<%= form_for [refinery, :wines_admin, @wine] do |f| -%>
+  <%= render '/refinery/admin/error_messages',
+              :object => @wine,
+              :include_object_name => true %>
+
+  <div class='field'>
+    <%= f.label :name_zh -%>
+    <%= f.text_field :name_zh, :class => 'larger' -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :name_en -%>
+    <%= f.text_field :name_en, :class => 'larger' -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :region_en -%>
+    <%= f.text_field :region_en, :class => 'larger widest'  -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :region_zh -%>
+    <%= f.text_field :region_zh, :class => 'larger widest' -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :vingate -%>
+    <%= f.text_field :vingate -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :sugar -%>
+    <%= f.text_field :sugar, :class => :larger -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :grape_vairety -%>
+    <%= f.text_field :grape_vairety, :class => 'larger widest' -%>
+  </div>
+
+  <div class='field'>
+    <%= render '/refinery/admin/wysiwyg',
+                :f => f,
+                :fields => [:description],
+                :object => "wines/wine" -%>
+  </div>
+
+  <%= render '/refinery/admin/form_actions', :f => f,
+             :continue_editing => false,
+             :delete_title => t('delete', :scope => 'refinery.wines.admin.wines.wine'),
+             :delete_confirmation => t('message', :scope => 'refinery.admin.delete', :title => @wine.name_zh) -%>
+<% end -%>
+
+<% content_for :javascripts do -%>
+  <script>
+    $(document).ready(function(){
+      page_options.init(false, '', '');
+    });
+  </script>
+<% end -%>
