@@ -1,4 +1,6 @@
 <ul>
+  <%= link_to refinery_icon_tag('add.png') + "Add Wine", refinery.wines_admin_wines_path(:group_id => @wine_group.id), :title => 'Add Wine' %>
+
   <% if ::Refinery::WineGroups::Admin::WineGroupItemsController.searchable? %>
     <li>
       <%= render '/refinery/admin/search', :url => refinery.wine_groups_admin_wine_group_wine_group_items_path(@wine_group)  %>
