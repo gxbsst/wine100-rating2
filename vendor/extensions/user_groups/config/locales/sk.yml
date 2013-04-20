@@ -1,0 +1,51 @@
+sk:
+  refinery:
+    plugins:
+      items:
+        title: Items
+      user_groups:
+        title: User Groups
+    user_groups:
+      admin:
+        items:
+          actions:
+            create_new: Pridať Item
+            reorder: Preusporiadať Items
+            reorder_done: Koniec radenia Items
+          records:
+            title: Items
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Items. Kliknite na "Pridať Item"
+              pre pridanie prvého item.
+          item:
+            view_live_html: Zobraziť náhľad item<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť item
+            delete: Zmazať item
+        user_groups:
+          actions:
+            create_new: Pridať User Group
+            reorder: Preusporiadať User Groups
+            reorder_done: Koniec radenia User Groups
+          records:
+            title: User Groups
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne User Groups. Kliknite na "Pridať
+              User Group" pre pridanie prvého user group.
+          user_group:
+            view_live_html: Zobraziť náhľad user group<br/><em>(otvorí sa v novom
+              okne)</em>
+            edit: Upraviť user group
+            delete: Zmazať user group
+      items:
+        show:
+          other: Daľšie Items
+      user_groups:
+        show:
+          other: Daľšie User Groups
+  activerecord:
+    attributes:
+      refinery/user_groups/item:
+        refinery_member_id: Refinery Member
+        refinery_user_group_id: Refinery User Group
+      refinery/user_groups/user_group:
+        name: Name

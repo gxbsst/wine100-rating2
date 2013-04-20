@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::UserGroups::Admin::UserGroupsController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.user_groups_admin_user_groups_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_user_groups_admin_user_group_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::UserGroups::Admin::UserGroupsController.sortable? && ::Refinery::UserGroups::UserGroup.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "User Groups"),
+                 refinery.user_groups_admin_user_groups_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "User Groups"),
+                 refinery.user_groups_admin_user_groups_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

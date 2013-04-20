@@ -1,0 +1,52 @@
+fr:
+  refinery:
+    plugins:
+      items:
+        title: Items
+      user_groups:
+        title: User Groups
+    user_groups:
+      admin:
+        items:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Item
+            reorder: Réordonner les Items
+            reorder_done: Fin de réordonnancement des Items
+          records:
+            title: Items
+            sorry_no_results: Désolé ! Aucun résultat.
+            no_items_yet: Il n'y a actuellement aucun(e) Item. Cliquer sur "Créer
+              un(e) nouve(au/l/lle) Item" pour créer votre premi(er/ère) item.
+          item:
+            view_live_html: Voir ce(t/tte) item <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) item
+            delete: Supprimer définitivement ce(t/tte) item
+        user_groups:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) User Group
+            reorder: Réordonner les User Groups
+            reorder_done: Fin de réordonnancement des User Groups
+          records:
+            title: User Groups
+            sorry_no_results: Désolé ! Aucun résultat.
+            no_items_yet: Il n'y a actuellement aucun(e) User Group. Cliquer sur "Créer
+              un(e) nouve(au/l/lle) User Group" pour créer votre premi(er/ère) user
+              group.
+          user_group:
+            view_live_html: Voir ce(t/tte) user group <br/><em>(Ouvre une nouvelle
+              fenêtre)</em>
+            edit: Modifier ce(t/tte) user group
+            delete: Supprimer définitivement ce(t/tte) user group
+      items:
+        show:
+          other: Autres Items
+      user_groups:
+        show:
+          other: Autres User Groups
+  activerecord:
+    attributes:
+      refinery/user_groups/item:
+        refinery_member_id: Refinery Member
+        refinery_user_group_id: Refinery User Group
+      refinery/user_groups/user_group:
+        name: Name

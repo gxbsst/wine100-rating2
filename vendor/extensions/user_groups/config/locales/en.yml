@@ -1,0 +1,50 @@
+en:
+  refinery:
+    plugins:
+      items:
+        title: Items
+      user_groups:
+        title: User Groups
+    user_groups:
+      admin:
+        items:
+          actions:
+            create_new: Add New Item
+            reorder: Reorder Items
+            reorder_done: Done Reordering Items
+          records:
+            title: Items
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Items yet. Click "Add New Item" to add your
+              first item.
+          item:
+            view_live_html: View this item live <br/><em>(opens in a new window)</em>
+            edit: Edit this item
+            delete: Remove this item forever
+        user_groups:
+          actions:
+            create_new: Add New User Group
+            reorder: Reorder User Groups
+            reorder_done: Done Reordering User Groups
+          records:
+            title: User Groups
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no User Groups yet. Click "Add New User Group"
+              to add your first user group.
+          user_group:
+            view_live_html: View this user group live <br/><em>(opens in a new window)</em>
+            edit: Edit this user group
+            delete: Remove this user group forever
+      items:
+        show:
+          other: Other Items
+      user_groups:
+        show:
+          other: Other User Groups
+  activerecord:
+    attributes:
+      refinery/user_groups/item:
+        refinery_member_id: Refinery Member
+        refinery_user_group_id: Refinery User Group
+      refinery/user_groups/user_group:
+        name: Name

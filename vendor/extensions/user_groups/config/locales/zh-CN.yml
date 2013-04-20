@@ -1,0 +1,48 @@
+zh-CN:
+  refinery:
+    plugins:
+      items:
+        title: Items
+      user_groups:
+        title: User Groups
+    user_groups:
+      admin:
+        items:
+          actions:
+            create_new: 建立新的 Item
+            reorder: 对 Items 重新排序
+            reorder_done: 对 Items 的重新排序结束
+          records:
+            title: Items
+            sorry_no_results: 对不起，未找到结果。
+            no_items_yet: 目前没有 Items . 点击 "Add New Item" 创建一个item.
+          item:
+            view_live_html: 查看 item 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 item
+            delete: 永久删除 item
+        user_groups:
+          actions:
+            create_new: 建立新的 User Group
+            reorder: 对 User Groups 重新排序
+            reorder_done: 对 User Groups 的重新排序结束
+          records:
+            title: User Groups
+            sorry_no_results: 对不起，未找到结果。
+            no_items_yet: 目前没有 User Groups . 点击 "Add New User Group" 创建一个user group.
+          user_group:
+            view_live_html: 查看 user group 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 user group
+            delete: 永久删除 user group
+      items:
+        show:
+          other: 其他 Items
+      user_groups:
+        show:
+          other: 其他 User Groups
+  activerecord:
+    attributes:
+      refinery/user_groups/item:
+        refinery_member_id: Refinery Member
+        refinery_user_group_id: Refinery User Group
+      refinery/user_groups/user_group:
+        name: Name

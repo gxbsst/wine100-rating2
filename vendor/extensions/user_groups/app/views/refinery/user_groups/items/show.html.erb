@@ -1,0 +1,33 @@
+<% content_for :body_content_title do %>
+  <%= @item.title %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Refinery Member</h1>
+    <p>
+      <%=raw @item.refinery_member_id %>
+    </p>
+  </section>
+  <section>
+    <h1>Refinery User Group</h1>
+    <p>
+      <%=raw @item.refinery_user_group_id %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="items">
+      <% @items.each do |item| %>
+        <li>
+          <%= link_to item.title, refinery.user_groups_item_path(item) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

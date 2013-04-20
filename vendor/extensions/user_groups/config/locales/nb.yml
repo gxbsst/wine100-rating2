@@ -1,0 +1,52 @@
+nb:
+  refinery:
+    plugins:
+      items:
+        title: Items
+      user_groups:
+        title: User Groups
+    user_groups:
+      admin:
+        items:
+          actions:
+            create_new: Lag en ny Item
+            reorder: Endre rekkefølgen på Items
+            reorder_done: Ferdig å endre rekkefølgen Items
+          records:
+            title: Items
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Items enda. Klikk på "Lag en ny Item" for å
+              legge til din første item.
+          item:
+            view_live_html: Vis hvordan denne item ser ut offentlig <br/><em>(åpner
+              i et nytt vindu)</em>
+            edit: Rediger denne item
+            delete: Fjern denne item permanent
+        user_groups:
+          actions:
+            create_new: Lag en ny User Group
+            reorder: Endre rekkefølgen på User Groups
+            reorder_done: Ferdig å endre rekkefølgen User Groups
+          records:
+            title: User Groups
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen User Groups enda. Klikk på "Lag en ny User
+              Group" for å legge til din første user group.
+          user_group:
+            view_live_html: Vis hvordan denne user group ser ut offentlig <br/><em>(åpner
+              i et nytt vindu)</em>
+            edit: Rediger denne user group
+            delete: Fjern denne user group permanent
+      items:
+        show:
+          other: Andre Items
+      user_groups:
+        show:
+          other: Andre User Groups
+  activerecord:
+    attributes:
+      refinery/user_groups/item:
+        refinery_member_id: Refinery Member
+        refinery_user_group_id: Refinery User Group
+      refinery/user_groups/user_group:
+        name: Name

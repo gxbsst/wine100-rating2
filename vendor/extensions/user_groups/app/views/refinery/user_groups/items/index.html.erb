@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="items">
+    <% @items.each do |item| %>
+      <li>
+        <%= link_to item, refinery.user_groups_item_path(item) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

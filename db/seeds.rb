@@ -20,3 +20,6 @@ Refinery::WineGroups::Engine.load_seed
 
 # Added by Refinery CMS Wine Group Items extension
 Refinery::WineGroups::Engine.load_seed
+
+# Added by Refinery CMS Items extension
+Refinery::UserGroups::Engine.load_seed
