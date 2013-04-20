@@ -9,8 +9,14 @@ module Refinery
         before_filter :get_wine_group
 
         def index
+
           page = params[:page] || 1
-          @wine_group_items = @wine_group.wine_group_items.order(:position).paginate(:page => page, :per_page => 20)
+          if @wine_group
+            @wine_group_items = @wine_group.wine_group_items.order(:position).paginate(:page => page, :per_page => 20)
+          else
+            @wine_group = WineGroup.first
+            @wine_group_items = WineGroupItem.order(:position).paginate(:page => page, :per_page => 20)
+          end
         end
 
         def destroy
@@ -21,7 +27,7 @@ module Refinery
         end
 
         def get_wine_group
-          @wine_group = Refinery::WineGroups::WineGroup.find(params[:wine_group_id])
+          @wine_group = Refinery::WineGroups::WineGroup.find(params[:wine_group_id]) if params[:wine_group_id]
         end
 
         protected :get_wine_group
