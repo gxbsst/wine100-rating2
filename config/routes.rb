@@ -10,6 +10,16 @@ Wine100::Application.routes.draw do
   resources :sessions, :as => :users
 
   match "refinery/wine_groups/wine_group_items", :to => "refinery/wine_groups/admin/wine_group_items#index"
+  #match "refinery/user_groups/:user_group_id/items", :to => "refinery/user_groups/admin/items#index"
+
+  #namespace :refinery do
+  #  namespace :admin, :path => 'refinery/user_groups' do
+  #    resources :user_groups do
+  #      resources :items
+  #    end
+  #  end
+  #end
+  #match "refinery/user_groups/items", :to => "refinery/user_groups/admin/items#index"
 
   #post "refinery/wine_groups/wine_group_items", :to => "refinery/wine_groups/admin/wine_group_sub_items#create"
 

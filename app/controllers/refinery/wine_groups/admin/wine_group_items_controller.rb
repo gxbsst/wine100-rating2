@@ -9,7 +9,6 @@ module Refinery
         before_filter :get_wine_group
 
         def index
-
           page = params[:page] || 1
           if @wine_group
             @wine_group_items = @wine_group.wine_group_items.order(:position).paginate(:page => page, :per_page => 20)
@@ -20,14 +19,19 @@ module Refinery
         end
 
         def destroy
-          if Refinery::WineGroups::WineGroupItem.destroy(params[:id])
+          item =  Refinery::WineGroups::WineGroupItem.find(params[:id])
+          if item.destroy
             flash.notice = t('destroyed', :scope => 'refinery.crudify')
-            redirect_to refinery.wine_groups_admin_wine_group_wine_group_items_path(@wine_group)
+            redirect_to item_path(item.group_id)
           end
         end
 
         def get_wine_group
           @wine_group = Refinery::WineGroups::WineGroup.find(params[:wine_group_id]) if params[:wine_group_id]
+        end
+
+        def item_path(group_id)
+          "/refinery/wine_groups/#{group_id}/wine_group_items"
         end
 
         protected :get_wine_group

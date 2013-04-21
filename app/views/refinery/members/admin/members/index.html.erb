@@ -1,7 +1,30 @@
+<style type="text/css">
+  .form-actions {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .wymupdate {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+</style>
+
 <section id='records'>
+<%= form_tag refinery.create_items_user_groups_admin_user_groups_path do -%>
   <%= render 'records' %>
+  <%= select_user_group(params[:group_id]) %>
+  <div class="form-actions">
+    <div class="form-actions-left">
+      <%= submit_tag "将用户导入用户组", :class => "wymupdate button" %>
+    </div>
+  </div>
+<% end %>
 </section>
 <aside id='actions'>
-  <%= render 'actions' %>
+<%= render 'actions' %>
 </aside>
 <%= render '/refinery/admin/make_sortable', :tree => false if !searching? and ::Refinery::Members::Admin::MembersController.sortable? and ::Refinery::Members::Member.count > 1 %>

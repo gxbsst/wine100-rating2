@@ -1,6 +1,6 @@
 module Refinery
   module UserGroups
-    class ItemsController < ::ApplicationController
+    class ItemsBbbbController < ::ApplicationController
 
       before_filter :find_all_items
       before_filter :find_page

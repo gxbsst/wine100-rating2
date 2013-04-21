@@ -1,3 +1,4 @@
+# encoding: utf-8
 module ApplicationHelper
 
   #def wine_group_wine_group_items_path(wine_group)
@@ -8,8 +9,48 @@ module ApplicationHelper
   #  "/refinery/wine_groups/wine_group_items"
   #end
 
-  def wine_groups_admin_wine_group_items_path
+  def wine_check_box(wine, group_id)
+    if group_id.present?
+      group = Refinery::WineGroups::WineGroup.find(group_id)
+      wine_ids = group.wine_group_items.collect(&:wine_id)
+      #check_box_tag 'wine_ids[]', wine.id, (wine_ids.include? wine.id) ? true : false
+      check_box_tag 'wine_ids[]', wine.id, false
+    else
+      check_box_tag 'wine_ids[]', wine.id, false
+    end
+  end
 
+  def user_check_box(member, group_id)
+    if group_id.present?
+      group = Refinery::UserGroups::UserGroup.find(group_id)
+      member_ids = group.items.collect(&:refinery_member_id)
+      #check_box_tag 'member_ids[]', member.id, (member_ids.include? member.id) ? true : false
+      check_box_tag 'member_ids[]', member.id, false
+    else
+      check_box_tag 'member_ids[]', member.id, false
+    end
+  end
+
+  def select_wine_group(group_id)
+    select_tag(:group_id,
+               options_from_collection_for_select(wine_group_all, "id", "name",:selected => group_id ? group_id : nil),
+               :prompt => "请选择要加入的酒组")
+
+  end
+
+  def select_user_group(group_id)
+    select_tag(:group_id, 
+               options_from_collection_for_select(user_group_all, "id", "name",:selected => group_id ? group_id : nil),
+               :prompt => "请选择要加入的用户组")
+
+  end
+
+  def wine_group_all
+    Refinery::WineGroups::WineGroup.all
+  end
+
+  def user_group_all
+    Refinery::UserGroups::UserGroup.all
   end
 
 end

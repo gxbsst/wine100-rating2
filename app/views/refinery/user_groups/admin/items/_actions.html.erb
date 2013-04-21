@@ -1,11 +1,15 @@
 <ul>
+  <li>
+    <%= link_to "Add User", refinery.members_admin_members_path(:group_id => @user_group.id), :class => "add_icon", :title => 'Add User' %>
+  </li>
+
   <% if ::Refinery::UserGroups::Admin::ItemsController.searchable? %>
     <li>
       <%= render '/refinery/admin/search', :url => refinery.user_groups_admin_items_path %>
     </li>
   <% end %>
   <li>
-    <%= link_to t('.create_new'), refinery.new_user_groups_admin_item_path,
+    <%#= link_to t('.create_new'), refinery.new_user_groups_admin_item_path,
                  :class => "add_icon" %>
   </li>
 <% if !searching? && ::Refinery::UserGroups::Admin::ItemsController.sortable? && ::Refinery::UserGroups::Item.any? %>

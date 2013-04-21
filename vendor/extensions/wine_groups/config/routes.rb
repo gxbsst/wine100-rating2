@@ -14,10 +14,8 @@ Refinery::Core::Engine.routes.append do
         resources :wine_group_items, :except => :show do
           collection do
             post :update_positions
-
           end
         end
-
         collection do
           post :create_wine_group_items
           post :update_positions

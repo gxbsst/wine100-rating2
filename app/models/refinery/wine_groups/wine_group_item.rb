@@ -10,7 +10,6 @@ module Refinery
       delegate :name, :to => :wine_group
       delegate :name_en, :name_zh, :vingate, :to => :wine
 
-      belongs_to :wine_group, :class_name => 'Refinery::WineGroups::WineGroup', :foreign_key => :group_id, :dependent => :destroy
       # def title was created automatically because you didn't specify a string field
       # when you ran the refinery:engine generator. <3 <3 Refinery CMS.
       def title

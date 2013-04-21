@@ -1,5 +1,8 @@
 <ul>
-  <%= link_to refinery_icon_tag('add.png') + "Add Wine", refinery.wines_admin_wines_path(:group_id => @wine_group.id), :title => 'Add Wine' %>
+  <li>
+    <%= link_to "Add Wine", refinery.wines_admin_wines_path(:group_id => @wine_group.id), :class => "add_icon", :title => 'Add Wine' %>
+  </li>
+
 
   <% if ::Refinery::WineGroups::Admin::WineGroupItemsController.searchable? %>
     <li>
