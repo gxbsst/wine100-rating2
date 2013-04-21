@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="test_papers">
+    <% @test_papers.each do |test_paper| %>
+      <li>
+        <%= link_to test_paper.score, refinery.test_papers_test_paper_path(test_paper) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

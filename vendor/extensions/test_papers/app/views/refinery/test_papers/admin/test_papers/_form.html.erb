@@ -1,0 +1,55 @@
+<%= form_for [refinery, :test_papers_admin, @test_paper] do |f| -%>
+  <%= render '/refinery/admin/error_messages',
+              :object => @test_paper,
+              :include_object_name => true %>
+
+  <div class='field'>
+    <%= f.label :wine_id -%>
+    <%= f.number_field :wine_id -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :user_id -%>
+    <%= f.number_field :user_id -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :group_id -%>
+    <%= f.number_field :group_id -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :score -%>
+    <%= f.text_field :score -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :drink_begin_at -%>
+    <%= f.datetime_select :drink_begin_at -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :drink_end_at -%>
+    <%= f.datetime_select :drink_end_at -%>
+  </div>
+
+  <div class='field'>
+    <%= render '/refinery/admin/wysiwyg',
+                :f => f,
+                :fields => [:note],
+                :object => "test_papers/test_paper" -%>
+  </div>
+
+  <%= render '/refinery/admin/form_actions', :f => f,
+             :continue_editing => false,
+             :delete_title => t('delete', :scope => 'refinery.test_papers.admin.test_papers.test_paper'),
+             :delete_confirmation => t('message', :scope => 'refinery.admin.delete', :title => @test_paper.score) -%>
+<% end -%>
+
+<% content_for :javascripts do -%>
+  <script>
+    $(document).ready(function(){
+      page_options.init(false, '', '');
+    });
+  </script>
+<% end -%>

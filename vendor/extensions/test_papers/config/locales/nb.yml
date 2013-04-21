@@ -1,0 +1,33 @@
+nb:
+  refinery:
+    plugins:
+      test_papers:
+        title: Test Papers
+    test_papers:
+      admin:
+        test_papers:
+          actions:
+            create_new: Lag en ny Test Paper
+            reorder: Endre rekkefølgen på Test Papers
+            reorder_done: Ferdig å endre rekkefølgen Test Papers
+          records:
+            title: Test Papers
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Test Papers enda. Klikk på "Lag en ny Test Paper" for å legge til din første test paper.
+          test_paper:
+            view_live_html: Vis hvordan denne test paper ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne test paper
+            delete: Fjern denne test paper permanent
+      test_papers:
+        show:
+          other: Andre Test Papers
+  activerecord:
+    attributes:
+      'refinery/test_papers/test_paper':
+        wine_id: Wine
+        user_id: User
+        group_id: Group
+        score: Score
+        drink_begin_at: Drink Begin At
+        drink_end_at: Drink End At
+        note: Note

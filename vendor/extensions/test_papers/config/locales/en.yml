@@ -1,0 +1,33 @@
+en:
+  refinery:
+    plugins:
+      test_papers:
+        title: Test Papers
+    test_papers:
+      admin:
+        test_papers:
+          actions:
+            create_new: Add New Test Paper
+            reorder: Reorder Test Papers
+            reorder_done: Done Reordering Test Papers
+          records:
+            title: Test Papers
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Test Papers yet. Click "Add New Test Paper" to add your first test paper.
+          test_paper:
+            view_live_html: View this test paper live <br/><em>(opens in a new window)</em>
+            edit: Edit this test paper
+            delete: Remove this test paper forever
+      test_papers:
+        show:
+          other: Other Test Papers
+  activerecord:
+    attributes:
+      'refinery/test_papers/test_paper':
+        wine_id: Wine
+        user_id: User
+        group_id: Group
+        score: Score
+        drink_begin_at: Drink Begin At
+        drink_end_at: Drink End At
+        note: Note

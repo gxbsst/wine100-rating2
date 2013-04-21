@@ -1,0 +1,34 @@
+es:
+  refinery:
+    plugins:
+      test_papers:
+        title: Test Papers
+#        article: masculino/femenino
+    test_papers:
+      admin:
+        test_papers:
+          actions:
+            create_new: Crear nuevo test paper
+            reorder: Reordenar test papers
+            reorder_done: Reordenación de test papers completada
+          records:
+            title: Test Papers
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay test papers todavía. Pulsa en "Crear nuevo Test Paper" para crear tu primer test paper.
+          test_paper:
+            view_live_html: Ver este test paper como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este test paper
+            delete: Borrar este test paper para siempre
+      test_papers:
+        show:
+          other: Otros test papers
+  activerecord:
+    attributes:
+      'refinery/test_papers/test_paper':
+        wine_id: Wine
+        user_id: User
+        group_id: Group
+        score: Score
+        drink_begin_at: Drink Begin At
+        drink_end_at: Drink End At
+        note: Note

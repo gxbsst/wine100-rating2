@@ -1,0 +1,33 @@
+sk:
+  refinery:
+    plugins:
+      test_papers:
+        title: Test Papers
+    test_papers:
+      admin:
+        test_papers:
+          actions:
+            create_new: Pridať Test Paper
+            reorder: Preusporiadať Test Papers
+            reorder_done: Koniec radenia Test Papers
+          records:
+            title: Test Papers
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Test Papers. Kliknite na "Pridať Test Paper" pre pridanie prvého test paper.
+          test_paper:
+            view_live_html: Zobraziť náhľad test paper<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť test paper
+            delete: Zmazať test paper
+      test_papers:
+        show:
+          other: Daľšie Test Papers
+  activerecord:
+    attributes:
+      'refinery/test_papers/test_paper':
+        wine_id: Wine
+        user_id: User
+        group_id: Group
+        score: Score
+        drink_begin_at: Drink Begin At
+        drink_end_at: Drink End At
+        note: Note

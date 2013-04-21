@@ -1,0 +1,33 @@
+nl:
+  refinery:
+    plugins:
+      test_papers:
+        title: Test Papers
+    test_papers:
+      admin:
+        test_papers:
+          actions:
+            create_new: Maak een nieuwe Test Paper
+            reorder: Wijzig de volgorde van de Test Papers
+            reorder_done: Klaar met het wijzingen van de volgorde van de Test Papers
+          records:
+            title: Test Papers
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Test Papers. Druk op 'Maak een nieuwe Test Paper' om de eerste aan te maken.
+          test_paper:
+            view_live_html: Bekijk deze test paper op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze test paper
+            delete: Verwijder deze test paper voor eeuwig
+      test_papers:
+        show:
+          other: Andere Test Papers
+  activerecord:
+    attributes:
+      'refinery/test_papers/test_paper':
+        wine_id: Wine
+        user_id: User
+        group_id: Group
+        score: Score
+        drink_begin_at: Drink Begin At
+        drink_end_at: Drink End At
+        note: Note
