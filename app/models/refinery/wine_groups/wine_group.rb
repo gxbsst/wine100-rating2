@@ -10,7 +10,9 @@ module Refinery
 
       validates :name, :presence => true, :uniqueness => true
 
-      has_many :wine_group_items, :class_name => 'Refinery::WineGroups::WineGroupItem', :foreign_key => :group_id
+      has_many :wine_group_items, :class_name => 'Refinery::WineGroups::WineGroupItem', :foreign_key => :group_id, :include => :wine
+
+
     end
   end
 end

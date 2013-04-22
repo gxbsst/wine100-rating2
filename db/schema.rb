@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130421064934) do
+ActiveRecord::Schema.define(:version => 20130421102656) do
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -129,12 +129,13 @@ ActiveRecord::Schema.define(:version => 20130421064934) do
     t.integer  "user_id"
     t.integer  "group_id"
     t.string   "score"
-    t.datetime "drink_begin_at"
-    t.datetime "drink_end_at"
+    t.string   "drink_begin_at"
+    t.string   "drink_end_at"
     t.text     "note"
     t.integer  "position"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+    t.integer  "group_item_id"
   end
 
   create_table "refinery_user_groups", :force => true do |t|

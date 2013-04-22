@@ -1,0 +1,65 @@
+
+<div class="row-fluid">
+  <%= render :partial => 'sidebar' %>
+
+  <div class="span9 row">
+    <% @wine_group.wine_group_items.each do |item| %>
+
+        <h2><%= raw item.wine.name %></h2>
+        <table class="table">
+          <tr>
+            <td width="160px">Region/产区:</td>
+            <td><%= item.wine.region_en %> <br> <%= item.wine.region_en %></td>
+          </tr>
+          <tr>
+            <td>Grape Vairety/葡萄品种:</td>
+            <td><%= item.wine.grape_vairety %></td>
+          </tr>
+          <tr>
+            <td>Vintage/年份:</td>
+            <td><%= item.wine.vingate %></td>
+          </tr>
+          <tr>
+            <td>Sugar Content/含糖量:</td>
+            <td><%= item.wine.sugar %></td>
+          </tr>
+        </table>
+        <div class="form_outer">
+          <a class="open_toggle"  href="javascript:void(0)">open</a>
+          <%= form_for item.test_paper(current_user), :url => challenges_path, :class => "form", :remote => true do |f|  %>
+              <%= f.hidden_field :wine_id %>
+              <%= f.hidden_field :group_id %>
+              <%= f.hidden_field :user_id %>
+              <table class="table">
+                <tr>
+                  <td width="130px"><%= f.text_field :score, :placeholder => 'Score 评分' %></td>
+                  <td>
+                    <%= f.text_field :drink_begin_at, :placeholder => '试饮年限-开始' %>
+                    --
+                    <%= f.text_field :drink_end_at, :placeholder => '试饮年限-结束' %>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <%= f.text_area :note, :size => '100x7', :placeholder => 'Tasting Note品酒辞' %>
+                  </td>
+                </tr>
+              </table>
+              <%= f.submit '保  存', :class => 'btn  btn-primary' %>
+          <% end %>
+        </div>
+        <!--end form_outer-->
+    <% end %>
+  </div>
+
+
+</div><!--/row-->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.form_outer').on('click', '.open_toggle', function(){
+            debugger;
+            $(this).closest('.form_outer').find('form').slideToggle();
+        });
+
+    });
+</script>
