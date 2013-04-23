@@ -1,10 +1,9 @@
 class ChallengesController < ApplicationController
-  respond_to :html, :xml, :json
+  respond_to :html, :xml, :js
   before_filter :authenticate_user
 
   def index
     wine_groups
-
   end
 
   def show
@@ -22,10 +21,34 @@ class ChallengesController < ApplicationController
     @tp.drink_end_at = t[:drink_end_at]
     @tp.note = t[:note]
 
-    if @tp.save
+    if @tp.valid?
+      @tp.save
+      #respond_to do |format|
+      #  format.json { render :json => @tp }
+      #end
       respond_with(@tp) do |format|
-        format.json { render }
+        format.js { render :tp => @tp }
       end
+    end
+  end
+
+  def update
+
+    t = params[:test_paper]
+    @tp =  Refinery::TestPapers::TestPaper.find(params[:id])
+    @tp.score = t[:score]
+    @tp.drink_begin_at = t[:drink_begin_at]
+    @tp.drink_end_at = t[:drink_end_at]
+    @tp.note = t[:note]
+
+    #binding.pry
+    if @tp.valid?
+      @tp.save
+      respond_with(@tp)
+      #respond_to do |format|
+      #  format.html
+      #  format.any(:js) { render :tp => @tp }
+      #end
     end
   end
 

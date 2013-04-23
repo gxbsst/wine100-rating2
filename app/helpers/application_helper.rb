@@ -53,4 +53,12 @@ module ApplicationHelper
     Refinery::UserGroups::UserGroup.all
   end
 
+  def c_path(test_paper)
+    if test_paper.new_record?
+      challenges_path
+    else
+      challenge_path(test_paper)
+    end
+  end
+
 end
