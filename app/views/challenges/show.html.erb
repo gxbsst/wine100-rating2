@@ -8,44 +8,66 @@
         <h2><%= raw item.wine.name %></h2>
         <table class="table">
           <tr>
-            <td width="160px">Region/产区:</td>
+            <td class="aleft" width="160px">Region/产区:</td>
             <td><%= item.wine.region_en %> <br> <%= item.wine.region_en %></td>
           </tr>
           <tr>
-            <td>Grape Vairety/葡萄品种:</td>
+            <td class="aleft">Grape Vairety/葡萄品种:</td>
             <td><%= item.wine.grape_vairety %></td>
           </tr>
           <tr>
-            <td>Vintage/年份:</td>
+            <td class="aleft">Vintage/年份:</td>
             <td><%= item.wine.vingate %></td>
           </tr>
           <tr>
-            <td>Sugar Content/含糖量:</td>
+            <td class="aleft">Sugar Content/含糖量:</td>
             <td><%= item.wine.sugar %></td>
           </tr>
         </table>
         <div class="form_outer" id="form_<%= item.wine_id %>">
           <a class="open_toggle"  href="javascript:void(0)">写拼酒辞</a>
-          <%= form_for item.test_paper(current_user), :url => c_path(item.test_paper(current_user)), :class => "form", :remote => true, :validate => true do |f|  %>
+          <%= form_for item.test_paper(current_user), :url => c_path(item.test_paper(current_user)),  :html => {:class => "form"}, :remote => true, :validate => true do |f|  %>
               <%= f.hidden_field :wine_id %>
               <%= f.hidden_field :group_id %>
               <%= f.hidden_field :user_id %>
               <table class="table">
                 <tr>
-                  <td width="130px"><%= f.text_field :score, :placeholder => 'Score 评分', :validate => { :presence => true } %></td>
-                  <td>
-                    <%= f.text_field :drink_begin_at, :placeholder => '试饮年限-开始' %>
-                    To
-                    <%= f.text_field :drink_end_at, :placeholder => '试饮年限-结束' %>
+                  <td >
+                    <div class="control-group">
+                      <%= f.label :score, 'Score 评分:' %>
+                      <div class="controls">
+                        <%= f.text_field :score, :placeholder => 'Score 评分', :class => "required" %>
+                      </div>
+                    </div>
                   </td>
+
                 </tr>
                 <tr>
-                  <td colspan="2">
-                    <%= f.text_area :note, :size => '100x7', :placeholder => 'Tasting Note品酒辞' %>
+                  <td >
+                    <div class="control-group">
+                      <%= f.label :drink_begin_at, 'Drink Window 试饮年:' %>
+                      <div class="controls">
+                        <%= f.text_field :drink_begin_at, :placeholder => '如:2014', :class => "required", :length => "4" %>
+                      到
+                        <%= f.text_field :drink_end_at, :placeholder => '如:2016', :class => "required", :length => "4" %>
+                      </div>
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>
+                    <div class="control-group">
+                      <%= f.label :note, 'Tasting Note品酒辞:' %>
+                      <div class="controls">
+                        <%= f.text_area :note, :size => '100x7' %>
+                      </div>
+                    </div>
                   </td>
                 </tr>
               </table>
-              <%= f.button '保  存', :class => 'btn  btn-primary', 'data-loading-text' => "Saving..." %>
+              <%= f.submit '保  存', :class => 'btn  btn-primary', 'data-loading-text' => "Saving..." %>
+              <button type="reset" class="btn">取消</button>
               <span class="respond_text"></span>
           <% end %>
 
@@ -57,9 +79,9 @@
 
 </div><!--/row-->
 <style type="text/css">
-  .form_outer form {
-      display: none;
-  }
+    .form_outer form {
+        display: none;
+    }
 </style>
 <script type="text/javascript">
     $(document).ready(function(){
@@ -69,9 +91,9 @@
             form.slideToggle();
             if(form.css('display') == 'none')
             {
-               open_button.text('写拼酒辞');
+                open_button.text('写拼酒辞');
             }else{
-              open_button.text('写拼酒辞');
+                open_button.text('写拼酒辞');
             }
         });
 
@@ -81,6 +103,35 @@
 
         $('textarea').focus(function(){
             $('.respond_text').text('');
+        });
+
+        $('#edit_test_paper_2').validate({
+            rules: {
+                'test_paper[score]': {
+                    minlength: 2,
+                    required: true
+                },
+                'test_paper[drink_begin_at]': {
+                    required: true
+
+                },
+                'test_paper[drink_end_at]': {
+                    minlength: 2,
+                    required: true
+                },
+                message: {
+                    minlength: 2,
+                    required: true
+                }
+            },
+            highlight: function(element) {
+                $(element).closest('.control-group').removeClass('success').addClass('error');
+            },
+            success: function(element) {
+                element
+                        .text('OK!').addClass('valid')
+                        .closest('.control-group').removeClass('error').addClass('success');
+            }
         });
     });
 </script>

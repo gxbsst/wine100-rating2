@@ -3,7 +3,9 @@ class ChallengesController < ApplicationController
   before_filter :authenticate_user
 
   def index
-    wine_groups
+    wine_group
+    redirect_to  challenge_path(wine_group)
+    #wine_groups
   end
 
   def show
@@ -53,7 +55,8 @@ class ChallengesController < ApplicationController
   end
 
   def wine_group
-    @wine_group = Refinery::WineGroups::WineGroup.find(params[:id])
+    id = params[:id] || 1
+    @wine_group = Refinery::WineGroups::WineGroup.find(id)
   end
 
   def wine_groups
