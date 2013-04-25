@@ -28,13 +28,13 @@ if ENV['RAILS_ENV'] =='production'
   require "rvm/capistrano"
   #server "www.coopertire.com.cn", :web, :app, :db, primary: true
   server "jh_web3", :web, :app, :db, primary: true
-  set :repository,  "https://gxbsst@bitbucket.org/gxbsst/wine100.git"
+  set :repository,  "git://github.com/gxbsst/wine100.git"
   # set :deploy_to, "/srv/rails/coopertire_deploy"
   set :deploy_to, "/srv/rails/test"
   set :user, "root"
 else
   server "rails", :web, :app, :db, primary: true
-  set :repository,  "https://gxbsst@bitbucket.org/gxbsst/wine100.git"
+  set :repository,  "git://github.com/gxbsst/wine100.git"
   # set :deploy_to, "/srv/rails/coopertire_deploy"
   set :deploy_to, "/srv/rails/test"
   set :user, "rails"
@@ -101,7 +101,7 @@ namespace :deploy do
   task :change_tmp do
     run("chmod -R 777 #{current_path}/tmp")
   end
-  after "deploy:finalize_update", "deploy:change_tmp"
+  #after "deploy:finalize_update", "deploy:change_tmp"
 
 end
 
