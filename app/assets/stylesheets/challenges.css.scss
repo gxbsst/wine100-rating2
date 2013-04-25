@@ -10,3 +10,16 @@ td.aleft {
   text-align: right;
   font-weight: bold;
 }
+.container {
+padding: 10px;
+}
+.form_outer {
+  form {
+    display: none;
+    }
+  .respond_text {
+    display: none;
+width: 500px;
+  }
+
+}

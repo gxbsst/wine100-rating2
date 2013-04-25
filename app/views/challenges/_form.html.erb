@@ -6,7 +6,7 @@
       <tr>
         <td >
           <div class="control-group">
-            <%= f.label :score, 'Score 评分:', :class %>
+            <%= f.label :score, 'Score 评分:' %>
             <div class="controls">
               <%= f.text_field :score, :placeholder => 'Score 评分', :class => "required" %>
             </div>
@@ -39,58 +39,4 @@
     </table>
     <%= f.submit '保  存', :class => 'btn  btn-primary', 'data-loading-text' => "Saving..." %>
     <button type="reset" class="btn">取消</button>
-    <span class="respond_text"></span>
 <% end %>
-
-<style type="text/css">
-    .form_outer form {
-        display: none;
-    }
-</style>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.form_outer').on('click', '.open_toggle', function(){
-            var form = $(this).closest('.form_outer').find('form');
-            var open_button = $(this).closest('.form_outer').find('.open_toggle');
-            form.slideToggle();
-            if(form.css('display') == 'none')
-            {
-                open_button.text('写拼酒辞');
-            }else{
-                open_button.text('写拼酒辞');
-            }
-        });
-
-        $('input[type="text"]').focus(function() {
-            $('.respond_text').text('');
-        });
-
-        $('textarea').focus(function(){
-            $('.respond_text').text('');
-        });
-
-        $('.form_outer').on('click', '.btn', function(e){
-            e.preventDefault();
-
-            $(this).closest('form').validate({
-                rules: {
-                    'test_paper[score]': {
-                        minlength: 2,
-                        required: true
-                    }
-                },
-                highlight: function(element) {
-                    $(element).closest('.control-group').removeClass('success').addClass('error');
-                },
-                success: function(element) {
-                    element
-                            .text('OK!').addClass('valid')
-                            .closest('.control-group').removeClass('error').addClass('success');
-                }
-            });
-            $(this).closest('form').submit();
-        });
-
-
-    });
-</script>
