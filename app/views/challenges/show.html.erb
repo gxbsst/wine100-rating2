@@ -5,11 +5,11 @@
   <div class="span9 row">
     <% @wine_group.wine_group_items.each do |item| %>
 
-        <h2><%= raw item.wine.name %></h2>
+        <h2><%= raw item.wine.uuid %></h2>
         <table class="table">
           <tr>
             <td class="aleft" width="160px">Region/产区:</td>
-            <td><%= item.wine.region_en %> <br> <%= item.wine.region_en %></td>
+            <td><%= item.wine.region_en %> <br> <%= item.wine.region_zh %></td>
           </tr>
           <tr>
             <td class="aleft">Grape Vairety/葡萄品种:</td>
