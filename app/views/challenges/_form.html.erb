@@ -4,30 +4,45 @@
     <%= f.hidden_field :user_id %>
     <table class="table">
       <tr>
-        <td >
+        <td colspan=2 >
           <div class="control-group">
-            <%= f.label :score, 'Score 评分:' %>
+            <%= f.label :score, 'Score 评分:', :class => 'control-label' %>
             <div class="controls">
-              <%= f.text_field :score, :placeholder => 'Score 评分', :class => "required" %>
+              <%= f.text_field :score, :placeholder => 'Score 评分' %>
+              <span class="help-inline">请输入这支酒的分数</span>
             </div>
           </div>
         </td>
       </tr>
       <tr>
-        <td >
+        <td width="260">
           <div class="control-group">
-            <%= f.label :drink_begin_at, 'Drink Window 试饮年:', :class => 'control-label' %>
+            <%= f.label :drink_begin_at, 'Drink Window 试饮年限:', :class => 'control-label' %>
             <div class="controls">
               <%= f.text_field :drink_begin_at, :placeholder => '如:2014', :class => "required", :length => "4" %>
+              &nbsp;
+              &nbsp;
               到
+              <br />
+              <span class="help-inline">请输入试饮年限, 如:2018</span>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="control-group">
+            <%#= raw f.label :drink_end_at, ' ', :class => 'control-label' %>
+            <label class="control-label" for="test_paper_drink_end_at">&nbsp;</label>
+            <div class="controls">
               <%= f.text_field :drink_end_at, :placeholder => '如:2016', :class => "required", :length => "4" %>
+              <br />
+              <span class="help-inline">请输入试饮年限, 如:2020</span>
             </div>
           </div>
         </td>
 
       </tr>
       <tr>
-        <td>
+        <td colspan=2>
           <div class="control-group">
             <%= f.label :note, 'Tasting Note品酒辞:' %>
             <div class="controls">
