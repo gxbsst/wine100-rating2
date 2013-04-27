@@ -55,8 +55,11 @@ class ChallengesController < ApplicationController
   end
 
   def wine_group
-    #id = params[:id] || 1
-    @wine_group = Refinery::WineGroups::WineGroup.first
+   if params[:id].present?
+    @wine_group = Refinery::WineGroups::WineGroup.find(params[:id])
+   else
+     @wine_group = Refinery::WineGroups::WineGroup.first
+   end
   end
 
   def wine_groups
