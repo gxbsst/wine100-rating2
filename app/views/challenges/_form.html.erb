@@ -6,7 +6,8 @@
       <tr>
         <td colspan=2 >
           <div class="control-group">
-            <%= f.label :score, 'Score 评分:', :class => 'control-label' %>
+
+            <%= f.label :score, '* Score 评分:', :class => 'control-label' %>
             <div class="controls">
               <%= f.text_field :score, :placeholder => 'Score 评分' %>
               <span class="help-inline">请输入这支酒的分数</span>
@@ -17,7 +18,7 @@
       <tr>
         <td width="260">
           <div class="control-group">
-            <%= f.label :drink_begin_at, 'Drink Window 试饮年限:', :class => 'control-label' %>
+            <%= f.label :drink_begin_at, '* Drink Window 试饮年限:', :class => 'control-label' %>
             <div class="controls">
               <%= f.text_field :drink_begin_at, :placeholder => '如:2014', :class => "required", :length => "4" %>
               &nbsp;
@@ -44,7 +45,7 @@
       <tr>
         <td colspan=2>
           <div class="control-group">
-            <%= f.label :note, 'Tasting Note品酒辞:' %>
+            <%= f.label :note, '* Tasting Note品酒辞:' %>
             <div class="controls">
               <%= f.text_area :note, :size => '100x7' %>
             </div>

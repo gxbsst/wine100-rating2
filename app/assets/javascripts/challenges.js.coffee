@@ -22,8 +22,12 @@ jQuery ->
     $('.respond_text').text('')
 
 
+  # click cancle button
+  $('.form_outer').on 'click', 'button:reset', (e) ->
+    e.preventDefault()
+    form(this).slideToggle()
 
-  $('.form_outer').on 'click', '.btn', (e) ->
+  $('.form_outer').on 'click', '.btn-primary', (e) ->
     e.preventDefault()
     form = $(this).closest('form')
 
@@ -63,6 +67,12 @@ jQuery ->
   removeErrorStyle = (el) ->
     controlGroup(el).removeClass('error')
     helpInline(el).hide()
+
+  form = (click_el) ->
+    $(click_el).closest('form')
+
+
+
 
 
 
