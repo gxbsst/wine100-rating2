@@ -45,6 +45,7 @@ jQuery ->
     if validate(scrolInput, emptyRegEx) && validate(drinkEndAt, numberRegEx) && validate(drinkBeginAt, numberRegEx)
       form.submit()
       form.slideToggle('slow')
+      form.closest('.container').find('h2').append('<span class="label label-info">已写</span>')
       $(this).closest('.container').effect("highlight",{color:"#fdfdb7"}, 3000)
 
 
@@ -79,7 +80,6 @@ jQuery ->
     $(click_el).closest('form')
 
   setBackgroundColor = (el) ->
-    debugger
     $(el).css('background', '#FFF')
 
   removeBackgroundColor = (el) ->
