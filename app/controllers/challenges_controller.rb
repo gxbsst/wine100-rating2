@@ -60,7 +60,7 @@ class ChallengesController < ApplicationController
   end
 
   def wine_groups
-    @wine_groups = Refinery::WineGroups::WineGroup.all
+    @wine_groups = Refinery::WineGroups::WineGroup.order(:position)
   end
 
   def get_user
