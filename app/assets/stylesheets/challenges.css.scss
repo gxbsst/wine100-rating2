@@ -16,10 +16,14 @@ padding: 10px;
 .form_outer {
   form {
     display: none;
+    .help-inline {
+      display: none;
+    }
     }
   .respond_text {
     display: none;
 width: 500px;
   }
+
 
 }
