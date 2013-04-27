@@ -2,40 +2,41 @@
   <%= render :partial => 'sidebar' %>
   <div class="span9 row">
     <% @wine_group.wine_group_items.each do |item| %>
-      <div class="container">
-      <h2>
-        <%= raw item.wine.uuid %>
-        <%= show_edit_status(item.test_paper(current_user)) %>
-      </h2>
-      <table class="table table_1">
-        <tr>
-          <td class="aleft" width="160px">Region/产区:</td>
-          <td><%= item.wine.region_en %> <br> <%= item.wine.region_zh %></td>
-        </tr>
-        <tr>
-          <td class="aleft">Grape Vairety/葡萄品种:</td>
-          <td><%= item.wine.grape_vairety %></td>
-        </tr>
-        <tr>
-          <td class="aleft">Vintage/年份:</td>
-          <td><%= item.wine.vingate %></td>
-        </tr>
-        <tr>
-          <td class="aleft">Sugar Content/含糖量:</td>
-          <td><%= item.wine.sugar %></td>
-        </tr>
-      </table>
-      <div class="form_outer" id="form_<%= item.wine_id %>">
-        <a class=" open_toggle"><i class="icon-pencil"> 写拼酒辞</i> </a>
-        <!--<span class="respond_text label label-success"></span>-->
-        <div class="respond_text alert alert-success">
-          <button type="button" class="close" data-dismiss="alert">×</button> 
-          保存成功
+        <div class="container well row" id="item_<%= item.id %>">
+          <h2>
+            <%= raw item.wine.uuid %>
+            <%= show_edit_status(item.test_paper(current_user)) %>
+          </h2>
+          <table class="table table_1">
+            <tr>
+              <td class="aleft" width="160px">Region/产区:</td>
+              <td><%= item.wine.region_en %> <br> <%= item.wine.region_zh %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Grape Vairety/葡萄品种:</td>
+              <td><%= item.wine.grape_vairety %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Vintage/年份:</td>
+              <td><%= item.wine.vingate %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Sugar Content/含糖量:</td>
+              <td><%= item.wine.sugar %></td>
+            </tr>
+          </table>
+          <div class="form_outer" id="form_<%= item.wine_id %>">
+            <a class=" open_toggle"><i class="icon-pencil"> 写拼酒辞</i> </a>
+            <!--<span class="respond_text label label-success"></span>-->
+            <div class="respond_text alert alert-success">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              保存成功
+            </div>
+            <%= render 'form', :item => item %>
+          </div>
         </div>
-        <%= render 'form', :item => item %>
-      </div>
-    </div>
     <% end %>
+    <div class="clearfix"></div>
     <!--end form_outer-->
   </div>
 </div><!--/row-->

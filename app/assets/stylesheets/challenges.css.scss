@@ -1,5 +1,19 @@
+
+.container-fluid {
+  width: 960px;
+  margin: 0 auto;
+}
+.well.sidebar-nav {
+  width: 200px;
+  min-height: 400px;
+}
 .table td{
     border: 0;
+}
+
+.container.well {
+  margin-bottom: 10px;
+  width: 700px;
 }
 
 textarea#test_paper_note {
@@ -26,4 +40,8 @@ width: 500px;
   }
 
 
+}
+
+.clearfix {
+  clear: both;
 }

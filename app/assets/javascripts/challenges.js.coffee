@@ -16,16 +16,23 @@ jQuery ->
   $('input[type="text"]').focus ->
     $('.respond_text').text('')
 
-
-
   $('textarea').focus ->
     $('.respond_text').text('')
-
 
   # click cancle button
   $('.form_outer').on 'click', 'button:reset', (e) ->
     e.preventDefault()
     form(this).slideToggle()
+
+  # mouse over & out container
+  $(".container.well.row").mouseenter (e) =>
+    setBackgroundColor(e.currentTarget)
+
+  $(".container.well.row").mouseleave (e) =>
+    $(e.currentTarget).css('background', '#F5F5F5')
+#  $('#item_13').bind
+#    click: setBackgroundColor
+#    mouseleave: removeBackgroundColor
 
   $('.form_outer').on 'click', '.btn-primary', (e) ->
     e.preventDefault()
@@ -71,7 +78,12 @@ jQuery ->
   form = (click_el) ->
     $(click_el).closest('form')
 
+  setBackgroundColor = (el) ->
+    debugger
+    $(el).css('background', '#FFF')
 
+  removeBackgroundColor = (el) ->
+    $(el).css('background', '#F5F5F5')
 
 
 
