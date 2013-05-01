@@ -9,9 +9,9 @@ jQuery ->
     open_button = $(this).closest('.form_outer').find('.open_toggle').find('i')
     form.slideToggle()
     if form.css('display') == 'none'
-      open_button.text(' 写拼酒辞')
+      open_button.text(' Tasting Note')
     else
-      open_button.text(' 写拼酒辞')
+      open_button.text(' Tasting Note')
 
   $('input[type="text"]').focus ->
     $('.respond_text').text('')
