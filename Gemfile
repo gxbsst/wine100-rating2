@@ -65,3 +65,8 @@ gem 'refinerycms-wines', :path => 'vendor/extensions'
 gem 'refinerycms-wine_groups', :path => 'vendor/extensions'
 gem 'refinerycms-user_groups', :path => 'vendor/extensions'
 gem 'refinerycms-test_papers', :path => 'vendor/extensions'
+
+# export exel
+gem 'axlsx'
+gem 'acts_as_xlsx'
+gem 'axlsx_rails'

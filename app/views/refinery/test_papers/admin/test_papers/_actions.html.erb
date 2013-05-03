@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::TestPapers::Admin::TestPapersController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.test_papers_admin_test_papers_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_test_papers_admin_test_paper_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::TestPapers::Admin::TestPapersController.sortable? && ::Refinery::TestPapers::TestPaper.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Test Papers"),
+                 refinery.test_papers_admin_test_papers_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Test Papers"),
+                 refinery.test_papers_admin_test_papers_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>
