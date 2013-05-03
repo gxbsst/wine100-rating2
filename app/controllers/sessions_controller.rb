@@ -8,6 +8,10 @@ class SessionsController < ApplicationController
   end
 
   def create
+    if params[:user][:name].blank? && params[:user][:password].blank?
+      redirect_to root_path
+      return
+    end
     @user = User.find_by_name(params[:user][:name])
     if @user && @user.authenticate(params[:user][:password])
       session[:user_id] = @user.id

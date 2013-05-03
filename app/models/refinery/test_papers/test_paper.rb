@@ -9,9 +9,13 @@ module Refinery
 
       validates :score, :presence => true
       validates :drink_begin_at, :drink_end_at, :length => { :is => 4 }, :numericality => { :only_integer => true }
-      belongs_to :wine_group_item, :class_name => 'Refinery::WineGroups::WineGroupItem', :foreign_key => :group_item_id
+      belongs_to :wine_group_item, :class_name => 'Refinery::WineGroups::WineGroupItem', 
+        :foreign_key => :group_id
+
+      delegate :wine, :to => :wine_group_item
 
       scope :fetch, lambda {|wine_id| where(:wine_id => wine_id)}
+      scope :fetch_for_group, lambda {|group_id| where(:group_id=> group_id)}
     end
   end
 end

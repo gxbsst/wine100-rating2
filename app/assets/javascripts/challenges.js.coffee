@@ -4,9 +4,9 @@ jQuery ->
   numberRegEx = new RegExp(/^[0-9]{4}$/)
   postalCodeRegEx = new RegExp(/^[A-Z]{1}[0-9]{1}[A-Z]{1} [0-9]{1}[A-Z]{1}[0-9]{1}/) 
 
-  $('.form_outer').on 'click', '.open_toggle', ->
-    form = $(this).closest('.form_outer').find('form')
-    open_button = $(this).closest('.form_outer').find('.open_toggle').find('i')
+  $('.container h2').on 'click', '.open_toggle', ->
+    form = $(this).closest('.container').find('form')
+    open_button = $(this).closest('.container h2').find('.open_toggle').find('i')
     form.slideToggle()
     if form.css('display') == 'none'
       open_button.text(' Tasting Note')

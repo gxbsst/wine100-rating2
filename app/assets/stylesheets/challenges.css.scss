@@ -1,12 +1,16 @@
 body {
   font-family: sans-serif;
 }
-.container-fluid {
-  width: 960px;
-  margin: 0 auto;
+.navbar h1.brand {
+ font-size: 28pt;
+ color: #FFF;
 }
+// .container-fluid {
+  // width: 960px;
+  // margin: 0 auto;
+// }
 .well.sidebar-nav {
-  width: 200px;
+  width: 250px;
   min-height: 400px;
 }
 .table td{
@@ -14,8 +18,18 @@ body {
 }
 
 .container.well {
-  margin-bottom: 10px;
-  width: 700px;
+  margin-bottom: 25px;
+  width: 800px;
+  h2 {
+   position: relative;
+    border-bottom: 1px dotted rgb(197, 192, 192);
+   .open_toggle {
+    font-weight: normal;
+    font-size: 16px;
+    position: absolute;
+    right:0;
+   }
+  }
 }
 
 textarea#test_paper_note {
@@ -27,8 +41,8 @@ td.aleft {
   font-weight: bold;
 }
 .container {
-padding: 10px;
-}
+  padding: 10px;
+  }
 .form_outer {
   form {
     display: none;
@@ -38,7 +52,7 @@ padding: 10px;
     }
   .respond_text {
     display: none;
-width: 500px;
+    width: 500px;
   }
 
 
@@ -46,4 +60,15 @@ width: 500px;
 
 .clearfix {
   clear: both;
+}
+
+.nav.nav-list {
+    height: 600px; 
+    overflow: scroll;
+}
+
+.nav-header {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 3px solid #EEE;
 }

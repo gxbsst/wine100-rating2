@@ -61,4 +61,11 @@ module ApplicationHelper
     end
   end
 
+  def export_path(wine_id)
+  "/refinery/test_papers/#{wine_id}/export"
+  end
+
+  def export_group_path(group_id)
+  "/refinery/test_papers/#{group_id}/export_for_group"
+  end
 end
