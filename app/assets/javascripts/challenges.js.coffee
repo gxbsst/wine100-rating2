@@ -2,7 +2,7 @@ jQuery ->
   emailRegEx = new RegExp(/^((?!\.)[a-z0-9._%+-]+(?!\.)\w)@[a-z0-9-]+\.[a-z.]{2,5}(?!\.)\w$/i)
   emptyRegEx = new RegExp(/[-_.a-zA-Z0-9]{1,}/)
   numberRegEx = new RegExp(/^[0-9]{4}$/)
-  postalCodeRegEx = new RegExp(/^[A-Z]{1}[0-9]{1}[A-Z]{1} [0-9]{1}[A-Z]{1}[0-9]{1}/) 
+  postalCodeRegEx = new RegExp(/^[A-Z]{1}[0-9]{1}[A-Z]{1} [0-9]{1}[A-Z]{1}[0-9]{1}/)
 
   $('.container h2').on 'click', '.open_toggle', ->
     form = $(this).closest('.container').find('form')
@@ -106,7 +106,14 @@ jQuery ->
     $(el).css('background', '#F5F5F5')
 
 
+  fixSidbarSelectItem = ->
+    parent = $('.nav-list')
+    current = $('.active')
+    parent.scrollTop(parent.scrollTop() + current.position().top - parent.height()/2 + current.height()/2);
 
+
+  # 左边导航所选的居中显示
+  fixSidbarSelectItem()
 
 
 
