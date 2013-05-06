@@ -11,7 +11,7 @@
           <h2>
             <%= raw item.wine.uuid %>
             <%= show_edit_status(item.test_paper(current_user)) %>
-            <a class="open_toggle"><i class="icon-pencil"> Tasting Note</i> </a>
+            <%= edit_note_button(item.test_paper(current_user)) %>
           </h2>
           <table class="table table_1">
             <tr>

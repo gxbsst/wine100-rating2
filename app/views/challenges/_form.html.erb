@@ -1,4 +1,5 @@
-<%= form_for item.test_paper(current_user), :url => c_path(item.test_paper(current_user)),  :html => {:class => "form"}, :remote => true, :validate => true do |f|  %>
+<%= form_for item.test_paper(current_user), :url => c_path(item.test_paper(current_user)),
+             :html => {:class => "form"}, :remote => true, :validate => true do |f|  %>
     <%= f.hidden_field :wine_id %>
     <%= f.hidden_field :group_id %>
     <%= f.hidden_field :user_id %>
@@ -10,7 +11,7 @@
             <%= f.label :score, '* Score 评分:', :class => 'control-label' %>
             <div class="controls">
               <%= f.text_field :score, :placeholder => 'Score 评分' %>
-              <span class="help-inline">请输入这支酒的分数</span>
+              <span class="help-inline">Pls enter score of the wine 请输入这支酒的分数</span>
             </div>
           </div>
         </td>
@@ -18,9 +19,9 @@
       <tr>
         <td width="260">
           <div class="control-group">
-            <%= f.label :drink_begin_at, '* Drink Window 试饮年限:', :class => 'control-label' %>
+            <%= f.label :drink_begin_at, 'Drink Window 试饮年限:', :class => 'control-label' %>
             <div class="controls">
-              <%= f.text_field :drink_begin_at, :placeholder => '如:2014', :class => "required", :length => "4" %>
+              <%= f.text_field :drink_begin_at, :placeholder => 'e.g.2014', :class => "required", :length => "4" %>
               &nbsp;
               &nbsp;
                To
@@ -34,7 +35,7 @@
             <%#= raw f.label :drink_end_at, ' ', :class => 'control-label' %>
             <label class="control-label" for="test_paper_drink_end_at">&nbsp;</label>
             <div class="controls">
-              <%= f.text_field :drink_end_at, :placeholder => '如:2016', :class => "required", :length => "4" %>
+              <%= f.text_field :drink_end_at, :placeholder => 'e.g.2016', :class => "required", :length => "4" %>
               <br />
               <span class="help-inline">请输入试饮年限, 如:2020</span>
             </div>
@@ -45,7 +46,7 @@
       <tr>
         <td colspan=2>
           <div class="control-group">
-            <%= f.label :note, '* Tasting Note品酒辞:' %>
+            <%= f.label :note, 'Tasting Note品酒辞:' %>
             <div class="controls">
               <%= f.text_area :note, :size => '100x7' %>
             </div>

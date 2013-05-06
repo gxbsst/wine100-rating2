@@ -2,33 +2,41 @@ body {
   font-family: sans-serif;
 }
 .navbar h1.brand {
- font-size: 28pt;
- color: #FFF;
+  font-size: 28pt;
+  color: #FFF;
 }
 // .container-fluid {
-  // width: 960px;
-  // margin: 0 auto;
+// width: 960px;
+// margin: 0 auto;
 // }
 .well.sidebar-nav {
   width: 250px;
   min-height: 400px;
 }
 .table td{
-    border: 0;
+  border: 0;
 }
 
 .container.well {
   margin-bottom: 25px;
   width: 800px;
   h2 {
-   position: relative;
+    position: relative;
     border-bottom: 1px dotted rgb(197, 192, 192);
-   .open_toggle {
-    font-weight: normal;
-    font-size: 16px;
-    position: absolute;
-    right:0;
-   }
+    .open_toggle {
+      font-weight: normal;
+      font-size: 16px;
+      position: absolute;
+      right:0;
+      color: #468847;
+      i {
+        font-style: italic;
+      }
+
+    }
+    .new_record {
+      color:#c63e37;
+    }
   }
 }
 
@@ -37,19 +45,19 @@ textarea#test_paper_note {
   height: 80px;
 }
 td.aleft {
-  text-align: right;
+  text-align: left;
   font-weight: bold;
 }
 .container {
   padding: 10px;
-  }
+}
 .form_outer {
   form {
     display: none;
     .help-inline {
       display: none;
     }
-    }
+  }
   .respond_text {
     display: none;
     width: 500px;
@@ -63,8 +71,8 @@ td.aleft {
 }
 
 .nav.nav-list {
-    height: 600px; 
-    overflow: scroll;
+  height: 600px;
+  overflow: scroll;
 }
 
 .nav-header {
