@@ -1,5 +1,13 @@
 require "bundler/capistrano"
 
+#load "config/recipes/base"
+#load "config/recipes/nginx"
+#load "config/recipes/unicorn"
+#load "config/recipes/mysql"
+#load "config/recipes/nodejs"
+#load "config/recipes/rbenv"
+#load "config/recipes/check"
+
 ## !!!! DON'T FORGET SET TMP PERMISSION
 
 # Add RVM's lib directory to the load path.
@@ -25,13 +33,17 @@ set :application, "Test"
 #}
 
 if ENV['RAILS_ENV'] =='production'
-  require "rvm/capistrano"
+  set :application, "Wine100"
+  set :default_environment, {
+      'PATH' => "/home/deployer/.rbenv/versions/1.9.3-p392/bin/:$PATH"
+  }
   #server "www.coopertire.com.cn", :web, :app, :db, primary: true
-  server "jh_web3", :web, :app, :db, primary: true
+  server "wine100", :web, :app, :db, primary: true
   set :repository,  "git://github.com/gxbsst/wine100.git"
-  # set :deploy_to, "/srv/rails/coopertire_deploy"
-  set :deploy_to, "/srv/rails/test"
-  set :user, "root"
+  #set :deploy_to, "/srv/rails/wine100"
+  #set :user, "root"
+  set :user, "deployer"
+  set :deploy_to, "/home/#{user}/apps/#{application}"
 else
   server "rails", :web, :app, :db, primary: true
   set :repository,  "git://github.com/gxbsst/wine100.git"
@@ -66,6 +78,7 @@ ssh_options[:forward_agent] = true
 
 # If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
+
   task :start do ; end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do
@@ -73,20 +86,15 @@ namespace :deploy do
   end
 
   task :setup_config, roles: :app do
-    # sudo "ln -nfs #{current_path}/config/apache.conf /etc/apache2/sites-available/#{application}"
     run "mkdir -p #{shared_path}/config"
     put File.read("config/database.yml.mysql"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
-    # photos
-    # run "mkdir -p /srv/rails/coopertire_stuff/system"
   end
 
   after "deploy:setup", "deploy:setup_config"
 
   task :symlink_config, roles: :app do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-    #   run "ln -nfs #{shared_path}/config/database.yml  /srv/rails/cooper/releases/20121205032322/config/database.yml"
-    # run "ln -nfs /srv/rails/coopertire_stuff/system #{release_path}/public/system"
   end
   after "deploy:finalize_update", "deploy:symlink_config"
 
@@ -104,12 +112,4 @@ namespace :deploy do
   #after "deploy:finalize_update", "deploy:change_tmp"
 
 end
-
-
-# 设置数据库
-# namespace :deploy do
-#   task :config_database do
-#     run "#{try_sudo} cp #{File.join(current_path,'config','database.yml.mysql')}  #{File.join(current_path,'config','database.yml')}"
-#   end
-# end
 
