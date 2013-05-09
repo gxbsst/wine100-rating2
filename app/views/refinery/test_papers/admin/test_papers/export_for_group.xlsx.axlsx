@@ -1,0 +1,22 @@
+
+# https://github.com/randym/axlsx/blob/master/examples/example.rb
+xlsx_package = Axlsx::Package.new
+xlsx_package.use_shared_strings = true
+wb = xlsx_package.workbook
+group_name = @group.name 
+
+wb.add_worksheet(name: group_name) do |sheet|
+  sheet.add_row @titles
+  blue = sheet.styles.add_style :color => "#00FF00"
+  title = sheet.styles.add_style(
+                                :fg_color=>"#CCCCCCCC", 
+                                :sz=>14,  
+                                :alignment=>{:horizontal => :center, :wrap_text => true, :vertical => :center },
+                                :border=> {:style => :thin, :color => "CCCCCCCC"})
+  @test_papers.each do |r|
+    user_name = Refinery::Members::Member.find(r.user_id).name
+    row_data = [r.wine.try(:name), user_name, r.score, r.drink_begin_at, r.drink_end_at, r.note]
+    sheet.add_row row_data, :widths => [40, 10, 10, 10, 10, 20], :height => 30, :style =>  title
+    #Axlsx::STYLE_THIN_BORDER
+  end
+end

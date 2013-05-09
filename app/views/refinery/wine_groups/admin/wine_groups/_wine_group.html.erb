@@ -11,7 +11,7 @@
         :title => t('.view_live_html'),
         :target => "_blank" %>
     
-    <%#= link_to refinery_icon_tag("application_edit.png"), refinery.edit_wine_groups_admin_wine_group_path(wine_group),
+    <%= link_to refinery_icon_tag("application_edit.png"), refinery.edit_wine_groups_admin_wine_group_path(wine_group),
          :title => t('.edit') %>
     <%= link_to refinery_icon_tag("delete.png"), refinery.wine_groups_admin_wine_group_path(wine_group),
         :class => "cancel confirm-delete",

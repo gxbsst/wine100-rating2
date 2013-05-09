@@ -4,7 +4,7 @@ class ChallengesController < ApplicationController
 
   def index
     wine_group
-    redirect_to  challenge_path(wine_group)
+    redirect_to challenge_path(wine_group)
     #wine_groups
   end
 
@@ -55,11 +55,11 @@ class ChallengesController < ApplicationController
   end
 
   def wine_group
-   if params[:id].present?
-    @wine_group = Refinery::WineGroups::WineGroup.find(params[:id])
-   else
-     @wine_group = Refinery::WineGroups::WineGroup.first
-   end
+    if params[:id].present?
+      @wine_group = Refinery::WineGroups::WineGroup.find(params[:id])
+    else
+      @wine_group = Refinery::WineGroups::WineGroup.first
+    end
   end
 
   def wine_groups

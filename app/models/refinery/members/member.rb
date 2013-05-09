@@ -3,12 +3,14 @@ module Refinery
     class Member < Refinery::Core::BaseModel
       self.table_name = 'refinery_members'
 
-      attr_accessible :name, :password, :email, :password_confirmation, :builder_id, :last_sign_in_at, :remember_created_at,
-                      :current_sign_in_ip, :last_sign_in_ip, :position, :password_cleartext
+      attr_accessible :name, :password, :email, :password_confirmation, :builder_id, 
+      :last_sign_in_at, :remember_created_at, :current_sign_in_ip, :last_sign_in_ip, 
+      :position, :password_cleartext
 
       has_secure_password
 
-      acts_as_indexed :fields => [:name, :password_digest, :email, :password_cleartext, :current_sign_in_ip, :last_sign_in_ip]
+      acts_as_indexed :fields => [:name, :password_digest, :email, 
+      :password_cleartext, :current_sign_in_ip, :last_sign_in_ip]
 
       validates :name, :presence => true, :uniqueness => true
 

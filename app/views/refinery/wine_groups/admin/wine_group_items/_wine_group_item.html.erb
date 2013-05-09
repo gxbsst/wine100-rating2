@@ -2,7 +2,7 @@
 
   <table>
     <tr>
-      <td width="100px"><%= wine_group_item.name %></td>
+      <td width="200px"><%= wine_group_item.name %></td>
       <td width="200px"><%= wine_group_item.vingate %> <%= wine_group_item.name_en %></td>
     </tr>
   </table>
@@ -20,5 +20,6 @@
         :title => t('.delete'),
         :confirm => t('message', :scope => 'refinery.admin.delete', :title => wine_group_item.id),
         :method => :delete %>
+   <%= link_to "Export Notes", export_path(wine_group_item.wine_id) %>
   </span>
 </li>
