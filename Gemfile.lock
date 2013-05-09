@@ -67,7 +67,7 @@ PATH
       refinerycms-core (~> 2.0.10)
 
 GEM
-  remote: http://ruby.taobao.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (3.2.12)
       actionpack (= 3.2.12)
@@ -164,6 +164,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    memcache-client (1.8.5)
     method_source (0.8.1)
     mime-types (1.22)
     multi_json (1.7.2)
@@ -266,6 +267,7 @@ DEPENDENCIES
   client_side_validations
   coffee-rails (~> 3.2.1)
   jquery-rails (~> 2.0.0)
+  memcache-client
   mysql2
   passenger
   pry

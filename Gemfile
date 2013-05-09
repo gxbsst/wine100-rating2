@@ -71,4 +71,4 @@ gem 'axlsx'
 gem 'acts_as_xlsx'
 gem 'axlsx_rails'
 
-gem 'memcache-client', '1.8.5'
+gem 'memcache-client'
