@@ -102,9 +102,9 @@ namespace :deploy do
     run("cd #{deploy_to}/current; bundle install --path=vendor/gems")
   end
 
-  task :migration do
-    run("cd #{deploy_to}/current; rake db:migrate ")
-  end
+  #task :migration do
+    #run("cd #{deploy_to}/current; rake db:migrate ")
+  #end
 
   task :change_tmp do
     run("chmod -R 777 #{current_path}/tmp")
