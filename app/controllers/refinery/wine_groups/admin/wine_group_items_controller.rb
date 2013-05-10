@@ -27,7 +27,11 @@ module Refinery
         end
 
         def get_wine_group
-          @wine_group = Refinery::WineGroups::WineGroup.find(params[:wine_group_id]) if params[:wine_group_id]
+          if params[:wine_group_id]
+            @wine_group = Refinery::WineGroups::WineGroup.find(params[:wine_group_id])
+          else
+            @wine_group = Refinery::WineGroups::WineGroup.first
+          end
         end
 
         def item_path(group_id)

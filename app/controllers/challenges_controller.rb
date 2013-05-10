@@ -22,6 +22,7 @@ class ChallengesController < ApplicationController
     @tp.drink_begin_at = t[:drink_begin_at]
     @tp.drink_end_at = t[:drink_end_at]
     @tp.note = t[:note]
+    @tp.wine_group_id = t[:wine_group_id]
 
     if @tp.valid?
       @tp.save
@@ -42,6 +43,7 @@ class ChallengesController < ApplicationController
     @tp.drink_begin_at = t[:drink_begin_at]
     @tp.drink_end_at = t[:drink_end_at]
     @tp.note = t[:note]
+    @tp.wine_group_id = t[:wine_group_id]
 
     #binding.pry
     if @tp.valid?

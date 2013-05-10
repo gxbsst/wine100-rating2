@@ -16,6 +16,7 @@ module Refinery
 
       scope :fetch, lambda {|wine_id| where(:wine_id => wine_id)}
       scope :fetch_for_group, lambda {|group_id| where(:group_id=> group_id)}
+      scope :fetch_for_wine_group, lambda {|wine_group_id| where(:wine_group_id=> wine_group_id)}
     end
   end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130421102656) do
+ActiveRecord::Schema.define(:version => 20130510150716) do
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -136,7 +136,10 @@ ActiveRecord::Schema.define(:version => 20130421102656) do
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
     t.integer  "group_item_id"
+    t.integer  "wine_group_id"
   end
+
+  add_index "refinery_test_papers", ["wine_group_id"], :name => "index_refinery_test_papers_on_wine_group_id"
 
   create_table "refinery_user_groups", :force => true do |t|
     t.string   "name"
@@ -208,7 +211,10 @@ ActiveRecord::Schema.define(:version => 20130421102656) do
     t.integer  "position"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
+    t.string   "uuid"
   end
+
+  add_index "refinery_wines", ["uuid"], :name => "index_refinery_wines_on_uuid"
 
   create_table "seo_meta", :force => true do |t|
     t.integer  "seo_meta_id"
