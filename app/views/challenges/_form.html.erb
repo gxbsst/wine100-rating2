@@ -21,7 +21,7 @@
           <div class="control-group">
             <%= f.label :drink_begin_at, 'Drink Window 试饮年限:', :class => 'control-label' %>
             <div class="controls">
-              <%= f.text_field :drink_begin_at, :placeholder => 'e.g.2014', :class => "required", :length => "4" %>
+              <%= f.text_field :drink_begin_at, :placeholder => 'e.g.2013', :class => "required", :length => "4" %>
               &nbsp;
               &nbsp;
                To
@@ -35,7 +35,7 @@
             <%#= raw f.label :drink_end_at, ' ', :class => 'control-label' %>
             <label class="control-label" for="test_paper_drink_end_at">&nbsp;</label>
             <div class="controls">
-              <%= f.text_field :drink_end_at, :placeholder => 'e.g.2016', :class => "required", :length => "4" %>
+              <%= f.text_field :drink_end_at, :placeholder => 'e.g.2099', :class => "required", :length => "4" %>
               <br />
               <span class="help-inline">请输入试饮年限, 如:2020</span>
             </div>
