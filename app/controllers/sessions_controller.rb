@@ -18,7 +18,7 @@ class SessionsController < ApplicationController
       redirect_to root_path
     else
       @user = User.new
-      flash[:error] = "请输入正确的用户名和密码!"
+      flash[:error] = "请输入正确的用户名和密码 Invalid e-mail or password."
       render :new
     end
   end
