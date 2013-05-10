@@ -8,7 +8,7 @@ module Refinery
       acts_as_indexed :fields => [:score, :note]
 
       validates :score, :presence => true
-      validates :drink_begin_at, :drink_end_at, :length => { :is => 4 }, :numericality => { :only_integer => true }
+      #validates :drink_begin_at, :drink_end_at, :length => { :is => 4 }, :numericality => { :only_integer => true }
       belongs_to :wine_group_item, :class_name => 'Refinery::WineGroups::WineGroupItem', 
         :foreign_key => :group_id
 
