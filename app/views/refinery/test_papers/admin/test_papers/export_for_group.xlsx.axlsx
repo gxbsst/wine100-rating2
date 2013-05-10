@@ -3,7 +3,7 @@
 xlsx_package = Axlsx::Package.new
 xlsx_package.use_shared_strings = true
 wb = xlsx_package.workbook
-group_name = @group.name 
+group_name = @group.name.gsub(/[\/,]/,'-').truncate(25)
 
 wb.add_worksheet(name: group_name) do |sheet|
   sheet.add_row @titles
