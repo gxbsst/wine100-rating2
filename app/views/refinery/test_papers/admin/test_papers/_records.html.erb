@@ -1,7 +1,17 @@
 <% if searching? %>
   <h2><%= t('results_for', :scope => 'refinery.admin.search', :query => params[:search]) %></h2>
 <% end %>
+<h2>
+  <% if  @wine_group %>
+      <%= link_to "Export Notes", export_wine_group_path(@wine_group.id) %>
+  <% elsif @wine %>
+      <%= link_to "Export Notes", export_path(@wine.id) %>
+  <% elsif @group %>
+      <%= link_to "Export Notes", export_group_path(@group.id) %>
+  <% end %>
+</h2>
 <div class='pagination_container'>
+
   <% if @test_papers.any? %>
     <%= render 'test_papers' %>
   <% else %>

@@ -12,6 +12,7 @@ module Refinery
       belongs_to :wine_group_item, :class_name => 'Refinery::WineGroups::WineGroupItem', 
         :foreign_key => :group_id
 
+      belongs_to :user, :class_name => 'Refinery::Members::Member', :foreign_key => :user_id
       delegate :wine, :to => :wine_group_item
 
       scope :fetch, lambda {|wine_id| where(:wine_id => wine_id)}

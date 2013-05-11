@@ -1,7 +1,9 @@
-<section id='records'>
+<section id='records' style="width:100%">
   <%= render 'records' %>
 </section>
+<!--
 <aside id='actions'>
   <%= render 'actions' %>
 </aside>
-<%= render '/refinery/admin/make_sortable', :tree => false if !searching? and ::Refinery::TestPapers::Admin::TestPapersController.sortable? and ::Refinery::TestPapers::TestPaper.count > 1 %>
+-->
+<%#= render '/refinery/admin/make_sortable', :tree => false if !searching? and ::Refinery::TestPapers::Admin::TestPapersController.sortable? and ::Refinery::TestPapers::TestPaper.count > 1 %>

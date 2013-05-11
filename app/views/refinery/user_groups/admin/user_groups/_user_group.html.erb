@@ -4,7 +4,10 @@
 
   </span>
   <span class='actions' style="width: auto">
-    <%= link_to "Export Notes", export_group_path(user_group.id) %>
+    <%#= link_to "Export Notes", export_group_path(user_group.id) %>
+
+
+
     <%= link_to refinery_icon_tag('add.png') + "Add User", refinery.members_admin_members_path(:group_id => user_group.id), :title => 'Add Wine' %>
 
     <%= link_to refinery_icon_tag("application_go.png"), refinery.user_groups_admin_user_group_items_path(user_group),
@@ -17,7 +20,8 @@
         :title => t('.delete'),
         :confirm => t('message', :scope => 'refinery.admin.delete', :title => user_group.name),
         :method => :delete %>
-
+    <%= link_to "Preview Notes", refinery.test_papers_admin_test_papers_path(:dialog=>true, :group_id => user_group.id),
+                :class => :dialog, :tooltip => 'Preview Taste Notes' %>
 
 
   </span>

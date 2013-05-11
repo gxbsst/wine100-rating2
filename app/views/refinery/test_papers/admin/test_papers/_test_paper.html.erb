@@ -1,8 +1,16 @@
 <li class='clearfix record <%= cycle("on", "on-hover") %>' id="<%= dom_id(test_paper) -%>">
-  <span class='title'>
-    <%= test_paper.score %>
+  <table width="100%">
+    <tr>
+      <td width="30%"><%= test_paper.wine.name %></td>
+      <td width="8%"><%= test_paper.user.name %></td>
+      <td width="8%"><%= test_paper.score %></td>
+      <td width="10%"><%= test_paper.drink_begin_at %></td>
+      <td width="10%"><%= test_paper.drink_end_at %></td>
+      <td><%= test_paper.note %></td>
+    </tr>
+  </table>
 
-  </span>
+  <!--
   <span class='actions'>
     
     <%= link_to refinery_icon_tag("application_go.png"), refinery.test_papers_test_paper_path(test_paper),
@@ -17,4 +25,5 @@
         :confirm => t('message', :scope => 'refinery.admin.delete', :title => test_paper.score),
         :method => :delete %>
   </span>
+  -->
 </li>

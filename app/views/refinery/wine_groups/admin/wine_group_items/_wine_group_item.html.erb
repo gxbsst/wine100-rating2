@@ -21,6 +21,8 @@
         :title => t('.delete'),
         :confirm => t('message', :scope => 'refinery.admin.delete', :title => wine_group_item.id),
         :method => :delete %>
-   <%= link_to "Export Notes", export_path(wine_group_item.wine_id) %>
+   <%#= link_to "Export Notes", export_path(wine_group_item.wine_id) %>
+   <%= link_to "Preview Notes", refinery.test_papers_admin_test_papers_path(:dialog=>true, :wine_id => wine_group_item.wine_id),
+                :class => :dialog, :tooltip => 'Preview Taste Notes' %>
   </span>
 </li>
