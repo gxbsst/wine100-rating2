@@ -9,7 +9,7 @@ module Refinery
       attr_accessible :wine_id, :group_id, :position, :wine_group_id
 
       delegate :name, :to => :wine_group
-      delegate :name_en, :name_zh, :vingate, :to => :wine
+      delegate :name_en, :name_zh, :vingate, :uuid, :to => :wine
 
       def test_paper(user)
         Refinery::TestPapers::TestPaper.find_or_initialize_by_user_id_and_wine_id_and_group_id_and_wine_group_id(user.id,
