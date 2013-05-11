@@ -11,6 +11,8 @@ module Refinery
       delegate :name, :to => :wine_group
       delegate :name_en, :name_zh, :vingate, :uuid, :to => :wine
 
+      validates :group_id, :wine_id, :presence => true
+
       def test_paper(user)
         Refinery::TestPapers::TestPaper.find_or_initialize_by_user_id_and_wine_id_and_group_id_and_wine_group_id(user.id,
                                                                                                                  self.wine_id,

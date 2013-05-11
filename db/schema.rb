@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130510150716) do
+ActiveRecord::Schema.define(:version => 20130511024509) do
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -212,9 +212,8 @@ ActiveRecord::Schema.define(:version => 20130510150716) do
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
     t.string   "uuid"
+    t.string   "wine_style"
   end
-
-  add_index "refinery_wines", ["uuid"], :name => "index_refinery_wines_on_uuid"
 
   create_table "seo_meta", :force => true do |t|
     t.integer  "seo_meta_id"

@@ -22,4 +22,33 @@ namespace :app do
     end
   end
 
+  desc "Import Wine"
+  task :init_wine_group_item => :environment do
+    ActiveRecord::Base.connection.execute("TRUNCATE refinery_wines")
+    ActiveRecord::Base.connection.execute("TRUNCATE refinery_wine_groups")
+    ActiveRecord::Base.connection.execute("TRUNCATE refinery_wine_groups_wine_group_items")
+
+    file = Rails.root.join('lib', 'tasks', 'data', 'for Weston.csv')
+    csv = CSV.open(file, :headers => true)
+    csv.each do |item|
+
+      group_name, uuid = item[0].split('-')
+      wine = Refinery::Wines::Wine.find_or_create_by_name_en_and_vingate(item[4],
+                                                                         item[6],
+                                                                         name_zh: item[3],
+                                                                         region_en: item[1],
+                                                                         grape_vairety: item[2],
+                                                                         sugar: item[7],
+                                                                         uuid: uuid,
+                                                                         wine_style: item[5]
+      )
+
+      puts "#{item[4]} #{item[3]}" unless wine.id
+
+      group = Refinery::WineGroups::WineGroup.find_or_create_by_name(group_name)
+      Refinery::WineGroups::WineGroupItem.find_or_create_by_wine_id_and_group_id(wine.id, group.id)
+
+    end
+  end
+
 end
