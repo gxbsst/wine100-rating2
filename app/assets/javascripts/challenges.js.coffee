@@ -103,18 +103,18 @@ jQuery ->
   validateCompareDrinkWindow = (begin_at, end_at, error_message) ->
     if begin_at.val() && end_at.val()
       if begin_at.val() < end_at.val()
-        removeErrorStyle(begin_at)
+        removeErrorStyle(end_at)
         true
       else
-        addErrorStyle(begin_at, error_message)
+        addErrorStyle(end_at, error_message)
         false
     else
-      removeErrorStyle(begin_at)
+      removeErrorStyle(end_at)
       true
 
   validateDrinkWindow = (begin_at_input, end_at_input, regex)->
-    numberErrorMessage = "请输入正确的年份 Please enter a correct year(2013 - 2099)."
-    compareErrorMessage = '开始年份大于结束年份 The begin is greater than the end.'
+    numberErrorMessage = '请输入正确的年份(2013~2099) Please enter a correct year(2013~2009).'
+    compareErrorMessage = '开始年份大于结束年份 Please enter a further year.'
     validateDrinkWindowForNumber(begin_at_input, regex, numberErrorMessage) &&
     validateDrinkWindowForNumber(end_at_input, regex, numberErrorMessage) &&
     validateCompareDrinkWindow(begin_at_input, end_at_input, compareErrorMessage)
