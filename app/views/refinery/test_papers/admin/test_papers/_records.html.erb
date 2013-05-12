@@ -1,28 +1,42 @@
 <% if searching? %>
-  <h2><%= t('results_for', :scope => 'refinery.admin.search', :query => params[:search]) %></h2>
+    <h2><%= t('results_for', :scope => 'refinery.admin.search', :query => params[:search]) %></h2>
 <% end %>
 <h2>
-  <% if  @wine_group %>
-      <%= link_to "Export Notes", export_wine_group_path(@wine_group.id) %>
-  <% elsif @wine %>
-      <%= link_to "Export Notes", export_path(@wine.id) %>
-  <% elsif @group %>
-      <%= link_to "Export Notes", export_group_path(@group.id) %>
+  <% if @test_papers.any? %>
+      <% if  @wine_group %>
+          <%= link_to "Export Notes", export_wine_group_path(@wine_group.id) %>
+      <% elsif @wine %>
+          <%= link_to "Export Notes", export_path(@wine.id) %>
+      <% elsif @group %>
+          <%= link_to "Export Notes", export_group_path(@group.id) %>
+      <% end %>
   <% end %>
 </h2>
 <div class='pagination_container'>
 
   <% if @test_papers.any? %>
-    <%= render 'test_papers' %>
+        <table width="100%">
+          <tr>
+            <td width="30%">Wine</td>
+            <td width="8%">User</td>
+            <td width="8%">Score</td>
+            <td width="10%">Begin At</td>
+            <td width="10%">End At</td>
+            <td>Note</td>
+          </tr>
+        </table>
+      <%= render 'test_papers' %>
   <% else %>
-    <p>
-      <% unless searching? %>
-        <strong>
-          <%= t('.no_items_yet') %>
-        </strong>
-      <% else %>
-        <%= t('no_results', :scope => 'refinery.admin.search') %>
-      <% end %>
-    </p>
+      <p>
+        暂时还没有品酒辞。<br />
+        There are no tasting notes yet.
+        <% unless searching? %>
+            <strong>
+              <%#= t('.no_items_yet') %>
+            </strong>
+        <% else %>
+            <%#= t('no_results', :scope => 'refinery.admin.search') %>
+        <% end %>
+      </p>
   <% end %>
 </div>
