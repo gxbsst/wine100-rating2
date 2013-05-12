@@ -24,4 +24,19 @@ module ChallengesHelper
     end
   end
 
+  def sugar(sugar)
+     return '无/None' if sugar.blank?
+     return sugar if sugar.include? '<'
+     "#{sugar}g/L"
+  end
+
+  def vintage(vintage)
+    return '无/None' if vintage.blank?
+    vintage
+  end
+
+  def alcohol(alcohol)
+    return '无/None' if alcohol.blank?
+    number_to_percentage(alcohol.try(:to_f))
+  end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130511024509) do
+ActiveRecord::Schema.define(:version => 20130512132453) do
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -213,6 +213,7 @@ ActiveRecord::Schema.define(:version => 20130511024509) do
     t.datetime "updated_at",    :null => false
     t.string   "uuid"
     t.string   "wine_style"
+    t.string   "alcohol"
   end
 
   create_table "seo_meta", :force => true do |t|

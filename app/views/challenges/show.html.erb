@@ -15,20 +15,24 @@
           </h2>
           <table class="table table_1">
             <tr>
-              <td class="aleft" width="160px">Region/产区:</td>
+              <td class="aleft" width="180px">Region/产区:</td>
               <td><%= item.wine.region_en %> <br> <%= item.wine.region_zh %></td>
             </tr>
             <tr>
-              <td class="aleft">Grape Vairety/葡萄品种:</td>
+              <td class="aleft">Grape Variety/葡萄品种:</td>
               <td><%= item.wine.grape_vairety %></td>
             </tr>
             <tr>
               <td class="aleft">Vintage/年份:</td>
-              <td><%= item.wine.vingate %></td>
+              <td><%= vintage(item.wine.vingate) %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Alcohol Strength/酒精度:</td>
+              <td><%= alcohol(item.wine.alcohol) %></td>
             </tr>
             <tr>
               <td class="aleft">Sugar Content/含糖量:</td>
-              <td><%= item.wine.sugar %></td>
+              <td><%= sugar(item.wine.sugar)  %></td>
             </tr>
           </table>
           <div class="form_outer" id="form_<%= item.wine_id %>">
