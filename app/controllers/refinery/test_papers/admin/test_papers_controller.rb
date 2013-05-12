@@ -34,7 +34,7 @@ module Refinery
           @wine = Refinery::Wines::Wine.find(params[:wine_id])
           @test_papers = Refinery::TestPapers::TestPaper.fetch(@wine.id)
           @titles = ['wine', 'user', 'score', 'begin_at', 'end_at', 'note']
-          render  :xlsx => 'export',:filename =>  "wine_#{@wine.id}", :disposition =>  'inline'
+          render  :xlsx => 'export',:filename =>  "#{@wine.name_en}_#{@wine.vingate}", :disposition =>  'inline'
         end
 
         def export_for_group
