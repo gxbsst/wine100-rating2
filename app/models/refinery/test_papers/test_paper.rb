@@ -15,7 +15,11 @@ module Refinery
         :foreign_key => :group_id
 
       belongs_to :user, :class_name => 'Refinery::Members::Member', :foreign_key => :user_id
-      delegate :wine, :to => :wine_group_item
+
+      belongs_to :wine_group, :class_name => 'Refinery::WineGroups::WineGroup', :foreign_key => :wine_group_id
+
+      belongs_to :wine, :class_name => 'Refinery::Wines::Wine', :foreign_key => :wine_id
+      #delegate :wine, :to => :wine_group_item
 
       scope :fetch, lambda {|wine_id| where(:wine_id => wine_id).order('position DESC')}
       scope :fetch_for_group, lambda {|group_id| where(:group_id=> group_id).order('position DESC')}
@@ -28,6 +32,10 @@ module Refinery
         if user_ids.include? user_id
           self.position = 1
         end
+      end
+
+      def code
+        "#{wine_group.name} #{wine.uuid}"
       end
 
     end

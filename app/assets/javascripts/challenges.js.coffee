@@ -2,7 +2,7 @@ jQuery ->
   emailRegEx = new RegExp(/^((?!\.)[a-z0-9._%+-]+(?!\.)\w)@[a-z0-9-]+\.[a-z.]{2,5}(?!\.)\w$/i)
   emptyRegEx = new RegExp(/[-_.a-zA-Z0-9]{1,}/)
   numberRegEx = new RegExp(/^[0-9]{4}$/)
-  drinkWindowRegEx = new RegExp(/^(20[1-9][3-9])$/)
+  drinkWindowRegEx = new RegExp(/^(20[0-9][0-9])$/)
   postalCodeRegEx = new RegExp(/^[A-Z]{1}[0-9]{1}[A-Z]{1} [0-9]{1}[A-Z]{1}[0-9]{1}/)
   drinkBeginAt = 2013
   drinkEndAt = 2099
@@ -116,8 +116,8 @@ jQuery ->
     numberErrorMessage = '请输入正确的年份(2013~2099) Please enter a correct year(2013~2009).'
     compareErrorMessage = '开始年份大于结束年份 Please enter a further year.'
     validateDrinkWindowForNumber(begin_at_input, regex, numberErrorMessage) &&
-    validateDrinkWindowForNumber(end_at_input, regex, numberErrorMessage) &&
-    validateCompareDrinkWindow(begin_at_input, end_at_input, compareErrorMessage)
+    validateDrinkWindowForNumber(end_at_input, regex, numberErrorMessage) 
+#    validateCompareDrinkWindow(begin_at_input, end_at_input, compareErrorMessage)
 
 
   for el in $('input[type="text"]')
