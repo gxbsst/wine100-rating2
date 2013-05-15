@@ -20,6 +20,9 @@ Wine100::Application.routes.draw do
   match "refinery/test_papers/:wine_id/export", :to => "refinery/test_papers/admin/test_papers#export", :as => :export
   match "refinery/test_papers/:group_id/export_for_group", :to => "refinery/test_papers/admin/test_papers#export_for_group", :as => :export_for_group
   match "refinery/test_papers/:wine_group_id/export_for_wine_group", :to => "refinery/test_papers/admin/test_papers#export_for_wine_group", :as => :export_for_wine_group
+  match "refinery/test_papers/export_all", :to => "refinery/test_papers/admin/test_papers#export_all", :as => :export_all
+
+
   #match "refinery/user_groups/:user_group_id/items", :to => "refinery/user_groups/admin/items#index"
 
   #namespace :refinery do

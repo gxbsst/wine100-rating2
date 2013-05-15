@@ -1,3 +1,6 @@
+
+<%= link_to "Export All Notes", export_all_path() %>
+
 <% if searching? %>
   <h2><%= t('results_for', :scope => 'refinery.admin.search', :query => params[:search]) %></h2>
 <% end %>

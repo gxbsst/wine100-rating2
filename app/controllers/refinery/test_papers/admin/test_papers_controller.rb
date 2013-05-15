@@ -6,6 +6,8 @@ module Refinery
         crudify :'refinery/test_papers/test_paper',
                 :title_attribute => 'score', :xhr_paging => true
 
+        EXCEL_TITLES = ['code', 'wine', 'user', 'score', 'begin_at', 'end_at', 'note']
+
         def index
           page = params[:page] || 1
           per_page = 1000
@@ -33,14 +35,14 @@ module Refinery
         def export
           @wine = Refinery::Wines::Wine.find(params[:wine_id])
           @test_papers = Refinery::TestPapers::TestPaper.fetch(@wine.id)
-          @titles = ['code', 'wine', 'user', 'score', 'begin_at', 'end_at', 'note']
+          @titles = EXCEL_TITLES
           render  :xlsx => 'export',:filename =>  "#{@wine.name_en}_#{@wine.vingate}", :disposition =>  'inline'
         end
 
         def export_for_group
           @group = Refinery::UserGroups::UserGroup.find(params[:group_id])
           @test_papers = Refinery::TestPapers::TestPaper.fetch_for_group(@group.id)
-          @titles = [ 'code', 'wine', 'user', 'score', 'begin_at', 'end_at', 'note']
+          @titles = EXCEL_TITLES
           render  :xlsx => 'export_for_group',:filename =>  "group_#{@group.name}", :disposition =>  'inline'
         end
 
@@ -49,8 +51,14 @@ module Refinery
           @wine_group = wine_group(params[:wine_group_id])
           @test_papers = wine_group_notes(@wine_group.id)
 
-          @titles = ['code', 'wine', 'user', 'score', 'begin_at', 'end_at', 'note']
+          @titles = EXCEL_TITLES
           render  :xlsx => 'export_for_wine_group',:filename =>  "#{@wine_group.name}", :disposition =>  'inline'
+        end
+
+        def export_all
+          @titles = EXCEL_TITLES
+          @test_papers = Refinery::TestPapers::TestPaper.order('position DESC')
+          render  :xlsx => 'export_all',:filename =>  "all_wines_notes", :disposition =>  'inline'
         end
 
         protected
