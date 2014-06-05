@@ -1,84 +1,37 @@
 require "bundler/capistrano"
-
-#load "config/recipes/base"
-#load "config/recipes/nginx"
-#load "config/recipes/unicorn"
-#load "config/recipes/mysql"
-#load "config/recipes/nodejs"
-#load "config/recipes/rbenv"
-#load "config/recipes/check"
-
-## !!!! DON'T FORGET SET TMP PERMISSION
-
-# Add RVM's lib directory to the load path.
-#$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
-#set :bundle_cmd, 'source $HOME/.bash_profile && bundle'
-# Load RVM's capistrano plugin.....
-
-
-# #set :bundle_cmd, '
-# # Load RVM's capistrano plugin.....
-# require "
-#set :rvm_ruby_string, '1.9.2'
-set :rvm_type, :user  # Don't use system-wide RVM
-#set :rvm_type, :user
-
-
+require 'capistrano-unicorn'
+set :application, "wine100-rating"
+set :scm, :git
+set :use_sudo, false
+set :branch, "master"
+default_run_options[:pty] = true
+ssh_options[:forward_agent] = true
 set :deploy_via, :remote_cache
 
-set :application, "Test"
-
-#set :default_environment, {
-#'LANG' => 'en_US.UTF-8'
-#}
+set :default_environment, {
+  'LANG' => 'en_US.UTF-8'
+}
 
 if ENV['RAILS_ENV'] =='production'
-  set :application, "Wine100"
+  # set :application, "Wine100Rating"
   set :default_environment, {
-      'PATH' => "/home/deployer/.rbenv/versions/1.9.3-p392/bin/:$PATH"
+    'PATH' => "/home/deployer/.rbenv/versions/2.0.0-p451/bin/:$PATH"
   }
-  #server "www.coopertire.com.cn", :web, :app, :db, primary: true
-  server "wine100", :web, :app, :db, primary: true
-  set :repository,  "git://github.com/gxbsst/wine100.git"
-  #set :deploy_to, "/srv/rails/wine100"
-  #set :user, "root"
+  server "wine100-2-deployer", :web, :app, :db, primary: true
+  set :repository,  "git://github.com/gxbsst/wine100-rating2.git"
   set :user, "deployer"
   set :deploy_to, "/home/#{user}/apps/#{application}"
 else
-  server "rails", :web, :app, :db, primary: true
-  set :repository,  "git://github.com/gxbsst/wine100.git"
-  # set :deploy_to, "/srv/rails/coopertire_deploy"
-  set :deploy_to, "/srv/rails/test"
-  set :user, "rails"
+  set :default_environment, {
+    'PATH' => "/home/deployer/.rbenv/versions/2.0.0-p451/bin/:$PATH"
+  }
+  set :user, "deployer"
+  server "cancer", :web, :app, :db, primary: true
+  set :repository,  "git://github.com/gxbsst/wine100-rating2.git"
+  set :deploy_to, "/home/#{user}/apps/#{application}"
 end
 
-set :scm, :git
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
-
-# role :web, "aries.sidways.lab"                          # Your HTTP server, Apache/etc
-# role :app, "aries.sidways.lab"                          # This may be the same as your `Web` server
-# role :db,  "aries.sidways.lab", :primary => true # This is where Rails migrations will run
-# role :db,  "your slave db-server here"
-
-#set :user, "rails"
-# set :user, "root"
-
-set :use_sudo, false
-
-set :branch, "master"
-
-default_run_options[:pty] = true
-ssh_options[:forward_agent] = true
-
-#after "deploy", "deploy:cleanup" # keep only the last 5 releases
-
-
-# if you're still using the script/reaper helper you will need
-# these http://github.com/rails/irs_process_scripts
-
-# If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
-
   task :start do ; end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do
@@ -87,6 +40,8 @@ namespace :deploy do
 
   task :setup_config, roles: :app do
     run "mkdir -p #{shared_path}/config"
+    run "mkdir -p #{shared_path}/system"
+    run "mkdir -p #{shared_path}/uploads"
     put File.read("config/database.yml.mysql"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
   end
@@ -95,6 +50,9 @@ namespace :deploy do
 
   task :symlink_config, roles: :app do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+    run "ln -nfs #{shared_path}/system #{release_path}/public/system"
+    run "ln -nfs #{shared_path}/uploads #{release_path}/public/uploads"
+    run "ln -nfs #{deploy_to}/current #{release_path}"
   end
   after "deploy:finalize_update", "deploy:symlink_config"
 
@@ -103,13 +61,20 @@ namespace :deploy do
   end
 
   #task :migration do
-    #run("cd #{deploy_to}/current; rake db:migrate ")
+  #run("cd #{deploy_to}/current; rake db:migrate ")
   #end
 
   task :change_tmp do
     run("chmod -R 777 #{current_path}/tmp")
   end
-  #after "deploy:finalize_update", "deploy:change_tmp"
+
+  task :assets do
+    run("cd #{deploy_to}/current && bundle exec rake assets:precompile RAILS_ENV=production")
+  end
+  # after "deploy:finalize_update", "deploy:assets"
+
+  after 'deploy:restart', 'unicorn:reload'    # app IS NOT preloaded
+  after 'deploy:restart', 'unicorn:restart'   # app preloaded
+  after 'deploy:restart', 'unicorn:duplicate' # before_fork hook implemented (zero downtime deployments)
 
 end
-
