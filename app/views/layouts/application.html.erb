@@ -22,7 +22,8 @@
         height: 100px;
     }
 </style>
-<body>
+
+<body ng-controller="MainController">
 
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
@@ -37,9 +38,9 @@
         <p class="navbar-text pull-right">
           <% if current_user %>
               Logged in as <a href="#" class="navbar-link"><%= current_user.name %></a>
-              <%= link_to 'Logout', session_path(current_user), :method => :delete %>
+              <%= link_to '注销', session_path(current_user), :method => :delete %>
           <% else %>
-          <%= link_to "Log in", new_sessions_path %>
+          <%= link_to "登录", new_sessions_path %>
           <% end %>
         </p>
 
@@ -55,11 +56,13 @@
 
 <div class="container-fluid">
 
+
 <%= yield %>
 
+  <hr>
+
   <footer>
-    <hr />
-    <p>&copy; 2013 <%= link_to 'WINE100.ORG', 'http://www.wine100.org/' %></p>
+    <p>&copy; Company 2013</p>
   </footer>
 
 

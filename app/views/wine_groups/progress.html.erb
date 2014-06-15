@@ -1,0 +1,12 @@
+<div class="row-fluid" ng-controller="ProgressController">
+  <%= render :partial => 'challenges/sidebar' %>
+  <div class="span9 row">
+    <div class="page-header">
+      <h2>比赛进度</h2>
+    </div>
+    <div class="progress progress-striped active">
+      <div ng-init="percent=<%= "#{@percent}" %>" class="bar" ng-style="{width:percent + '%'}" ></div>
+    </div>
+  </div>
+</div>
+

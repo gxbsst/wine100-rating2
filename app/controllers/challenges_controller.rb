@@ -19,10 +19,12 @@ class ChallengesController < ApplicationController
     @tp =  Refinery::TestPapers::TestPaper.
         find_or_initialize_by_user_id_and_wine_id_and_group_id(@user.id, t[:wine_id], t[:group_id])
     @tp.score = t[:score]
+    @tp.group_item_id = t[:group_item_id]
     @tp.drink_begin_at = t[:drink_begin_at]
     @tp.drink_end_at = t[:drink_end_at]
     @tp.note = t[:note]
     @tp.wine_group_id = t[:wine_group_id]
+    @tp.user_group_id = t[:user_group_id]
     if @tp.valid?
       @tp.save
       #respond_to do |format|
@@ -43,6 +45,7 @@ class ChallengesController < ApplicationController
     @tp.drink_end_at = t[:drink_end_at]
     @tp.note = t[:note]
     @tp.wine_group_id = t[:wine_group_id]
+    @tp.group_item_id = t[:group_item_id]
 
     #binding.pry
     if @tp.valid?

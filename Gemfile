@@ -7,6 +7,8 @@ gem 'rails', '3.2.16'
 gem 'mysql2'
 gem 'unicorn'
 # gem 'passenger'
+gem "cancan"
+gem 'kaminari'
 
 group :development, :test do
   gem "better_errors", '0.2.0'

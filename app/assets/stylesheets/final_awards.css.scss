@@ -1,0 +1,19 @@
+.span12 {
+  .custom-container {
+    margin: 0 auto;
+    width: 1000px;
+    overflow: auto;
+    .span5 {
+      width: 480px;
+      margin: 10px 10px;
+      padding: 8px;
+    }
+    .outer_border {
+      h2 {
+        font-size: 14px;
+        margin: 0;
+      }
+      border: 5px solid #CCC;
+    }
+  }
+}

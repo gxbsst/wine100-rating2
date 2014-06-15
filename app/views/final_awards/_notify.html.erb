@@ -1,0 +1,9 @@
+<div ng-controller="NotifyController">
+  <div ng-init="old_complete_count = <%= @complete_count %>" ng-show="now_complete_count > old_complete_count">
+    <div class="alert">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>通知!</strong> 有最新完成的酒评， 现在就去
+      <a href="/final_awards/">查看</a>
+    </div>
+  </div>
+</div>

@@ -10,8 +10,8 @@ module Refinery
 
       delegate :name, :to => :wine_group
       delegate :name_en, :name_zh, :vingate, :uuid, :to => :wine
-
       validates :group_id, :wine_id, :presence => true
+      has_one :award, :class_name => 'Award', :foreign_key  => 'refinery_wine_groups_wine_group_item_id'
 
       def test_paper(user)
         Refinery::TestPapers::TestPaper.find_or_initialize_by_user_id_and_wine_id_and_group_id_and_wine_group_id(user.id,
@@ -19,6 +19,16 @@ module Refinery
                                                                                                                  self.group_id,
                                                                                                                  wine_group.id
         )
+      end
+
+      def award_value
+        return 0 unless self.award
+        self.award.award
+      end
+
+      def final_award_value
+        return 0 unless self.award
+        self.award.final.to_i
       end
 
       # def title was created automatically because you didn't specify a string field

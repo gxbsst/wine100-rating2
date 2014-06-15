@@ -1,51 +1,175 @@
+
 <div class="row-fluid">
   <%= render :partial => 'sidebar' %>
   <div class="span9 row">
-    <div class="container row" style="padding: 0">
-      <div class="page-header">
-        <h1><%= @wine_group.name  %></h1>
-      </div>
-    </div>
     <% @wine_group.wine_group_items.each do |item| %>
-        <div class="container well row" id="item_<%= item.id %>">
-          <h2>
-            <%= raw item.wine.uuid %>
-            <%= show_edit_status(item.test_paper(current_user)) %>
-            <%= edit_note_button(item.test_paper(current_user)) %>
-          </h2>
-          <table class="table table_1">
-            <tr>
-              <td class="aleft" width="180px">Region/产区:</td>
-              <td><%= item.wine.region_en %> <br> <%= item.wine.region_zh %></td>
-            </tr>
-            <tr>
-              <td class="aleft">Grape Variety/葡萄品种:</td>
-              <td><%= item.wine.grape_vairety %></td>
-            </tr>
-            <tr>
-              <td class="aleft">Vintage/年份:</td>
-              <td><%= vintage(item.wine.vingate) %></td>
-            </tr>
-            <tr>
-              <td class="aleft">Alcohol Strength/酒精度:</td>
-              <td><%= alcohol(item.wine.alcohol) %></td>
-            </tr>
-            <tr>
-              <td class="aleft">Sugar Content/含糖量:</td>
-              <td><%= sugar(item.wine.sugar)  %></td>
-            </tr>
-          </table>
-          <div class="form_outer" id="form_<%= item.wine_id %>">
-            <!--<span class="respond_text label label-success"></span>-->
-            <div class="respond_text alert alert-success">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              保存成功
-            </div>
-            <%= render 'form', :item => item %>
-          </div>
+
+        <h2><%= raw item.wine.name %></h2>
+        <table class="table">
+          <tr>
+            <td class="aleft" width="160px">Region/产区:</td>
+            <td><%= item.wine.region_en %> <br> <%= item.wine.region_en %></td>
+          </tr>
+          <tr>
+            <td class="aleft">Grape Vairety/葡萄品种:</td>
+            <td><%= item.wine.grape_vairety %></td>
+          </tr>
+          <tr>
+            <td class="aleft">Vintage/年份:</td>
+            <td><%= item.wine.vingate %></td>
+          </tr>
+          <tr>
+            <td class="aleft">Sugar Content/含糖量:</td>
+            <td><%= item.wine.sugar %></td>
+          </tr>
+          <% if current_user.leader? %>
+              <tr>
+                <td class="aleft">Award/颁奖:</td>
+                <td>
+                  <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value  %> " ng-class="{'btn-primary':award_value[<%= item.wine_id %>]==1}"  type="button" class="btn" ng-click="award(<%= item.wine.id %>, 1)" >金奖/GOLD</button>
+                  <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value  %> "  ng-class="{'btn-primary':award_value[<%= item.wine_id %>]==2}"  type="button" class="btn" ng-click="award(<%= item.wine.id %>, 2)" >银奖/SILVER</button>
+                  <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value  %> "  ng-class="{'btn-primary':award_value[<%= item.wine_id %>]==3}"  type="button" class="btn" ng-click="award(<%= item.wine.id %>, 3)" >铜奖/BRONZE</button>
+                </td>
+              </tr>
+              <tr  ng-init="final_award_value[<%= item.wine_id %>]=<%= item.final_award_value %>"  ng-if="final_award_value[<%= item.wine_id  %>]!=0">
+                <td>Final Award/最终获奖:</td>
+                <td>
+                  <button ng-init="final_award_value[<%= item.wine_id %>]=<%= item.wine.final_award_value %> "  class="btn btn-primary" ng-show="final_award_value[<%= item.wine_id %>]==1">金奖/GOLD</button>
+                  <button ng-init="final_award_value[<%= item.wine_id %>]=<%= item.wine.final_award_value %> "  class="btn btn-primary" ng-if="final_award_value[<%= item.wine_id %>]==2">银奖/SILVER</button>
+                  <button ng-init="final_award_value[<%= item.wine_id %>]=<%= item.wine.final_award_value %> "  class="btn btn-primary" ng-if="final_award_value[<%= item.wine_id %>]==3">铜奖/BRONZE</button>
+                </td>
+              </tr>
+          <% end %>
+        </table>
+
+        <div class="form_outer" id="form_<%= item.wine_id %>">
+          <a class="open_toggle"  href="javascript:void(0)">写拼酒辞</a>
+          <%= form_for item.test_paper(current_user), :url => c_path(item.test_paper(current_user)),  :html => {:class => "form"}, :remote => true, :validate => true do |f|  %>
+              <%= f.hidden_field :wine_id %>
+              <%= f.hidden_field :group_id %>
+              <%= f.hidden_field :user_group_id, :value => 0 %>
+              <%= f.hidden_field :user_id %>
+              <%= f.hidden_field :group_item_id, :value => item.id %>
+              <table class="table">
+                <tr>
+                  <td >
+                    <div class="control-group">
+                      <%= f.label :score, 'Score 评分:' %>
+                      <div class="controls">
+                        <%= f.text_field :score, :placeholder => 'Score 评分', :class => "required" %>
+                      </div>
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td >
+                    <div class="control-group">
+                      <%= f.label :drink_begin_at, 'Drink Window 试饮年:' %>
+                      <div class="controls">
+                        <%= f.text_field :drink_begin_at, :placeholder => '如:2014', :class => "required", :length => "4" %>
+                      到
+                        <%= f.text_field :drink_end_at, :placeholder => '如:2016', :class => "required", :length => "4" %>
+                      </div>
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>
+                    <div class="control-group">
+                      <%= f.label :note, 'Tasting Note品酒辞:' %>
+                      <div class="controls">
+                        <%= f.text_area :note, :size => '100x7' %>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <%= f.submit '保  存', :class => 'btn  btn-primary', 'data-loading-text' => "Saving..." %>
+              <button type="reset" class="btn">取消</button>
+              <span class="respond_text"></span>
+          <% end %>
+
         </div>
+        <!--end form_outer-->
     <% end %>
-    <div class="clearfix"></div>
-    <!--end form_outer-->
+    <% if current_user.leader? %>
+    <div algin="center">
+      <table width="100%">
+        <tr>
+          <td align="center">
+
+            <% if @wine_group.complete? %>
+                <a class="btn-large"  href="/wine_groups/<%=@wine_group.id %>/cancel">取消提交</a>
+            <% elsif @wine_group.cancel? %>
+                <a class="btn-primary btn-large" href="/wine_groups/<%= @wine_group.id %>/complete">提交</a>
+             <% else %>
+                <a class="btn-primary btn-large" href="/wine_groups/<%= @wine_group.id %>/complete">提交</a>
+            <% end %>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <% end %>
   </div>
+
+
 </div><!--/row-->
+<style type="text/css">
+    .form_outer form {
+        display: none;
+    }
+</style>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.form_outer').on('click', '.open_toggle', function(){
+            var form = $(this).closest('.form_outer').find('form');
+            var open_button = $(this).closest('.form_outer').find('.open_toggle');
+            form.slideToggle();
+            if(form.css('display') == 'none')
+            {
+                open_button.text('写拼酒辞');
+            }else{
+                open_button.text('写拼酒辞');
+            }
+        });
+
+        $('input[type="text"]').focus(function() {
+            $('.respond_text').text('');
+        });
+
+        $('textarea').focus(function(){
+            $('.respond_text').text('');
+        });
+
+        $('#edit_test_paper_2').validate({
+            rules: {
+                'test_paper[score]': {
+                    minlength: 2,
+                    required: true
+                },
+                'test_paper[drink_begin_at]': {
+                    required: true
+
+                },
+                'test_paper[drink_end_at]': {
+                    minlength: 2,
+                    required: true
+                },
+                message: {
+                    minlength: 2,
+                    required: true
+                }
+            },
+            highlight: function(element) {
+                $(element).closest('.control-group').removeClass('success').addClass('error');
+            },
+            success: function(element) {
+                element
+                        .text('OK!').addClass('valid')
+                        .closest('.control-group').removeClass('error').addClass('success');
+            }
+        });
+    });
+</script>

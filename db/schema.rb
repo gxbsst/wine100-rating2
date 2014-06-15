@@ -11,7 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130512132453) do
+ActiveRecord::Schema.define(:version => 20140615133223) do
+
+  create_table "awards", :force => true do |t|
+    t.integer  "refinery_wine_groups_wine_group_item_id"
+    t.string   "award"
+    t.integer  "refinery_member_id"
+    t.string   "final"
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
+    t.integer  "wine_id"
+    t.integer  "group_id"
+    t.integer  "final_user_id"
+  end
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -38,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20130512132453) do
     t.integer  "position"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
+    t.string   "role"
   end
 
   create_table "refinery_page_part_translations", :force => true do |t|
@@ -137,6 +150,7 @@ ActiveRecord::Schema.define(:version => 20130512132453) do
     t.datetime "updated_at",     :null => false
     t.integer  "group_item_id"
     t.integer  "wine_group_id"
+    t.integer  "user_group_id"
   end
 
   add_index "refinery_test_papers", ["wine_group_id"], :name => "index_refinery_test_papers_on_wine_group_id"
@@ -189,6 +203,7 @@ ActiveRecord::Schema.define(:version => 20130512132453) do
     t.integer  "position"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "state"
   end
 
   create_table "refinery_wine_groups_wine_group_items", :force => true do |t|
@@ -228,5 +243,90 @@ ActiveRecord::Schema.define(:version => 20130512132453) do
 
   add_index "seo_meta", ["id"], :name => "index_seo_meta_on_id"
   add_index "seo_meta", ["seo_meta_id", "seo_meta_type"], :name => "index_seo_meta_on_seo_meta_id_and_seo_meta_type"
+
+  create_table "wine100_profiles", :force => true do |t|
+    t.string   "contact_name"
+    t.string   "contact_job"
+    t.string   "contact_phone"
+    t.string   "contact_email"
+    t.string   "company_name_en"
+    t.string   "company_name_zh"
+    t.string   "company_add"
+    t.string   "company_phone"
+    t.string   "company_website"
+    t.string   "company_wines_count"
+    t.string   "finance_title"
+    t.string   "finance_tax_num"
+    t.string   "finance_add"
+    t.string   "finance_name"
+    t.string   "finance_phone"
+    t.integer  "wine100_user_id"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+    t.string   "company_phone_area_code"
+  end
+
+  create_table "wine100_sale_chanels", :force => true do |t|
+    t.string   "chanel"
+    t.integer  "wine100_wine_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.float    "price"
+  end
+
+  create_table "wine100_users", :force => true do |t|
+    t.string   "name"
+    t.string   "password_digest"
+    t.string   "email"
+    t.string   "password_cleartext"
+    t.integer  "builder_id"
+    t.datetime "last_sign_in_at"
+    t.datetime "remember_created_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.string   "phone"
+    t.boolean  "is_completed",              :default => false
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
+    t.string   "fogot_password_token"
+    t.datetime "fogot_password_created_at"
+  end
+
+  create_table "wine100_varieties", :force => true do |t|
+    t.string   "culture"
+    t.string   "name_zh"
+    t.string   "name_en"
+    t.string   "pinyin"
+    t.string   "origin_name"
+    t.string   "percentage"
+    t.integer  "wine100_wine_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  create_table "wine100_wines", :force => true do |t|
+    t.string   "photo"
+    t.string   "style"
+    t.string   "name_zh"
+    t.string   "name_en"
+    t.string   "region_1"
+    t.string   "region_2"
+    t.string   "region_3"
+    t.string   "vintage"
+    t.string   "alcoholicity"
+    t.float    "market_price"
+    t.string   "winery_zh"
+    t.string   "winery_en"
+    t.string   "level"
+    t.string   "sweetness"
+    t.string   "barcode"
+    t.boolean  "is_oak",          :default => true
+    t.text     "prize_history"
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
+    t.integer  "wine100_user_id"
+    t.integer  "photo_id"
+    t.boolean  "status",          :default => false
+  end
 
 end

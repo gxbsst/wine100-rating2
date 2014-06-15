@@ -1,0 +1,14 @@
+<div class="row-fluid">
+  <%= render :partial => 'challenges/sidebar' %>
+  <div class="span9 row">
+    <%= render :partial => 'notify' %>
+    <div class="page-header">
+      <h2>已完成品酒的酒组</h2>
+    </div>
+    <% @page_wine_groups.each do |wine_group| %>
+    <div class="span3">
+      <%= link_to wine_group.name, final_award_path(wine_group.id) %>
+    </div>
+    <% end %>
+  </div>
+</div>

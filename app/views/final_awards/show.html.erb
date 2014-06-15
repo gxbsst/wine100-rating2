@@ -1,0 +1,92 @@
+<div class="row-fluid">
+  <%= render :partial => 'challenges/sidebar' %>
+  <div class="span9 row">
+    <%= render :partial => 'notify' %>
+    <div class="page-header">
+      <h2><%= @wine_group.name %></h2>
+    </div>
+    <% @wine_group.wine_group_items.each do |item| %>
+        <div class="award-item" ng-class="{current:hover[<%= item.id %>]}" ng-mouseover="hover[<%= item.id %>]=true"  ng-mouseleave="hover[<%= item.id %>] = false" >
+          <table class="table table-striped">
+            <tr>
+              <th colspan="2">
+                <%= raw item.wine.name %>
+              </th>
+            </tr>
+            <tr>
+              <td class="aleft" width="160px">Region/产区:</td>
+              <td><%= item.wine.region_en %> <br> <%= item.wine.region_en %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Grape Vairety/葡萄品种:</td>
+              <td><%= item.wine.grape_vairety %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Vintage/年份:</td>
+              <td><%= item.wine.vingate %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Sugar Content/含糖量:</td>
+              <td><%= item.wine.sugar %></td>
+            </tr>
+            <tr>
+              <td class="aleft">Award/颁奖:</td>
+              <td>
+                <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value %> || 0"  class="btn btn-primary" ng-show="award_value[<%= item.wine.id %>]==1">金奖/GOLD</button>
+                <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value %> || 0"  class="btn btn-primary" ng-if="award_value[<%= item.wine.id %>]==2">银奖/SILVER</button>
+                <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value %> || 0"  class="btn btn-primary" ng-if="award_value[<%= item.wine.id %>]==3">铜奖/BRONZE</button>
+              </td>
+            </tr>
+          </table>
+          <table class="table note-table">
+            <tr>
+              <th colspan="2">Wine Notes/品酒辞:</th>
+            </tr>
+            <% item.test_papers.each do |note| %>
+                <tr>
+                  <td width="160px" class="aleft">
+                    Score 评分:
+                  </td>
+                  <td>
+                    <%= note.score %>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="aleft">
+                    Drink Window 试饮年:
+                  </td>
+                  <td>
+                    <%= note.drink_begin_at %> to <%= note.drink_end_at %>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="aleft">
+                    Tasting Note品酒辞:
+                  </td>
+                  <td>
+                    <%= note.note %>
+                  </td>
+                </tr>
+                <tr class="white">
+                  <td></td><td></td>
+                </tr>
+            <% end %>
+          </table>
+
+          <table class="table">
+            <tr>
+              <td class="aleft" width="160px">
+                Final Award/最终获奖:
+              </td>
+              <td>
+                <button ng-init="final_award_value[<%= item.wine_id %>]=<%= item.wine.final_award_value  %>" ng-class="{'btn-primary':final_award_value[<%= item.wine_id %>]==1}"  type="button" class="btn" ng-click="finalAward(<%= item.wine.id %>, 1)" >金奖/GOLD</button>
+                <button ng-init="final_award_value[<%= item.wine_id %>]=<%= item.wine.final_award_value  %>"  ng-class="{'btn-primary':final_award_value[<%= item.wine_id %>]==2}"  type="button" class="btn" ng-click="finalAward(<%= item.wine.id %>, 2)" >银奖/SILVER</button>
+                <button ng-init="final_award_value[<%= item.wine_id %>]=<%= item.wine.final_award_value  %>"  ng-class="{'btn-primary':final_award_value[<%= item.wine_id %>]==3}"  type="button" class="btn" ng-click="finalAward(<%= item.wine.id %>, 3)" >铜奖/BRONZE</button>
+              </td>
+            </tr>
+          </table>
+          <!--end .item-->
+        </div>
+    <% end %>
+  </div>
+</div>

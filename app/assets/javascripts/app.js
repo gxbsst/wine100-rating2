@@ -1,0 +1,1 @@
+var APP = angular.module('RootController', ['ngResource', 'ngRoute', 'ngSanitize', 'DialogService']);

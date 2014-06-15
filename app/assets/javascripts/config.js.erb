@@ -1,0 +1,47 @@
+APP.value({
+    Actions:{
+        post: {method: 'POST'},
+        add: {method: 'POST'},
+        put: {method: 'PUT'},
+        update: {method: 'PUT'},
+        remove: {method: 'DELETE'}
+    },
+    types:'doc,docx,ppt,pptx,xls,xlsx,rtf,htm,html,pdf,jpg,jpeg,tif,tiff,bmp,gif,png,txt,odt,odg,odp,odf'
+}).config(function ($httpProvider) {
+        var token = $('meta[name="csrf-token"]').attr('content'), locale = $.query('locale') || $.cookie('locale') || navigator.systemLanguage || navigator.language || 'en-US';
+        if (/^en/.test(locale)) {
+            locale = locale.split('-')[0];
+        }
+        $httpProvider.defaults.headers.common['X-CSRF-Token'] = token;
+        $httpProvider.defaults.headers.common['X-LANGUAGE-LOCALE'] = locale;
+        $.ajaxSetup({
+            global: true,
+            headers: {
+                'X-CSRF-Token': token,
+                'X-LANGUAGE-LOCALE': locale
+            }
+        });
+        $httpProvider.interceptors.push(function ($q) {
+            return {
+                'responseError': function (rejection) {
+                    var status = rejection.status;
+                    if (status == 401) {
+                        window.location.href = '/';
+                    } else if (status == 404) {
+                        //$.error('');
+                    } else if(status >= 200 && status < 300){
+                        $.notify($.LANG(202));
+                    } else if (status >= 400 && status < 500) {
+                        $.error(rejection.data);
+                    } else if (status >= 500) {
+                        $.error($.LANG(173));
+                    }
+                    return $q.reject(rejection);
+                }
+            };
+        });
+        //$httpProvider.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+        /*$httpProvider.defaults.transformRequest.unshift(function (data, headersGetter) {
+         return $.param(data || {});
+         });*/
+    });

@@ -90,3 +90,33 @@ td.aleft {
 .row-fluid {
   min-height: 665px;
 }
+
+.note-table {
+  tr td {
+    background: #EEE;
+  }
+  tr.white td {
+    background: #FFF;
+  }
+}
+.award-item.current {
+  background: #ffff73;
+  .table-striped tbody {
+    tr > td{
+      background: transparent;
+    }
+    tr > th{
+      background: transparent;
+    }
+  }
+
+  .note-table {
+    tr td {
+      background: transparent;
+    }
+    tr.white td {
+      background: transparent;
+    }
+  }
+
+}
