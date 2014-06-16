@@ -25,6 +25,7 @@ class ChallengesController < ApplicationController
     @tp.note = t[:note]
     @tp.wine_group_id = t[:wine_group_id]
     @tp.user_group_id = t[:user_group_id]
+    binding.pry
     if @tp.valid?
       @tp.save
       #respond_to do |format|

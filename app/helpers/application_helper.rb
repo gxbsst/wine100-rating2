@@ -39,7 +39,7 @@ module ApplicationHelper
   end
 
   def select_user_group(group_id)
-    select_tag(:group_id, 
+    select_tag(:group_id,
                options_from_collection_for_select(user_group_all, "id", "name",:selected => group_id ? group_id : nil),
                :prompt => "请选择要加入的用户组")
 
@@ -62,11 +62,11 @@ module ApplicationHelper
   end
 
   def export_path(wine_id)
-  "/refinery/test_papers/#{wine_id}/export"
+    "/refinery/test_papers/#{wine_id}/export"
   end
 
   def export_group_path(group_id)
-  "/refinery/test_papers/#{group_id}/export_for_group"
+    "/refinery/test_papers/#{group_id}/export_for_group"
   end
 
   def export_wine_group_path(wine_group_id)

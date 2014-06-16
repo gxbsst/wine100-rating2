@@ -19,9 +19,14 @@
             <td><%= item.wine.vingate %></td>
           </tr>
           <tr>
+            <td class="aleft">Alcohol Strength/酒精度:</td>
+            <td><%= alcohol(item.wine.alcohol) %></td>
+          </tr>
+          <tr>
             <td class="aleft">Sugar Content/含糖量:</td>
             <td><%= item.wine.sugar %></td>
           </tr>
+
           <% if current_user.leader? %>
               <tr>
                 <td class="aleft">Award/颁奖:</td>
@@ -41,76 +46,33 @@
               </tr>
           <% end %>
         </table>
-
         <div class="form_outer" id="form_<%= item.wine_id %>">
-          <a class="open_toggle"  href="javascript:void(0)">写拼酒辞</a>
-          <%= form_for item.test_paper(current_user), :url => c_path(item.test_paper(current_user)),  :html => {:class => "form"}, :remote => true, :validate => true do |f|  %>
-              <%= f.hidden_field :wine_id %>
-              <%= f.hidden_field :group_id %>
-              <%= f.hidden_field :user_group_id, :value => 0 %>
-              <%= f.hidden_field :user_id %>
-              <%= f.hidden_field :group_item_id, :value => item.id %>
-              <table class="table">
-                <tr>
-                  <td >
-                    <div class="control-group">
-                      <%= f.label :score, 'Score 评分:' %>
-                      <div class="controls">
-                        <%= f.text_field :score, :placeholder => 'Score 评分', :class => "required" %>
-                      </div>
-                    </div>
-                  </td>
-
-                </tr>
-                <tr>
-                  <td >
-                    <div class="control-group">
-                      <%= f.label :drink_begin_at, 'Drink Window 试饮年:' %>
-                      <div class="controls">
-                        <%= f.text_field :drink_begin_at, :placeholder => '如:2014', :class => "required", :length => "4" %>
-                      到
-                        <%= f.text_field :drink_end_at, :placeholder => '如:2016', :class => "required", :length => "4" %>
-                      </div>
-                    </div>
-                  </td>
-
-                </tr>
-                <tr>
-                  <td>
-                    <div class="control-group">
-                      <%= f.label :note, 'Tasting Note品酒辞:' %>
-                      <div class="controls">
-                        <%= f.text_area :note, :size => '100x7' %>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-              </table>
-              <%= f.submit '保  存', :class => 'btn  btn-primary', 'data-loading-text' => "Saving..." %>
-              <button type="reset" class="btn">取消</button>
-              <span class="respond_text"></span>
-          <% end %>
-
+          <!--<span class="respond_text label label-success"></span>-->
+          <div class="respond_text alert alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            保存成功
+          </div>
+          <%= render 'form', :item => item %>
         </div>
         <!--end form_outer-->
     <% end %>
     <% if current_user.leader? %>
-    <div algin="center">
-      <table width="100%">
-        <tr>
-          <td align="center">
+        <div algin="center">
+          <table width="100%">
+            <tr>
+              <td align="center">
 
-            <% if @wine_group.complete? %>
-                <a class="btn-large"  href="/wine_groups/<%=@wine_group.id %>/cancel">取消提交</a>
-            <% elsif @wine_group.cancel? %>
-                <a class="btn-primary btn-large" href="/wine_groups/<%= @wine_group.id %>/complete">提交</a>
-             <% else %>
-                <a class="btn-primary btn-large" href="/wine_groups/<%= @wine_group.id %>/complete">提交</a>
-            <% end %>
-          </td>
-        </tr>
-      </table>
-    </div>
+                <% if @wine_group.complete? %>
+                    <a class="btn-large"  href="/wine_groups/<%=@wine_group.id %>/cancel">取消提交</a>
+                <% elsif @wine_group.cancel? %>
+                    <a class="btn-primary btn-large" href="/wine_groups/<%= @wine_group.id %>/complete">提交</a>
+                <% else %>
+                    <a class="btn-primary btn-large" href="/wine_groups/<%= @wine_group.id %>/complete">提交</a>
+                <% end %>
+              </td>
+            </tr>
+          </table>
+        </div>
     <% end %>
   </div>
 
