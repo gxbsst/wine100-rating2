@@ -2,21 +2,21 @@
   <div class="well sidebar-nav sidebar-nav-fixed">
     <ul class="nav nav-list">
       <% if current_user.leader? %>
-          <li class="nav-header">组长操作</li>
+          <li class="nav-header">Status</li>
           <li>
-            <%= link_to '查看进度', '/wine_groups/progress' %>
+            <%= link_to 'Progress', '/wine_groups/progress' %>
           </li>
       <% end %>
       <% if current_user.e_group? %>
-          <li class="nav-header">操作</li>
+          <li class="nav-header">Status</li>
           <li>
-            <%= link_to '各酒组品酒辞', final_awards_path() %>
+            <%= link_to 'Finished Flights', final_awards_path() %>
           </li>
           <li>
-            <%= link_to '查看进度', '/wine_groups/progress' %>
+            <%= link_to 'Progress', '/wine_groups/progress' %>
           </li>
       <% end %>
-      <li class="nav-header">酒组</li>
+      <li class="nav-header">酒组/Flights</li>
       <% @wine_groups.each do |wine_group| %>
           <% if wine_group.id ==  params[:id].to_i %>
               <li class="active">

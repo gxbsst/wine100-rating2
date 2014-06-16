@@ -104,7 +104,7 @@
               <td>
                 <input name="final_final_score" ng-init="final_final_score[<%= item.wine_id %>]=<%= item.wine.final_final_score || 'None' %> "  ng-focus="final_score_success[<%= item.wine_id %>]=false" ng-model="final_final_score[<%= item.wine_id %>]" placeholder="" type="text"/>
                 <br/>
-                <buttton ng-click="doFinalFinalScore(<%= item.wine_id %>, final_final_score[<%= item.wine_id %>])" class="btn" type="button">提交</buttton>
+                <buttton ng-click="doFinalFinalScore(<%= item.wine_id %>, final_final_score[<%= item.wine_id %>])" class="btn" type="button">Submit</buttton>
                 <span ng-show="final_score_success[<%= item.wine_id %>]">保存成功!</span>
               </td>
             </tr>
