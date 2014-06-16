@@ -1,4 +1,4 @@
-APP.controller 'MainController', ($scope, $window, $document, $http) ->
+APP.controller 'MainController', ($scope, $window, $document, $http, $timeout) ->
 
   $scope.hover = {}
   $scope.award_value = {}
@@ -6,6 +6,18 @@ APP.controller 'MainController', ($scope, $window, $document, $http) ->
   $scope.final_score = []
   $scope.final_final_score = []
   $scope.final_score_success = []
+
+  $scope.clearError = ->
+    $timeout(
+      ->
+        $scope.final_score_success = []
+        $scope.clearError()
+    ,
+      3000
+    )
+
+  $scope.clearError()
+
   $scope.award = (wine_id, award) ->
     $http.post('/awards.json', { wine_id: wine_id, 'award': award})
     .success((data, status, headers, config) ->
@@ -64,7 +76,7 @@ APP.controller 'MainController', ($scope, $window, $document, $http) ->
         $scope.getPercent()
         $scope.intervalFunction()
       ,
-      1000
+      3000
     )
 
   $scope.intervalFunction()
