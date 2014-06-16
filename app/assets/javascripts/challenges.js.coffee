@@ -46,7 +46,7 @@ jQuery ->
     drinkEndAtInput = form.find('[name="test_paper[drink_end_at]"]')
     scoreErrorMessage = '请输入这支酒的分数 Please enter a score.'
 
-    if validate(scrolInput, emptyRegEx, scoreErrorMessage) && validateDrinkWindow(drinkBeginAtInput, drinkEndAtInput, drinkWindowRegEx)
+    if validate(scrolInput, emptyRegEx, scoreErrorMessage) # && validateDrinkWindow(drinkBeginAtInput, drinkEndAtInput, drinkWindowRegEx)
       form.submit()
       form.slideToggle('slow')
       #      form.closest('.container').find('h2 .label-success').removeClass('.label-success').addClass('.icon-remove').find()
