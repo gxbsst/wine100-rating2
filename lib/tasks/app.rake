@@ -4,9 +4,13 @@ namespace :app do
 
   desc 'set group leader'
   task :set_leader => :environment do
-    users = User.where(:name => ['jane.skilton', 'frankie.zhao', 'andreas.larsson', 'fongyee.walker', 'chace.peng'])
+    users = User.where(:name => ['andrew.caillard','ian.dai','jane.skilton', 'frankie.zhao', 'andreas.larsson', 'fongyee.walker', 'chace.peng'])
     users.each do |user|
       user.update_attribute(:role, 'leader')
+    end
+    users = User.where(:name => ['chen.qian', 'dave.brookes'])
+    users.each do |user|
+      user.update_attribute(:role, 'e_group')
     end
   end
 
