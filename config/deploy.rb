@@ -3,7 +3,7 @@ require 'capistrano-unicorn'
 set :application, "wine100-rating"
 set :scm, :git
 set :use_sudo, false
-set :branch, "master"
+set :branch, ENV['BRUNCH'] || "master"
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 set :deploy_via, :remote_cache
