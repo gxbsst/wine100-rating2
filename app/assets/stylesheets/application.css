@@ -12,3 +12,11 @@
  *= require_self
  *= require_tree .
  */
+
+.red {
+    color: green;
+}
+
+.font-16 {
+    font-size: 20px;
+}

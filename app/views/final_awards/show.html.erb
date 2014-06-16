@@ -10,6 +10,11 @@
           <table class="table table-striped">
             <tr>
               <th colspan="2">
+                <%= item.wine.uuid %>
+              </th>
+            </tr>
+            <tr>
+              <th colspan="2">
                 <%= raw item.wine.name %>
               </th>
             </tr>
@@ -48,6 +53,10 @@
               <th colspan="2">Wine Notes/品酒辞:</th>
             </tr>
             <% item.test_papers.each do |note| %>
+                <tr>
+                  <td class="aleft">User/用户:</td>
+                  <td><span class="red font-16"><%= note.user.name %></span></td>
+                </tr>
                 <tr>
                   <td width="160px" class="aleft">
                     Score 评分:
