@@ -22,6 +22,17 @@ class FinalAwardsController < ApplicationController
     end
   end
 
+  def final_final_score
+    award = Award.find_or_initialize_by_wine_id(params['wine_id'])
+    award.final_final_score = params['final_score']
+    award.final_user_id = current_user.id
+    if award.save!
+      render :json => award, :status => :ok
+    else
+      render :json => award, :status => :unprocessable_entity
+    end
+  end
+
   def show
     @complete_count = Refinery::WineGroups::WineGroup.complete.count
     set_wine_group

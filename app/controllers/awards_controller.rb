@@ -13,4 +13,14 @@ class AwardsController < ApplicationController
     end
   end
 
+  def final_score
+    award = Award.find_or_initialize_by_wine_id_and_refinery_member_id(params['wine_id'], current_user.id)
+    award.final_score = params['final_score']
+    if award.save!
+      render :json => award, :status => :ok
+    else
+      render :json => award, :status => :unprocessable_entity
+    end
+  end
+
 end

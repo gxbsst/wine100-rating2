@@ -21,6 +21,16 @@ module Refinery
         self.award.final.to_i
       end
 
+      def final_score
+        return 'None' unless self.award
+        self.award.final_score
+      end
+
+      def final_final_score
+        return 'None' unless self.award
+        self.award.final_final_score
+      end
+
       def name
         "#{vingate} #{name_en}  #{vingate} #{name_zh}"
       end

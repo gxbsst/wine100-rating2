@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140615133223) do
+ActiveRecord::Schema.define(:version => 20140616153750) do
 
   create_table "awards", :force => true do |t|
     t.integer  "refinery_wine_groups_wine_group_item_id"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(:version => 20140615133223) do
     t.integer  "wine_id"
     t.integer  "group_id"
     t.integer  "final_user_id"
+    t.string   "final_score"
+    t.string   "final_final_score"
   end
 
   create_table "refinery_images", :force => true do |t|

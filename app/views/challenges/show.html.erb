@@ -38,11 +38,21 @@
 
           <% if current_user.leader? %>
               <tr>
-                <td class="aleft">Award/颁奖:</td>
+                <td class="aleft">Award/奖项:</td>
                 <td>
                   <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value  %> " ng-class="{'btn-primary':award_value[<%= item.wine_id %>]==1}"  type="button" class="btn" ng-click="award(<%= item.wine.id %>, 1)" >金奖/GOLD</button>
                   <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value  %> "  ng-class="{'btn-primary':award_value[<%= item.wine_id %>]==2}"  type="button" class="btn" ng-click="award(<%= item.wine.id %>, 2)" >银奖/SILVER</button>
                   <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value  %> "  ng-class="{'btn-primary':award_value[<%= item.wine_id %>]==3}"  type="button" class="btn" ng-click="award(<%= item.wine.id %>, 3)" >铜奖/BRONZE</button>
+                  <button ng-init="award_value[<%= item.wine_id %>]=<%= item.wine.award_value  %> "  ng-class="{'btn-primary':award_value[<%= item.wine_id %>]==0}"  type="button" class="btn" ng-click="award(<%= item.wine.id %>, 0)" >无奖/NO AWARD</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="aleft">Final Score/最终分数:</td>
+                <td>
+                  <input name="final_score" ng-init="final_score[<%= item.wine_id %>]=<%= item.wine.final_score || 'None' %> "  ng-focus="final_score_success[<%= item.wine_id %>]=false" ng-model="final_score[<%= item.wine_id %>]" placeholder="" type="text"/>
+                  <br/>
+                  <buttton ng-click="doFinalScore(<%= item.wine_id %>, final_score[<%= item.wine_id %>])" class="btn" type="button">提交</buttton>
+                  <span ng-show="final_score_success[<%= item.wine_id %>]">保存成功!</span>
                 </td>
               </tr>
               <tr  ng-init="final_award_value[<%= item.wine_id %>]=<%= item.final_award_value %>"  ng-if="final_award_value[<%= item.wine_id  %>]!=0">

@@ -1,8 +1,16 @@
 Wine100::Application.routes.draw do
 
-  resources :final_awards, :only => [:index, :create, :show]
+  resources :final_awards, :only => [:index, :create, :show] do
+    collection do
+      post :final_final_score
+    end
+  end
 
-  resources :awards
+  resources :awards do
+    collection do
+      post :final_score
+    end
+  end
 
   get "challenges/create"
 
