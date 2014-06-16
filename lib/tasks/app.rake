@@ -1,6 +1,15 @@
 #encoding: utf-8
 require 'csv'
 namespace :app do
+
+  desc 'set group leader'
+  task :set_leader => :environment do
+    users = User.where(:name => ['jane.skilton', 'frankie.zhao', 'andreas.larsson', 'fongyee.walker', 'chace.peng'])
+    users.each do |user|
+      user.update_attribute(:role, 'leader')
+    end
+  end
+
   desc "Import wine group"
   task :create_wine_group => :environment do
     ['新西兰长相思-Table 1.csv', '波尔多赤霞珠-Table 1.csv'].each do |filename|
