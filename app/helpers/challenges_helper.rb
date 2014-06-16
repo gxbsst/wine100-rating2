@@ -2,13 +2,13 @@
 module ChallengesHelper
   def show_edit_status(test_paper)
     unless test_paper.new_record?
-      content_tag :sup, :class => 'label label-success' do
+      # content_tag :sup, :class => 'label label-success' do
         content_tag :i,test_paper.score, :class => 'icon-ok'
-      end
+      # end
     else
-      content_tag :sup, :class => 'label label-important' do
+      # content_tag :sup, :class => 'label label-important' do
         content_tag :i,'', :class => 'icon-remove'
-      end
+      # end
     end
   end
 
