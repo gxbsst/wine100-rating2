@@ -35,6 +35,10 @@ module Refinery
         "#{vingate} #{name_en}  #{vingate} #{name_zh}"
       end
 
+      def region
+        "#{region_zh} #{region_en}"
+      end
+
     end
   end
 end

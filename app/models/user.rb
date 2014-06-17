@@ -1,5 +1,7 @@
 class User < ::Refinery::Members::Member
   has_many :awards, :class_name => 'Award', :foreign_key => 'refinery_member_id'
+  has_many :final_awards, :class_name => 'Award', :foreign_key => 'final_user_id'
+  has_many :test_papers, :class_name => "::Refinery::TestPapers::TestPaper", :foreign_key => 'user_id'
   def leader?
     self.role == 'leader'
   end

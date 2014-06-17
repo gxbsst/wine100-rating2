@@ -2,7 +2,7 @@
     <h2><%= t('results_for', :scope => 'refinery.admin.search', :query => params[:search]) %></h2>
 <% end %>
 <h2>
-  <% if @test_papers.any? %>
+  <% if @test_papers %>
       <% if  @wine_group %>
           <%= link_to "Export Notes", export_wine_group_path(@wine_group.id) %>
       <% elsif @wine %>
@@ -14,7 +14,7 @@
 </h2>
 <div class='pagination_container'>
 
-  <% if @test_papers.any? %>
+  <% if @test_papers %>
         <table width="100%">
           <tr>
             <td width="10%">Code</td>

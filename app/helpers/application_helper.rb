@@ -77,4 +77,8 @@ module ApplicationHelper
     "/refinery/test_papers/export_all"
   end
 
+  def export_e_group_path
+    "/refinery/members/export_e_group"
+  end
+
 end

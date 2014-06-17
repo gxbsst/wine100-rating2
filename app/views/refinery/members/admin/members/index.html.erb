@@ -12,8 +12,8 @@
     border-bottom-right-radius: 6px;
   }
 </style>
-
 <section id='records'>
+<%= link_to '导出E组用户相关数据', export_e_group_path() %>
 <%= form_tag refinery.create_items_user_groups_admin_user_groups_path do -%>
   <%= render 'records' %>
   <%= select_user_group(params[:group_id]) %>
