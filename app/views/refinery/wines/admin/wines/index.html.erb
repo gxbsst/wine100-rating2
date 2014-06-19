@@ -13,13 +13,16 @@
   }
 </style>
 
-<section id='records'>
-<%= form_tag refinery.create_wine_group_items_wine_groups_admin_wine_groups_path do -%>
+<form action="a"></form>
+
+<section id='records' ng-controller="AdminWineController" >
+<%= form_tag "{{action}}", 'ng-action' => "{{action}}" do -%>
   <%= render 'records' %>
   <%=  select_wine_group(params[:group_id]) %>
   <div class="form-actions">
     <div class="form-actions-left">
-      <%= submit_tag "将酒导入酒组", :class => "wymupdate button" %>
+      <%= submit_tag "将酒导入酒组", :class => "wymupdate button", 'ng-click' => "submitWineGroup()"  %>
+      <%= submit_tag '导出所选酒品酒词', :class => "wymupdate button", 'ng-click' => 'SubmitWineNote()' %>
     </div>
   </div>
 <% end %>
@@ -29,3 +32,8 @@
 <%= render 'actions' %>
 </aside>
 <%= render '/refinery/admin/make_sortable', :tree => false if !searching? and ::Refinery::Wines::Admin::WinesController.sortable? and ::Refinery::Wines::Wine.count > 1 %>
+
+<%= javascript_include_tag  'lib/angular/angular' %>
+<%= javascript_include_tag  'admin_app' %>
+<%= javascript_include_tag  'controllers/root_controller' %>
+<%= javascript_include_tag  'controllers/main_controller' %>

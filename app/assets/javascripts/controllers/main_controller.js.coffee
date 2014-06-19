@@ -100,6 +100,17 @@ APP.controller 'MainController', ($scope, $window, $document, $http, $timeout) -
 
   $scope.intervalFunction()
 
+.controller('AdminWineController', ($scope, $window) ->
+
+  $scope.action = '/refinery/wines/export_wine_notes'
+  $scope.submitWineGroup = ->
+    $scope.action = '/refinery/wine_groups/create_wine_group_items'
+
+  $scope.submitWineNote = ->
+    $scope.action = '/refinery/wines/export_wine_notes'
+
+)
+
 
 
 
