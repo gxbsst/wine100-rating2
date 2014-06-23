@@ -3,7 +3,7 @@ xlsx_package                    = Axlsx::Package.new
 xlsx_package.use_shared_strings = true
 wb                              = xlsx_package.workbook
 
-titles = ['User', 'Wine Name', 'Region', 'Wine Style', 'Sugar', 'Grape Vairety', 'Alcohol', 'Score', 'Drink Window', 'Note']
+titles = ['User', 'Wine Group', 'Wine ID', 'Wine Name', 'Region', 'Wine Style', 'Sugar', 'Grape Vairety', 'Alcohol', 'Score', 'Drink Window', 'Note']
 
 wb.add_worksheet(name: 'Notes') do |sheet|
   sheet.add_row titles
@@ -17,7 +17,7 @@ wb.add_worksheet(name: 'Notes') do |sheet|
   @members.each do |member|
     member.test_papers.each do |test_paper|
       wine     = test_paper.wine
-      row_data = [member.name, wine.name, wine.region, wine.wine_style, wine.sugar, wine.grape_vairety, wine.alcohol, test_paper.score, test_paper.drink_window, test_paper.note]
+      row_data = [member.name, wine.wine_group.name, wine.uuid,  wine.name, wine.region, wine.wine_style, wine.sugar, wine.grape_vairety, wine.alcohol, test_paper.score, test_paper.drink_window, test_paper.note]
       sheet.add_row row_data, :widths => [40, 10, 10, 10, 10, 20], :height => 30, :style => title
     end
     #Axlsx::STYLE_THIN_BORDER
@@ -25,7 +25,7 @@ wb.add_worksheet(name: 'Notes') do |sheet|
 end
 
 
-titles = ['User', 'Wine Name', 'Region', 'Wine Style', 'Sugar', 'Grape Vairety', 'Alcohol', 'Final Award', 'Final Score']
+titles = ['User', 'Wine Group', 'Wine ID', 'Wine Name', 'Region', 'Wine Style', 'Sugar', 'Grape Vairety', 'Alcohol', 'Final Award', 'Final Score']
 
 wb.add_worksheet(name: 'Awards') do |sheet|
   sheet.add_row titles
@@ -47,7 +47,7 @@ wb.add_worksheet(name: 'Awards') do |sheet|
   @members.each do |member|
     member.final_awards.each do |award|
       wine     = award.wine
-      row_data = [member.name, wine.name, wine.region, wine.wine_style, wine.sugar, wine.grape_vairety, wine.alcohol, awards_maps[award.final], award.final_final_score]
+      row_data = [member.name, wine.wine_group.name, wine.uuid, wine.name, wine.region, wine.wine_style, wine.sugar, wine.grape_vairety, wine.alcohol, awards_maps[award.final], award.final_final_score]
       sheet.add_row row_data, :widths => [40, 10, 10, 10, 10, 20], :height => 30, :style => title
     end
     #Axlsx::STYLE_THIN_BORDER

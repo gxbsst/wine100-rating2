@@ -108,7 +108,15 @@ APP.controller 'MainController', ($scope, $window, $document, $http, $timeout) -
 
   $scope.submitWineNote = ->
     $scope.action = '/refinery/wines/export_wine_notes'
+)
+.controller('AdminMemberController', ($scope, $window) ->
 
+  $scope.action = '/refinery/members/export_user_note'
+  $scope.submitUserGroup = ->
+    $scope.action = '/refinery/user_groups/create_items'
+
+  $scope.submitUserNote = ->
+    $scope.action = 'refinery/members/export_user_note'
 )
 
 

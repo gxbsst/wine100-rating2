@@ -12,14 +12,17 @@
     border-bottom-right-radius: 6px;
   }
 </style>
-<section id='records'>
+<section id='records' ng-controller="AdminMemberController" >
 <%= link_to '导出E组用户相关数据', export_e_group_path() %>
-<%= form_tag refinery.create_items_user_groups_admin_user_groups_path do -%>
+<%#= form_tag refinery.create_items_user_groups_admin_user_groups_path do -%>
+<%= form_tag "{{action}}", 'ng-action' => "{{action}}" do -%>
   <%= render 'records' %>
   <%= select_user_group(params[:group_id]) %>
   <div class="form-actions">
     <div class="form-actions-left">
-      <%= submit_tag "将用户导入用户组", :class => "wymupdate button" %>
+      <%#= submit_tag "将用户导入用户组", :class => "wymupdate button" %>
+      <%= submit_tag "将用户导入用户组", :class => "wymupdate button", 'ng-click' => "submitUserGroup()"  %>
+      <%= submit_tag '导出所选用户所写品酒词', :class => "wymupdate button", 'ng-click' => 'SubmitUserNote()' %>
     </div>
   </div>
 <% end %>
@@ -28,3 +31,8 @@
 <%= render 'actions' %>
 </aside>
 <%= render '/refinery/admin/make_sortable', :tree => false if !searching? and ::Refinery::Members::Admin::MembersController.sortable? and ::Refinery::Members::Member.count > 1 %>
+
+<%= javascript_include_tag  'lib/angular/angular' %>
+<%= javascript_include_tag  'admin_app' %>
+<%= javascript_include_tag  'controllers/root_controller' %>
+<%= javascript_include_tag  'controllers/main_controller' %>

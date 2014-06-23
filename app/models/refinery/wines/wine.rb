@@ -13,6 +13,10 @@ module Refinery
 
       has_many :test_papers, :class_name => 'Refinery::TestPapers::TestPaper', :foreign_key => 'wine_id'
 
+      has_one :wine_group_item, :class_name => 'Refinery::WineGroups::WineGroupItem', :foreign_key => 'wine_id'
+
+      has_one :wine_group, :through => :wine_group_item
+
       def award_value
         return 0 unless self.award
         self.award.award.to_i

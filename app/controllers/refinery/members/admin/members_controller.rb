@@ -12,6 +12,12 @@ module Refinery
 
         end
 
+        def export_member_note
+          @members = ::User.where(:id => params[:member_ids])
+          render  :xlsx => 'export_user_notes',:filename =>  "user_notes", :disposition =>  'inline'
+
+        end
+
       end
     end
   end
