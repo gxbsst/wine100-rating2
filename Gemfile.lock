@@ -298,6 +298,7 @@ DEPENDENCIES
   mysql2 (= 0.3.18)
   pry
   puma
+  rack-cache
   rails (= 3.2.16)
   refinerycms (~> 2.0.0)!
   refinerycms-i18n (~> 2.0.0)

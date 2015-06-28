@@ -55,5 +55,6 @@ group :development do
 end
 
 group :production do
+  gem 'rack-cache', :require => 'rack/cache'
   gem 'puma'
 end
