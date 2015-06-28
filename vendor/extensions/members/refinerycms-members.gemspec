@@ -15,4 +15,5 @@ Gem::Specification.new do |s|
 
   # Development dependencies (usually used for testing)
   s.add_development_dependency 'refinerycms-testing', '~> 2.0.10'
+  s.authors       = ["Bishma Stornelli"]
 end

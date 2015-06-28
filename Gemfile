@@ -1,26 +1,26 @@
-source 'http://ruby.taobao.org'
+source 'https://ruby.taobao.org'
 #source 'http://ruby.taobao.org'
 gem 'rails', '3.2.16'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'mysql2'
+gem 'mysql2', '0.3.18'
 gem 'unicorn'
 # gem 'passenger'
 gem "cancan"
 gem 'kaminari'
-
+gem 'therubyracer'
+gem "less-rails"
 group :development, :test do
   gem "better_errors", '0.2.0'
   # gem "binding_of_caller"
   gem 'pry'  # "binding.pry" in action
   gem 'sextant'
-  gem 'capistrano-unicorn', :require => false
+  # gem 'capistrano-unicorn', :require => false
 end
 
-
-gem 'capistrano'
-gem 'rvm-capistrano'
+gem 'capistrano', '3.4.0'
+# gem 'rvm-capistrano'
 gem 'client_side_validations'
 
 
@@ -30,8 +30,7 @@ group :assets, :production do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
-  gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git'
-
+  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :tag => 'v2.2.7'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
