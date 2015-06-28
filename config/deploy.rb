@@ -34,10 +34,10 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
-set :puma_threads, [4,12]
-set :puma_workers, 0
-set :use_sudo, false
+# set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
+# set :puma_threads, [4,12]
+# set :puma_workers, 0
+# set :use_sudo, false
 
 namespace :deploy do
 
