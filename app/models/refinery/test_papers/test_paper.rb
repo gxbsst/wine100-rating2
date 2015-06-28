@@ -23,6 +23,17 @@ module Refinery
       def drink_window
         "#{drink_begin_at} to #{drink_end_at}"
       end
+
+      def set_position
+        # user_ids = Refinery::Members::Member.where(:name => LEADERS).collect(&:id)
+        # if user_ids.include? user_id
+        #   self.position = 1
+        # end
+      end
+
+      def code
+        "#{wine_group.name} #{wine.uuid}"
+      end
     end
   end
 end
