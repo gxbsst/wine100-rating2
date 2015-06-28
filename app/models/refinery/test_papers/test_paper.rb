@@ -11,6 +11,7 @@ module Refinery
       #validates :drink_begin_at, :drink_end_at, :length => { :is => 4 }, :numericality => { :only_integer => true }
       belongs_to :wine_group_item, :class_name => 'Refinery::WineGroups::WineGroupItem', :foreign_key => :group_item_id
       belongs_to :wine, :class_name => 'Refinery::Wines::Wine', :foreign_key => 'wine_id'
+      belongs_to :wine_group, :class_name => 'Refinery::WineGroups::WineGroup', :foreign_key => :wine_group_id
       belongs_to :user_group, :class_name => 'Refinery::UserGroups::UserGroup', :foreign_key => :user_group_id
       belongs_to :user, :class_name => '::User', :foreign_key => 'user_id'
 
