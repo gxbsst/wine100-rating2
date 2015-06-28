@@ -9,7 +9,7 @@ gem 'unicorn'
 # gem 'passenger'
 gem "cancan"
 gem 'kaminari'
-gem 'therubyracer'
+gem "therubyracer"
 gem "less-rails"
 gem 'client_side_validations'
 gem 'jquery-rails', '~> 2.0.0'
