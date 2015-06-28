@@ -14,11 +14,11 @@ module ChallengesHelper
 
   def edit_note_button(test_paper)
     if test_paper.new_record?
-      link_to 'javascript:void(0)', :class => 'open_toggle new_record' do
+      link_to 'javascript:;', :class => 'open_toggle new_record' do
         content_tag :i, ' New Note', :class => 'icon-file'
       end
     else
-      link_to 'javascript:void(0)', :class => :open_toggle do
+      link_to 'javascript:;', :class => :open_toggle do
         content_tag :i, ' Edit Note', :class => 'icon-edit'
       end
     end
