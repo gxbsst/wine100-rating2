@@ -1,3 +1,3 @@
-APP.controller 'RootController',['$scope', ($scope) ->
-  ]
+APP.controller 'RootController', ($scope) ->
+
 
