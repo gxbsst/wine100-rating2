@@ -14,6 +14,12 @@ module Refinery
       belongs_to :user_group, :class_name => 'Refinery::UserGroups::UserGroup', :foreign_key => :user_group_id
       belongs_to :user, :class_name => '::User', :foreign_key => 'user_id'
 
+      delegate :wine, :to => :wine_group_item
+
+      scope :fetch, lambda {|wine_id| where(:wine_id => wine_id)}
+      scope :fetch_for_group, lambda {|group_id| where(:group_id=> group_id)}
+      scope :fetch_for_wine_group, lambda {|wine_group_id| where(:wine_group_id=> wine_group_id)}
+
       def drink_window
         "#{drink_begin_at} to #{drink_end_at}"
       end
