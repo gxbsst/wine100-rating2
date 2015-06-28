@@ -1,80 +1,53 @@
-require "bundler/capistrano"
-require 'capistrano-unicorn'
+# config valid only for current version of Capistrano
+lock '3.4.0'
+
 set :application, "wine100-rating"
-set :scm, :git
+set :repo_url,  "git://github.com/gxbsst/wine100-rating2.git"
+# Default branch is :master
+set :branch, "v3"
+# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+
+# Default deploy_to directory is /var/www/my_app_name
+# set :deploy_to, '/var/www/my_app_name'
+set :deploy_to, "/home/deployer/apps/#{fetch(:application)}"
+
+# Default value for :scm is :git
+# set :scm, :git
+
+# Default value for :format is :pretty
+set :format, :pretty
+
+# Default value for :log_level is :debug
+set :log_level, :debug
+
+# Default value for :pty is false
+set :pty, true
+
+# Default value for :linked_files is []
+set :linked_files, fetch(:linked_files, []).push('config/database.yml')
+
+# Default value for linked_dirs is []
+set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
+
+# Default value for default_env is {}
+# set :default_env, { path: "/opt/ruby/bin:$PATH" }
+
+# Default value for keep_releases is 5
+# set :keep_releases, 5
+set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
+set :puma_threads, [4,12]
+set :puma_workers, 0
 set :use_sudo, false
-set :branch, ENV['BRUNCH'] || "master"
-default_run_options[:pty] = true
-ssh_options[:forward_agent] = true
-set :deploy_via, :remote_cache
-
-set :default_environment, {
-  'LANG' => 'en_US.UTF-8'
-}
-
-if ENV['RAILS_ENV'] =='production'
-  # set :application, "Wine100Rating"
-  set :default_environment, {
-    'PATH' => "/home/deployer/.rbenv/versions/2.0.0-p451/bin/:$PATH"
-  }
-  server "wine100-2-deployer", :web, :app, :db, primary: true
-  set :repository,  "git://github.com/gxbsst/wine100-rating2.git"
-  set :user, "deployer"
-  set :deploy_to, "/home/#{user}/apps/#{application}"
-else
-  set :default_environment, {
-    'PATH' => "/home/deployer/.rbenv/versions/2.0.0-p451/bin/:$PATH"
-  }
-  set :user, "deployer"
-  server "cancer", :web, :app, :db, primary: true
-  set :repository,  "git://github.com/gxbsst/wine100-rating2.git"
-  set :deploy_to, "/home/#{user}/apps/#{application}"
-end
 
 namespace :deploy do
-  task :start do ; end
-  task :stop do ; end
-  task :restart, :roles => :app, :except => { :no_release => true } do
-    run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+
+  after :restart, :clear_cache do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      # Here we can do anything such as:
+      # within release_path do
+      #   execute :rake, 'cache:clear'
+      # end
+    end
   end
-
-  task :setup_config, roles: :app do
-    run "mkdir -p #{shared_path}/config"
-    run "mkdir -p #{shared_path}/system"
-    run "mkdir -p #{shared_path}/uploads"
-    put File.read("config/database.yml.mysql"), "#{shared_path}/config/database.yml"
-    puts "Now edit the config files in #{shared_path}."
-  end
-
-  after "deploy:setup", "deploy:setup_config"
-
-  task :symlink_config, roles: :app do
-    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-    run "ln -nfs #{shared_path}/system #{release_path}/public/system"
-    run "ln -nfs #{shared_path}/uploads #{release_path}/public/uploads"
-    run "ln -nfs #{deploy_to}/current #{release_path}"
-  end
-  after "deploy:finalize_update", "deploy:symlink_config"
-
-  task :bundle_install do
-    run("cd #{deploy_to}/current; bundle install --path=vendor/gems")
-  end
-
-  #task :migration do
-  #run("cd #{deploy_to}/current; rake db:migrate ")
-  #end
-
-  task :change_tmp do
-    run("chmod -R 777 #{current_path}/tmp")
-  end
-
-  task :assets do
-    run("cd #{deploy_to}/current && bundle exec rake assets:precompile RAILS_ENV=production")
-  end
-  # after "deploy:finalize_update", "deploy:assets"
-
-  after 'deploy:restart', 'unicorn:reload'    # app IS NOT preloaded
-  after 'deploy:restart', 'unicorn:restart'   # app preloaded
-  after 'deploy:restart', 'unicorn:duplicate' # before_fork hook implemented (zero downtime deployments)
 
 end
