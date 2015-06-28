@@ -1,0 +1,754 @@
+"Wine English Name
+葡萄酒名称（英文）",,编号,Region,Grape Varieties,,"Wine Chinese Name
+葡萄酒名称（中文）","Wine English Name
+葡萄酒名称（英文）","Type
+类型","Vintage
+年份","Alcohol level
+酒精度","Residual Sugar Level
+甜度（g/L）"
+AIGLE NOIR VIOGNIER 2013 750ml ,1,AROM-A-1_01,France>South France>South France,Viognier_1,,黑鹰牌维奥涅尔白葡萄酒,AIGLE NOIR VIOGNIER 2013 750ml ,white,2013,0.13,干型
+"Dominio Del Plata, Crios de Susana Balbo  Torrontes",2,AROM-A-1_02,Argentina>Salta,Torrontes_1,,德米诺酒庄，西乐苏珊系列托龙特斯白,"Dominio Del Plata, Crios de Susana Balbo  Torrontes",White,2014,0.14,
+"Yalumba Y Series Viognier, South Australia",3,AROM-A-1_03,Australia>South Australia,,Viognier_1,御兰堡雅系列维安尼亚白葡萄酒,"Yalumba Y Series Viognier, South Australia",White Wine,2014,0.135,0.9
+Vins Sophora,4,AROM-A-1_04,New Zealand,,Gewurztraminer_0.8,槐梦园,Vins Sophora,半甜,NV,12.5,28
+Fattoria Nittardi Ben,5,AROM-B-1_05,Italy>TOSCANA>Chianti Classico,Vermentino_1,,尼塔帝酒庄繁星白葡萄酒,Fattoria Nittardi Ben,白葡萄酒,2013,0.13,
+ElephantHill Le Phant Blanc,6,AROM-B-1_06,New Zealand>Hawkes Bay,Viognier_0.6/Pinot Gris_0.31/Gewurztraminer_0.09,,象山酒庄乐朋白葡萄酒,ElephantHill Le Phant Blanc,干白,2013,0.145,
+Laurent Miquel Verite Viognier,7,AROM-B-1_07,France>Languedoc Roussillon,Viognier_1,,劳伦米格尔珍酿真理维欧尼干白葡萄酒,Laurent Miquel Verite Viognier,干白,2012,0.135,1.66
+Domaine Martin Schaetzel Gewurtztraminer Cuvee Reserve,8,AROM-B-1_08,France> Alsace,Gewurztraminer_1,,马丁·诗泽庄园珍藏琼瑶浆甜白葡萄酒,Domaine Martin Schaetzel Gewurtztraminer Cuvee Reserve,甜白,2012,0.135,
+"Benvenuto de la Serna Mil Piedras Viognier, Uco Valley Mendoza",9,AROM-B-2_09,Argentina>Mendoza>Uco Valley,Viognier_1,,本托·赛纳 砾石系列维欧尼干白葡萄酒,"Benvenuto de la Serna Mil Piedras Viognier, Uco Valley Mendoza",干白,2008,0.123,
+"Argiolas, Costamolino, Vermentino di Sardegna, DOC",10,AROM-B-2_10,Italy>Sardegna,Vermentino_1,,阿吉拉斯酒庄，科斯塔莫白,"Argiolas, Costamolino, Vermentino di Sardegna, DOC",White,2014,0.14,
+"Josmeyer, Gewurztraminer ""Les Folastries"", AOP",11,AROM-B-2_11,France>Alsace,Gewurztraminer_1,,"乔士迈庄园，""喜悦"" 琼瑶浆白","Josmeyer, Gewurztraminer ""Les Folastries"", AOP",White,2011,0.14,
+LES MARQUISES BLANC,12,AROM-B-2_12,France>Rhône Valley>Nimes,,Roussanne_0.9/Viognier_0.1,拉玛赫侯爵干白葡萄酒,LES MARQUISES BLANC,干白,2009,0.13,
+Gewurztraminer AOC,13,AROM-B-2_13,France>Alsace,,Gewurztraminer_1,,Gewurztraminer AOC,White,,,
+"Hugel et Fils Gewurztraminer, Alsace AOC",14,AROM-B-2_14,France>Alsace AOC,,Gewurztraminer_1,"雨果格乌香茗纳, 阿尔萨斯AOC","Hugel et Fils Gewurztraminer, Alsace AOC",White Wine,2012,0.141,4.38
+Vinoptima,18,AROM-C-2_15,New Zealand>Gisborne,,Gewurztraminer_1,维诺堤玛,Vinoptima,半甜,2008,14,20
+MONTEORO,16,AROM-C-2_16,Italy>Sardinia>Gallura,,vermentino_1,蒙特罗干白葡萄酒,MONTEORO,干白,2012,0.14,
+Grüner Veltliner Berg,17,AROM-C-2_17,Austria>Traisental,,Grüner Veltliner_1,,Grüner Veltliner Berg,white,2013,0.135,3.8
+Grüner Veltliner Alte Setzen,15,AROM-C-2_18,Austria>Traisental,,Grüner Veltliner_1,,Grüner Veltliner Alte Setzen,white,2013,0.135,3.6
+Casa Silva Reserva Carmenere 2013,1,CARM-A-1_01,Chile>Colchagua Valley>Colchagua Valley,Carmenere_1,,白银庄珍藏卡曼纳干红葡萄酒 2013,Casa Silva Reserva Carmenere 2013,red,2013,0.135,dry
+VISTAMAR Sepia Reserva Carmenere,2,CARM-A-1_02,Chile>Maipo Valley,,carmenere_1,维斯特玛-佳美娜怀旧珍藏干红葡萄酒 ,VISTAMAR Sepia Reserva Carmenere,干型,2013,0.13,
+TARAPACA GRAN RESERVA CARMENERE,3,CARM-B-1_03,Chile>MAIPO VALLEY,Carmenere_0.96/Syrah_0.04,,红蔓庄园特级珍藏卡曼尼红葡萄酒,TARAPACA GRAN RESERVA CARMENERE,red,2013,0.14,
+"Casa Silva Gran Reserva Carmenere,Los Lingues 2012",4,CARM-B-1_04,Chile>Colchagua Valley>Colchagua Valley,Carmenere_1,,白银庄骆铃园卡曼纳干红葡萄酒 2012,"Casa Silva Gran Reserva Carmenere,Los Lingues 2012",red,2012,0.14,dry
+ERRAZURIZ MAX RESERVA CARMENERE 2012 750ml ,5,CARM-B-1_05,Chile>Aconcagua Valley>Aconcagua Valley,Carmenere_1,,伊拉苏庄园珍藏佳美娜红葡萄酒,ERRAZURIZ MAX RESERVA CARMENERE 2012 750ml ,red,2012,0.14,干型
+FELICIA Cuvee San Esteban Gran Reserva 2010,6,CARM-B-1_06,Chile>Aconcagua,Carmenere_0.9/Merlot_0.05/Cabernet Sauvignon_0.05,,菲莉茜亚 圣埃斯特班特酿干红葡萄酒,FELICIA Cuvee San Esteban Gran Reserva 2010,Red,2010,0.14,1.56
+Errazuriz Single Vineyard Carmenere,7,CARM-C-1_07,Chile>Valle de Aconcagua,Carmenere_1,,单一葡萄园卡麦尼2013,Errazuriz Single Vineyard Carmenere,red,2013,0.14,
+Santa Rita Triple C,3,OTR-C,Chile>Maipo Valley,Cabernet Franc_0.55/Cabernet Sauvignon_0.3/Carmenere_0.15,,桑塔丽塔三丽人红葡萄酒,Santa Rita Triple C,Red,2005,0.145,
+Flirt Red Blend California,9,CGS-A,USA>California>Mendocino,Carignan_0.2/Tempranillo_0.13/Grenache_0.12/Syrah_0.55,,加州年代酒庄迷情红葡萄酒,Flirt Red Blend California,Red Wine,2011,0.135,
+"Dark Horse™ Chardonnay
+California
+",1,CH-A,USA>California>Central Valley,Chardonnay_1,,骏琪霞多丽白葡萄酒,"Dark Horse™ Chardonnay
+California
+",Semi-Dry,2012,0.135,
+Three Bears Chardonnay,2,CH-A,USA>California>Sonoma County,Chardonnay_1,,三只熊霞多丽干白葡萄酒,Three Bears Chardonnay,White,2012,0.143,Dry
+ESTANCIA MENDOZA Chardonnay,4,CH-A,Argentina〉Mendoza,Chardonnay_1,,艾丽莎门多萨霞多丽干白葡萄酒,ESTANCIA MENDOZA Chardonnay,White,2014,0.125,
+Vino De Guarda Esmeralda Fernandez Chardonnay,5,CH-A,"Argentina>Mendoza>La perforin da，Tupungato
+",Chardonnay_1,,瓜尔达埃斯梅拉达 费尔南德斯 夏多纳,Vino De Guarda Esmeralda Fernandez Chardonnay,干型,2013,0.135,
+"Vina Casablanca, Cefiro Chardonnay",6,CH-A,Chile>Casablanca Valley,Chardonnay_1,,卡萨布兰卡酒庄，天逸珍藏系列 霞多丽白,"Vina Casablanca, Cefiro Chardonnay",White,2013,0.14,
+"Warwick, The First Lady Unoaked Chardonnay",10,CH-A,South Africa>Stellenbosch,,Chardonnay_1,沃悦客酒庄，第一夫人霞多丽白,"Warwick, The First Lady Unoaked Chardonnay",White,2014,0.13,
+OLD COACH ROAD Unoaked Chardonnay,1,CH-A,New Zealand>Nelson,,Chardonnay_1,蔻驰大道-霞多丽白葡萄酒,OLD COACH ROAD Unoaked Chardonnay,干型,2014,0.13,
+Beringer California Chardonnay,3,CH-A,USA>California,,Chardonnay,贝灵哲庄园加州精选莎当妮白葡萄酒,Beringer California Chardonnay,,2013,,
+"Villa Maria Private Bin Chardonnay, East Coast",2,CH-A,New Zealand>East Coast,,Chardonnay_1,新玛利庄园东海岸珍匣霞多丽,"Villa Maria Private Bin Chardonnay, East Coast",White Wine,2013,0.13,2.3
+Flinders 2012 Chardonnay,1,CH-AU-A,Australia>South Australia ,Chardonnay_1,,富临发现者霞多丽葡萄酒（2012）,Flinders 2012 Chardonnay,干白,2012,0.13,2.71g/L
+Rockart Estate Reserve Release Chardonnay ,2,CH-AU-A,Australia>Adelaide Hills,Chardonnay_1,,洛特庄园收藏霞多丽干白,Rockart Estate Reserve Release Chardonnay ,干白,2009,0.13,4.0g/L
+Taylors Estate Chardonnay ,3?,CH-AU-A,Australia>South Australia,,Chardonnay,泰勒氏庄园臻选莎当妮白葡萄酒,Taylors Estate Chardonnay ,,2014,,
+"Yalumba Y Series Unwooded Chardonnay, South Australia",4,CH-AU-A,Australia>South Australia,,Chardonnay_1,御兰堡雅系列馥郁夏多内白葡萄酒,"Yalumba Y Series Unwooded Chardonnay, South Australia",White Wine,2013,0.135,
+Jacob's Creek Reserve Barossa Chardonnay,6,CH-AU-B,Australia>South Australia>Adelaide,Chardonnay_1,,杰卡斯珍藏阿德莱德山霞多丽,Jacob's Creek Reserve Barossa Chardonnay,干白,2013,0.13,2
+GRANT BURGE 5TH GENERATION BAROSSA CHARDONNAY 2014 750ml ,7,CH-AU-B,Australia>Barossa>Barossa,Chardonnay_1,,格兰伯爵第五代巴罗萨霞多丽白葡萄酒,GRANT BURGE 5TH GENERATION BAROSSA CHARDONNAY 2014 750ml ,white,2014,0.125,干型
+TOOLANGI CHARDONNAY,8,CH-AU-B,Australia>Yarra>Dixons Creek,,Chardonnay_1,图朗吉庄园霞多丽干白葡萄酒,TOOLANGI CHARDONNAY,干型,2012,0.135,1.1
+Taylors Jaraman Chardonnay ,9?,CH-AU-B,Australia>South Australia,,Chardonnay,泰勒氏海马缘莎当妮白葡萄酒,Taylors Jaraman Chardonnay ,,2014,,
+Wynns Connawarra Estate Chardonnay ,10,CH-AU-B,Australia>South Eastern Australia,,Chardonnay,酝思古纳华拉庄园霞多丽干白葡萄酒,Wynns Connawarra Estate Chardonnay ,,2014,,
+Wolf Blass Gold Label Chardonnay,11,CH-AU-B,Australia>South Australia,,Chardonnay,澳大利亚禾富酒园金牌莎当妮干白葡萄酒,Wolf Blass Gold Label Chardonnay,,2013,,
+Stella Bella Chardonnay,5,CH-AU-B,Australia>Margaret River,,Chardonnay_1,斯黛拉贝勒酒园霞多丽白,Stella Bella Chardonnay,White,2011,0.128,1.3
+TOOLANGI RESERVE CHARDONNAY,13,CH-AU-C,Australia>Yarra>Dixons Creek,,Chardonnay_1,图朗吉庄园霞多丽珍藏干白葡萄酒,TOOLANGI RESERVE CHARDONNAY,干型,2008,0.14,
+Morillon Muschelkalk,12?,CH-AU-C,Austria>Südsteiermark,,Chardonnay_1,,Morillon Muschelkalk,white wine,2013,0.125,1
+ERRAZURIZ MAX RESERVA CHARDONNAY 2013 750ml ,7,CH-B,Chile>Aconcagua Valley>Aconcagua Valley,Chardonnay_1,,伊拉苏庄园珍藏莎当妮白葡萄酒,ERRAZURIZ MAX RESERVA CHARDONNAY 2013 750ml ,white,2013,0.135,干型
+LAMELLE IGT TOSCANA VINO BIANCO 2012 750ml ,8,CH-B,Italy>TOSCANA>TOSCANA,Chardonnay_1,,勃罗家族拉美白葡萄酒,LAMELLE IGT TOSCANA VINO BIANCO 2012 750ml ,white,2012,0.12,干型
+"Villa Maria Cellar Selection Chardonnay, Marlborough",3,CH-B,New Zealand>Marlborough,,Chardonnay_1,新玛利庄园马尔堡窖藏精选霞多丽,"Villa Maria Cellar Selection Chardonnay, Marlborough",White Wine,2014,0.135,1
+"Villa Maria Reserve Chardonnay, Marlborough",4,CH-B,New Zealand>Martinborough,,Chardonnay_1,新玛利庄园马尔堡珍藏霞多丽,"Villa Maria Reserve Chardonnay, Marlborough",White Wine,2013,0.135,0
+CRAGGY RANGE Kidnappers Chardonnay,5,CH-B,New Zealand>Hawke's Bay,,Chardonnay_1,克拉吉酒庄，劫湾霞多丽白,CRAGGY RANGE Kidnappers Chardonnay,White,2013,,
+Hawksdrift Chardonnay barrel fermented,6,CH-C,New Zealand>Marlborough,Chardonnay_1,,飞鹰堡白金霞多丽白葡萄酒,Hawksdrift Chardonnay barrel fermented,干白,2012,0.1375,
+Giacomo Bologna Braida Asso di Fiori-Langhe Chardonnay,9,CH-C,Italy>Piedmont,Chardonnay_1,,百莱达酒庄梅花幺点葡萄酒,Giacomo Bologna Braida Asso di Fiori-Langhe Chardonnay,干红,2011,0.135,
+Bouchard P&F Beaune du Chateau Blanc,5？,CH-FR-,France>Burgundy>Beaune 1er Cru AOC ,,Chardonnay_1,"宝尚父子博恩古堡白, 博恩一级葡萄园AOC",Bouchard P&F Beaune du Chateau Blanc,White Wine,2012,0.135,
+DOMAINE PAQUET BOURGOGNE CHARDONNAY 2013 750ml ,1,CH-FR-A,France>Burgundy>Burgundy,Chardonnay_1,,帕克特庄园勃艮第霞多丽白葡萄酒,DOMAINE PAQUET BOURGOGNE CHARDONNAY 2013 750ml ,white,2013,0.13,干型
+HENRI MEURGEY BOURGOGNE CHARDONNAY AOC 2010 750ml ,2,CH-FR-A,France>Burgundy>Burgundy,Chardonnay_1,,亨利默杰勃艮第霞多丽白葡萄酒,HENRI MEURGEY BOURGOGNE CHARDONNAY AOC 2010 750ml ,white,2010,0.13,干型
+DOMAINE DE L AIGLE CHARDONNAY 2013 750ml ,6,CH-FR-B,France>South France>South France,Chardonnay_1,,莱格勒庄园莎当妮白葡萄酒,DOMAINE DE L AIGLE CHARDONNAY 2013 750ml ,white,2013,0.13,干型
+DOMAINE PAQUET POUILLY FUISSE VIEILLES VIGNES 2012 750ml,7,CH-FR-B,France>Burgundy>Burgundy,Chardonnay_1,, 帕克特庄园普依福斯老藤白葡萄酒,DOMAINE PAQUET POUILLY FUISSE VIEILLES VIGNES 2012 750ml,white,2012,0.13,干型
+"Roux Père & Fils, Chablis Blanc, AOP",8,CH-FR-B,France>Burgundy>Chablis,Chardonnay_1,,胡氏父子酒庄，夏布利白,"Roux Père & Fils, Chablis Blanc, AOP",White,2013,0.13,
+Herve Kerlann Pouilly Fuisse,9,CH-FR-B,France>Pouilly Fuisse,,Chardonnay_1,柯澜酒庄普伊富赛霞多丽干白葡萄酒,Herve Kerlann Pouilly Fuisse,干白,2011,0.13,
+Villars-Fontaine                  ,10,CH-FR-B,France >Hautes-Cotes de Nuits                 ,,chardonnay_1,枫丹城堡干白葡萄酒,Villars-Fontaine                  ,white,2001,0.13,
+"William Fevre, Petit Chablis AOC",11,CH-FR-B,France>Burgundy>Petit Chablis AOC,,Chardonnay_1,"威廉费尔, 小夏布利AOC","William Fevre, Petit Chablis AOC",White Wine,2013,0.12,
+"William Fevre, Chablis AOC(D)",12,CH-FR-B,France>Burgundy>Chablis AOC,,Chardonnay_1,"威廉费尔, 夏布利AOC","William Fevre, Chablis AOC(D)",White Wine,2013,0.125,
+Great wall Desert Fox chardonnay,1,CHINA-CH-A,China>Ningxia>Yinchuan,Chardonnay_1,,长城沙狐霞多丽干白葡萄酒,Great wall Desert Fox chardonnay,dry   white  wine,2013,0.13,
+"XIXIA KING
+Dry white wine
+Chardonnay",2,CHINA-CH-A,China>East Helan Mountain Wine Region>YuQuan Ying,,Chardonnay_1,西夏王玉泉国际酒庄霞多丽干白（佳品）,"XIXIA KING
+Dry white wine
+Chardonnay",干白,2013,0.115,2
+XIXI KING Dry white wine Chardonnay,3,CHINA-CH-A,China>East Helan Mountain Wine Region>YuQuan Ying,,Chardonnay_1,西夏王玉泉国际酒庄霞多丽干白（典藏）,XIXI KING Dry white wine Chardonnay,干白,2012,0.115,2
+Coldentimesfazenda Gold Period Chardonnay,4,CHINA-CH-A,China>Shandong>Yantai,,Chardonnay_1,金色时代生态小葡夏酝霞多丽干白葡萄酒,Coldentimesfazenda Gold Period Chardonnay,干型,2013,0.12,
+Helan Mountain Special Reserve Chardonnay,7,CHINA-CH-B,China>Ningxia,Chardonnay_1,,贺兰山珍藏霞多丽,Helan Mountain Special Reserve Chardonnay,干白,2011,0.13,2.8
+,8,CHINA-CH-B,China>Yantai>Penglai,,Chardonnay_1,瑞枫-奥塞斯酒庄窖藏霞多丽,,干型,2013,0.13,3.5g/L
+Densiho Chardonnay ,5,CHINA-CH-B,China>Beijing>Fangshan,,Chardonnay_1,丹世红霞多丽干白葡萄酒,Densiho Chardonnay ,Dry white,2013,0.13,0.5
+Chateau Hedong Selection Chardonnay,10,CHINA-CH-C,China>Ningxia>East Helan Mountain Wine Region,,Chardonnay_1,贺东庄园精选霞多丽干白,Chateau Hedong Selection Chardonnay,干型,2014,0.13,2.5
+Chateau Hedong  Chardonnay,9,CHINA-CH-C,China>Ningxia>East Helan Mountain Wine Region,,Chardonnay_1,贺东庄园霞多丽干白,Chateau Hedong  Chardonnay,干型,2014,0.13,2.7
+ZhenGe 2012,1,CHINA-CS-A,China>Ningxia>GanChengZi,Cabernet Sauvignon_0.9/Merlot_0.05/Cabernet Gernischt_0.05              ,,甄歌赤霞珠2012,ZhenGe 2012,干型,2012,0.13,4
+He Yufour-star boutique red,2,CHINA-CS-A,China>Ningxia Helan Mountain,Cabernet Sauvignon_0.5/Cabernet Gernischt_0.5                ,,贺玉四星精品干红,He Yufour-star boutique red,干型,2012,0.133,
+Cabernet Sauvignon,3,CHINA-CS-A,China>Ningxia>Helan Mountain,Cabernet Sauvignon_0.9                ,,紫尚手选赤霞珠干红葡萄酒,Cabernet Sauvignon,干型,2013,14.60,
+Chateau Junding Oriental Red,6,CHINA-CS-A,China>Yantai>Penglai,Cabernet Sauvignon_0.8/Merlot_0.2                ,,君顶东方高级干红葡萄酒,Chateau Junding Oriental Red,干型,2012,0.132,4.8
+Beitelan,7,CHINA-CS-A,China>Helan Mountain>GongSiBao Area,Cabernet Sauvignon_1                ,,贝特兰手选赤霞珠,Beitelan,干型,2012,0.13,
+"GeLiya 2013cabernet sauvignon red wine, the language of flowers - quills grass ",8,CHINA-CS-A,China>East Helan Mountain Wine Region,,Cabernet Sauvignon_1,戈丽雅2013赤霞珠干红葡萄酒花之语-刺儿草,"GeLiya 2013cabernet sauvignon red wine, the language of flowers - quills grass ",果香型,2013,13.5,
+,9,CHINA-CS-A,China>Xinjiang>Heyi,,Cabernet Sauvignon_0.8/Merlot_0.2,臣禹酒庄有机干红葡萄酒（窖藏级）,,干红,2013,0.13,
+XIA ZUN cabernet sauvignon dry red wine,10,CHINA-CS-A,"China>Ningxia>East Helan Mountain Wine Region
+",,Cabernet Sauvignon_0.85/Merlot_0.15,夏尊赤霞珠干红葡萄酒,XIA ZUN cabernet sauvignon dry red wine,干型,2014,0.134,3
+XIA ZUN cabernet sauvignon dry red wine,10,CHINA-CS-A,"China>Ningxia>East Helan Mountain Wine Region
+",,Cabernet Sauvignon_0.8/Merlot_0.1/Cabernet Gernischt_0.05,夏尊干红葡萄酒,XIA ZUN cabernet sauvignon dry red wine,干型,2014,0.134,2.5
+"Kanaan Gutenland, Ningxia Helan Moutain",12,CHINA-CS-A,China>Ningxia>Helan Moutain,,Cabernet Sauvignon/Merlot/Cabernet Gernischet ,"迦南美地古藤兰红葡萄酒, 宁夏贺兰山东麓","Kanaan Gutenland, Ningxia Helan Moutain",Red Wine,2013,0.125,
+"Roshan
+ hoard dry 
+red wine",13,CHINA-CS-A,China>East Helan Mountain Wine Region>Dongshibao district,,Cabernet Sauvignon_1           ,"罗山窖藏
+干红葡萄酒","Roshan
+ hoard dry 
+red wine",平静,2012,0.125,
+Helan Mountain Special Reserve Cabernet Sauvignon,16,CHINA-CS-B,China>Ningxia,Cabernet Sauvignon_0.9/Merlot_0.1                ,,贺兰山珍藏赤霞珠,Helan Mountain Special Reserve Cabernet Sauvignon,干红,2012,0.14,3.6
+Chateau Changyu Moser XV,17,CHINA-CS-B,China>Helan Mountain>YinChuan City,Cabernet Sauvignon_0.8/Merlot_0.15/Syrah_0.05               ,,张裕摩塞尔十五世酒庄干红葡萄酒,Chateau Changyu Moser XV,Dry Red Wine,2010,0.13,4
+Moser Family Cabernet Sauvignon,18,CHINA-CS-B,China>Helan Mountain>YinChuan City,Cabernet Sauvignon_0.8/Merlot_0.2               ,,摩塞尔家族赤霞珠干红葡萄酒,Moser Family Cabernet Sauvignon,Dry Red Wine,2010,0.125,4
+ZhenGe 2012,1,CHINA-CS-B,China>Ningxia>ZhenBeiBao,Cabernet Sauvignon_1                ,,静嘉 2012,ZhenGe 2012,干型,2012,0.135,4
+NIYA Winemaker Cabernet Sauvignon Dry Red Wine Resreve,20,CHINA-CS-B,China>Xinjiang Tianshan Mountain>Mahe Grape Garden,Cabernet Sauvignon_1                ,,尼雅酿酒师珍藏赤霞珠干红,NIYA Winemaker Cabernet Sauvignon Dry Red Wine Resreve,干型,2013,0.135,
+,21,CHINA-CS-B,China>Ningxia Helan Mountain>GongSiBao Region,Cabernet Sauvignon_1                ,, 千红裕    铂金级赤霞珠干红,,    干型,2013,0.133,3.5
+,22,CHINA-CS-B,China>Ningxia Helan Mountain>GongSiBao Region,Cabernet Sauvignon_0.7/Merlot_0.3                ,, 千红裕    钻石级赤霞珠干红,,    干型,2013,0.133,3.8
+Shengtang CS Dry Red Wine,23,CHINA-CS-B,China>Yantai>Penglai,Cabernet Sauvignon_1                ,,盛唐赤霞珠干红葡萄酒,Shengtang CS Dry Red Wine,干红,2011,0.135,
+Pushang Cabernet Sauvignon,24,CHINA-CS-B,China>Ningxia>Helan Mountain,Cabernet Sauvignon_1                ,,蒲尚赤霞珠,Pushang Cabernet Sauvignon,干型,2013,0.141,
+Chateau Ryden,25,CHINA-CS-B,China>Beijing>Fangshan District,,Cabernet Sauvignon_1,瑞登堡干型红葡萄酒,Chateau Ryden,干,2013,0.13,
+Yuange 2013 Collection Cabernet Sauvignon dry red wine,26,CHINA-CS-B,China>East Helan Mountain Wine Region,,Cabernet Sauvignon_1,原歌2013珍藏.赤霞珠干红葡萄酒,Yuange 2013 Collection Cabernet Sauvignon dry red wine,干型,2013,0.141,
+Yuange 2012 Collection Cabernet Sauvignon dry red wine,27,CHINA-CS-B,China>East Helan Mountain Wine Region,,Cabernet Sauvignon_1,原歌2012珍藏.赤霞珠干红葡萄酒,Yuange 2012 Collection Cabernet Sauvignon dry red wine,干型,2012,0.141,
+Cabernet Sauvignon Organic Dry Red Wine ,28,CHINA-CS-B,"China>East Helan Mountain Wine Region>Yongning district
+",,Cabernet Sauvignon_0.85/Merlot_0.15,赤霞珠有机干红葡萄酒,Cabernet Sauvignon Organic Dry Red Wine ,干型,2012,0.14,1.5
+"Kanaan Pretty Pony, Ningxia Helan Moutain",29,CHINA-CS-B,China>Ningxia>Helan Moutain,,Cabernet Sauvignon_0.9/Merlot_0.1,"迦南美地小马驹红葡萄酒, 宁夏贺兰山东麓","Kanaan Pretty Pony, Ningxia Helan Moutain",Red Wine,2013,0.14,
+"Roshan
+ preferred
+ dry red
+ wine",30,CHINA-CS-B,China>East Helan Mountain Wine Region>Dongshibao district,,Cabernet Sauvignon_1,罗山手选级干红葡萄酒,"Roshan
+ preferred
+ dry red
+ wine",平静,2012,0.125,
+Coldentimesfazenda Gold Period Cabernet Sauvignon,31,CHINA-CS-B,China>Shandong>Yantai,,Cabernet Sauvignon_1,金色时代生态小葡冬酿赤霞珠干红葡萄酒,Coldentimesfazenda Gold Period Cabernet Sauvignon,干型,2013,0.125,
+Cabernet Sauvignon Dry Red Wine,32,CHINA-CS-B,China>northern offshoot of Mt.Tianshan>Changji district,,Cabernet Sauvignon_0.9,新疆唐庭霞露赤霞珠干红葡萄酒,Cabernet Sauvignon Dry Red Wine,干型葡萄酒,2013,0.13,
+,33,CHINA-CS-B,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.85/Merlot_0.15,聖威蘭,,干型,2013,0.14,
+,34,CHINA-CS-B,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.2/Merlot_0.2    ,威蘭尼诺,,干型,2013,0.14,
+,35,CHINA-CS-B,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.85/Merlot_0.15,聖威蘭,,干型,2014,0.135,
+,36,CHINA-CS-B,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.2/Merlot_0.2    ,威蘭尼诺,,干型,2014,0.13,
+Cabernet Sauvignon,3,CHINA-CS-B,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.8/Merlot_0.2,贺兰芳华赤霞珠,Cabernet Sauvignon,橡木陈酿,2012,15,3
+Hansen 2008,38,CHINA-CS-B,China>West China>Wu hai,,Cabernet Sauvignon_0.7/Cabernet Gernischt_0.25/Cabernet Franc_0.05,庄园2008干红葡萄酒,Hansen 2008,平静葡萄酒/still wine,2008,14.00,
+LAN CUI,39,CHINA-CS-B,China>Helan Mountain,,Cabernet Sauvignon_0.8/Merlot_0.2               ,览翠,LAN CUI,干型,2012,13%vol,》3/L
+YuanRun Cabernet Sauvignon Dry Wine,40,CHINA-CS-C,China>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.85/Merlot_0.15,圆润珍藏赤霞珠干红葡萄酒,YuanRun Cabernet Sauvignon Dry Wine,红葡萄酒,2013,0.135,2.66
+,41,CHINA-CS-C,China>The Hexi Corridor>Jiayuguan,,Cabernet Sauvignon_0.85/Merlot_0.15,陈酿赤霞珠干红葡萄酒,,,,13.5,
+"Kanaan Black Beauty, Ningxia Helan Moutain",42,CHINA-CS-C,China>Ningxia>Helan Moutain,,Cabernet Sauvignon_0.7/Merlot_0.3,"迦南美地黑骏马红葡萄酒, 宁夏贺兰山东麓","Kanaan Black Beauty, Ningxia Helan Moutain",Red Wine,2011,0.14,
+Chateau Hedong Cabernet Sauvignon,43,CHINA-CS-C,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.8/Cabernet Franc_0.1/Cabernet Gernischt_0.1,贺东庄园赤霞珠干红,Chateau Hedong Cabernet Sauvignon,干型,2012,0.125,3
+Chateau Hedong Selection Cabernet Sauvignon,44,CHINA-CS-C,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Sauvignon_0.9/Cabernet Franc_0.1,贺东庄园窖藏赤霞珠干红,Chateau Hedong Selection Cabernet Sauvignon,干型,2013,0.125,3
+Moser Family Merlot,1,CHINA-ME-A,China>Helan Mountain>YinChuan City,Merlot_0.85/Cabernet Sauvignon_0.15,,摩塞尔家族美乐干红葡萄酒,Moser Family Merlot,Dry Red Wine,2010,0.129,5.7
+Great wall Gobi vineyard  Merlot and  Cabernet Sauvignon,7,CHINA-ME-A,China>Ningxia>Yinchuan,Merlot_0.7/Cabernet Sauvignon_0.3,,长城大漠葡园梅鹿辄/赤霞珠干红葡萄酒,Great wall Gobi vineyard  Merlot and  Cabernet Sauvignon,dry   red    wine,2012,0.13,
+Great wall Desert Fox Merlot,2,CHINA-ME-A,China>Ningxia>Yinchuan,Merlot_1,,长城沙狐梅鹿辄干红葡萄酒,Great wall Desert Fox Merlot,dry red  wine,2013,0.13,
+Huahao Winery Melot 2013,3,CHINA-ME-A,China>Ningxia>Qingtongxia,Merlot_1,,华昊酒庄梅鹿辄2013,Huahao Winery Melot 2013,干,2013,0.13,4
+"XIXIA KING
+Envoy of Merlot Dry Red Wine
+",4,CHINA-ME-A,China>East Helan Mountain Wine Region>YuQuan Ying,,Merlot_1,西夏王外交使者美乐干红,"XIXIA KING
+Envoy of Merlot Dry Red Wine
+",干红,2013,0.12,2
+XIXI KING Dry Red wine Merlot,5,CHINA-ME-A,China>East Helan Mountain Wine Region>YuQuan Ying,,Merlot_1,西夏王玉泉国际酒庄美乐干红（典藏）,XIXI KING Dry Red wine Merlot,干红,2012,0.125,2
+Yellow River Merlot,6,CHINA-ME-A,China>West China>Wu hai,,Merlot_1,黄河梅鹿辄干红葡萄酒,Yellow River Merlot,平静葡萄酒/still wine,2012,12.50,
+YuanRun Merlot Dry Wine,9,CHINA-ME-C,China>East Helan Mountain Wine Region,,Merlot_0.85/Cabernet Sauvignon_0.15,圆润珍藏梅鹿辄干红葡萄酒,YuanRun Merlot Dry Wine,红葡萄酒,2013,0.13,2.58
+Densiho Reserve Red Wine ,10,CHINA-ME-C,China>Beijing>Fangshan,,Merlot_0.8/Cabernet Sauvignon_0.13/Petit Verdot_0.07,丹世红珍藏版干红葡萄酒,Densiho Reserve Red Wine ,Dry Red,2014,0.125,0.8
+Cabernet Gernischt,1,CHINA-OTR-A,China>Ningxia>Helan Mountain,Cabernet Gernischt_0.85,,紫尚手选蛇龙珠干红葡萄酒,Cabernet Gernischt,干型,2013,14.60,
+Great wall Desert Fox Pinot Noir,2,CHINA-OTR-A,China>Ningxia>Yinchuan,Pinot Noir_1,,长城沙狐黑比诺干红葡萄酒,Great wall Desert Fox Pinot Noir,Dry  red  wine,2013,0.13,
+Shengtang Marselan Dry Red Wine,3,CHINA-OTR-A,China>Yantai>Penglai,Marselan_1,,盛唐马瑟兰干红葡萄酒,Shengtang Marselan Dry Red Wine,干红,2011,0.13,
+Weilong Organic Wine Marselan,4,CHINA-OTR-A,China>Gansu>Helan Mountain,Marselan_1,,威龙有机葡萄酒玛瑟兰,Weilong Organic Wine Marselan,干红葡萄酒,2012,13% v/v,11
+"XIXIA KING
+Dry red wine
+Cabernet Gernischt ",5,CHINA-OTR-A,China>East Helan Mountain Wine Region>YuQuan Ying,,Cabernet Gernischt_1,西夏王玉泉国际酒庄蛇龙珠干红（上品）,"XIXIA KING
+Dry red wine
+Cabernet Gernischt ",干红,2013,0.12,2
+Chateau Hedong Cabernet Franc,6,CHINA-OTR-A,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Franc_0.82/Shiraz_0.08/Cabernet Gernischt_0.1,贺东庄园品丽珠干红,Chateau Hedong Cabernet Franc,干型,2014,0.13,3.1
+Mogaoku Diancang Pinot Noir Dry Red Wine,7,CHINA-OTR-A,China>Northwest China>Dun Huang,,Pinot Noir_0.85/Merlot_0.15,莫高窟典藏黑比诺干红葡萄酒,Mogaoku Diancang Pinot Noir Dry Red Wine,干红葡萄酒,2013,0.13,230
+Mogaoku Zhencang Pinot Noir Dry Red Wine,8,CHINA-OTR-A,China>Northwest China>Dun Huang,,Pinot Noir_0.85/Merlot_0.16,莫高窟珍藏黑比诺干红葡萄酒,Mogaoku Zhencang Pinot Noir Dry Red Wine,干红葡萄酒,2013,0.13,230
+Pushang Marselan,9,CHINA-OTR-B,China>Ningxia>Helan Mountain,Marselan_0.9/Cabernet Sauvignon_0.1,,蒲尚马瑟兰,Pushang Marselan,干型,2013,15.1%,
+"Chateau Shapotou ,cabernet Gernischt2013",10,CHINA-OTR-B,China>Helan Mountain>Zhongweishapotou,,Cabernet Gernischt_1,沙坡头蛇龙珠2013,"Chateau Shapotou ,cabernet Gernischt2013",,2013,0.13,4
+HE LAN STONE,11,CHINA-OTR-B,China>Helan Mountain,,Pinot Noir_0.5/Cabernet Franc_0.5,贺兰石,HE LAN STONE,干型,2014,13%vol,》3/L
+Shiraz Organic Dry Red Wine ,16,CHINA-OTR-C,"China>East Helan Mountain Wine Region>Yongning district
+",,Shiraz_0.85/Cabernet Sauvignon_0.15,西拉有机干红葡萄酒,Shiraz Organic Dry Red Wine ,干型,2012,0.14,1.5
+Ruan Yun Shiraz Dry Wine,12,CHINA-OTR-C,China>East Helan Mountain Wine Region,,Shiraz_0.85/Cabernet Sauvignon_0.1/Merlot_0.05,圆润珍藏西拉干红葡萄酒,Ruan Yun Shiraz Dry Wine,红葡萄酒,2013,0.13,2.72
+,15,CHINA-OTR-C,China>Yantai>Penglai,,Cabernet Franc_0.9/Cabernet Sauvignon_0.05/Merlot_0.05,瑞枫-奥塞斯酒庄窖藏品丽珠,,干型,2011,0.13,3.5g/L
+,13,CHINA-OTR-C,China>Yantai>Penglai,,Shiraz_0.9/Cabernet Sauvignon_0.05/Merlot_0.05,瑞枫-奥塞斯酒庄窖藏西拉,,干型,2011,0.13,3.5g/L
+Chateau Hedong latitude 38°N,14,CHINA-OTR-C,China>Ningxia>East Helan Mountain Wine Region,,Cabernet Franc_0.6/Cabernet Sauvignon_0.3/Cabernet Gernischt_0.1,贺东庄园北纬38°特级干红,Chateau Hedong latitude 38°N,干型,2012,0.125,2.6
+NIYA Winemaker Riesling Dry White Wine,1,CHINA-OTW-A,China>Xinjiang Tianshan Mountain>Tianchi Grape Garden,Riesling_1,,尼雅酿酒师雷司令干白,NIYA Winemaker Riesling Dry White Wine,干型,2013,0.12,
+Grea twall  Gobi  vineyand   chenin  blanc,2,CHINA-OTW-A,China>Ningxia>Yinchuan,Chenin  blanc_0.8/Chardonnay_0.2,,长城大漠葡园白诗南干白葡萄酒,Grea twall  Gobi  vineyand   chenin  blanc,dry   white  wine,2013,0.125,
+Chateau Junding Oriental White,3,CHINA-OTW-A,China>Yantai>Penglai,Riesling_1,,君顶东方高级干白葡萄酒,Chateau Junding Oriental White,干型,2013,0.122,1.3
+Weilong Organic Wine Viognier,4,CHINA-OTW-A,China>Gansu>Helan Mountain,Viognier_1,,威龙有机葡萄酒维欧尼,Weilong Organic Wine Viognier,干白,2013,12% v/v,11
+XIXI KING Italy Riesling,5,CHINA-OTW-A,China>East Helan Mountain Wine Region>YuQuan Ying,,ItalianRiesling_1,西夏王玉泉国际酒庄贵人香干白葡萄酒,XIXI KING Italy Riesling,干白,2013,0.12,2
+Italian Riesling/Riesling Organic Dry White Wine,6,CHINA-OTW-B,"China>East Helan Mountain Wine Region>Yongning district
+",,ItalianRiesling_0.6/Riesling_0.4,贵人香/雷司令有机干白葡萄酒,Italian Riesling/Riesling Organic Dry White Wine,干型,2014,0.13,1
+Ruan Noble Incense Semi-dry White wine,7,CHINA-OTW-C,China>East Helan Mountain Wine Region,,Italian Riesling,圆润贵人香半干白葡萄酒,Ruan Noble Incense Semi-dry White wine,白葡萄酒,2013,0.13,2.72
+Great wall  Gobi vineyard  Rose  wine,1,CHINA-Rose-A,China>Ningxia>Yinchuan,Cabernet Sauvignon_1                ,,长城大漠葡园桃红葡萄酒,Great wall  Gobi vineyard  Rose  wine,dry   rose   wine,2014,0.115,
+,2,CHINA-Rose-A,"China>Ningxia>East Helan Mountain Wine Region
+",,,东麓缘桃红葡萄酒,,干,2014,0.125,
+Densiho Rose Wine ,3,CHINA-Rose-B,China>Beijing>Fangshan,,Merlot_0.8/Cabernet Franc_0.2,丹世红桃红葡萄酒,Densiho Rose Wine ,Dry Rose,2014,0.13,0.6
+,1,CHINA-SWEET-A,China>Jilin,,,晚摘山葡萄酒,,山葡萄甜型,2014,0.1,
+,5,CHINA-SWEET-B,China>The Hexi Corridor>Jiayuguan,,,嘉峪雪利利口酒,,,2008,18,85
+,2,CHINA-SWEET-B,China>The Hexi Corridor>Jiayuguan,,Vidal_1,紫轩冰白葡萄酒,,,2011,10.5,150
+,3,CHINA-SWEET-B,China>Yantai>Penglai,,Shiraz_1,瑞枫-奥塞斯酒庄西拉甜红(窖藏),,甜型,2009,0.16,65g/L
+Mogaoku Chicailixuan Cabernet Sauvignon Dry Red Wine,4,CHINA-SWEET-B,China>Northwest China>Dun Huang,,Cabernet Sauvignon_0.85/Merlot_0.15,莫高窟迟采粒选木桶陈酿赤霞珠干红葡萄酒,Mogaoku Chicailixuan Cabernet Sauvignon Dry Red Wine,干红葡萄酒,2012,0.135,240
+Trinity Hill Gimblett Gravels The Gimblett,16,CS,New Zealand>Hawkes Bay>Gimblett Gravels,,Cabernet Sauvignon_0.4/Merlot_0.3/Cabernet Franc_0.29/Petit Verdot_0.01,,Trinity Hill Gimblett Gravels The Gimblett,Red,2013,0.13,
+ESTANCIA MENDOZA Cabernet Roble,19,CS-A,Argentina〉Mendoza,Cabernet Sauvignon_1                ,,艾丽莎门多萨玛贝赤霞珠柔博干红葡萄酒,ESTANCIA MENDOZA Cabernet Roble,Red,2013,0.14,
+The Winemaster's Reserve Cabernet Sauvignon,18,CS-A,South Africa>Western Cape>Paarl,,Cabernet Sauvignon_1,,The Winemaster's Reserve Cabernet Sauvignon,Red,,,
+Les Hauts de La Gaffeliere ,12,CS-A,France>Bordeaux>AOC Bordeaux ,,Cabernet Sauvignon_0.8/Merlot_0.2,上嘉芙利桃红,Les Hauts de La Gaffeliere ,Rose,2014,,
+Les Hauts de La Gaffeliere ,12,CS-A,France>Bordeaux>AOC Bordeaux ,,Cabernet Sauvignon_0.8/Merlot_0.2,,Les Hauts de La Gaffeliere ,Rose,2014,,
+STREICKER JADE CABERNET SAUVIIGNON MERLOT 2011,1?,CS-AU-A,Australia>Margaret River,Cabernet Sauvignon_0.78/Merlot_0.18/Petit Verdot_0.04                ,,诗粹珂杰德赤霞珠梅洛红葡萄酒,STREICKER JADE CABERNET SAUVIIGNON MERLOT 2011,Red,2011,0.145,1.25g/l
+Flinders 2013 South Australia Cabernet,2,CS-AU-A,Australia>South Australia ,Cabernet Sauvignon_1                ,,富临发现者赤霞珠葡萄酒(2013),Flinders 2013 South Australia Cabernet,干红,2013,0.125,1.3g/L
+RYMILL Cabernet Sauvignon,3,CS-AU-A,Australia>Coonawarra,Cabernet Sauvignon_1                ,,瑞美尔赤霞珠干红葡萄酒2012,RYMILL Cabernet Sauvignon,干红,2012,0.14,0.5
+Wine Men of Gotham,4,CS-AU-A,Australia〉South Australia,Cabernet Sauvignon_1                ,,哥谭传奇赤霞珠干红,Wine Men of Gotham,red,2013,0.145,
+Inspire Bay Reserve Cabernet Shiraz,5?,CS-AU-A,Australia>South East Australia,Cabernet Sauvignon_0.64/Shiraz_0.305                ,,天马湾（典藏）赤霞珠希拉干红葡萄酒,Inspire Bay Reserve Cabernet Shiraz,干红,2012,0.14,4.0g/L
+Taylors Estate Cabernet Sauvignon ,6,CS-AU-A,Australia>South Australia,,Cabernet Sauvignon,泰勒氏庄园臻选加本力苏维翁红葡萄酒,Taylors Estate Cabernet Sauvignon ,,2014,,
+Wolf Blass Yellow Label Cabernet Sauvignon ,7,CS-AU-A,Australia>South Australia,,Cabernet Sauvignon,澳大利亚禾富酒园南澳黄牌加本力苏维翁干红葡萄酒,Wolf Blass Yellow Label Cabernet Sauvignon ,,2011,,
+The Galvo Garage,8,CS-AU-A,Australia>McLaren Vale,,Cabernet Sauvignon/Merlot/Petit Verdot ,,The Galvo Garage,,2010,0.14,
+STREICKER IRONSTONE BLOCK CABERNET SAUVIGNON 2010,11,CS-AU-B,Australia>Margaret River,Cabernet Sauvignon_1             ,,诗粹珂铁岩园赤霞珠红葡萄酒,STREICKER IRONSTONE BLOCK CABERNET SAUVIGNON 2010,Red,2010,0.14,0.2g/l
+Flinders Estate 2009 Navigator Barossa Valley Cabernet Merlot,12?,CS-AU-B,Australia>Barossa Valley,Cabernet Sauvignon_0.7/Merlot_0.3                ,,富临酒巴罗莎开拓者赤霞珠-美乐葡萄酒（2009）,Flinders Estate 2009 Navigator Barossa Valley Cabernet Merlot,干红,2009,0.135,0.6g/L
+Soul Growers - The Heart,13,CS-AU-B,Australia>Barossa Valley,Cabernet Sauvignon_1               ,,天鹅庄灵魂种植者勇气赤霞珠干红葡萄酒,Soul Growers - The Heart,干红,2012,0.15,0.76g/l
+Auswan Creek Gold Selection Cabernet Sauvignon,14,CS-AU-B,Australia〉Limestone Coast,Cabernet Sauvignon_1                ,,天鹅庄金选赤霞珠葡萄酒 ,Auswan Creek Gold Selection Cabernet Sauvignon,干红,2013,0.145,5.4g/l
+Eight Baskers Reserve Cabernet Sauvignon,15,CS-AU-B,Australia>Barossa Valley,Cabernet Sauvignon_1                ,,八篮特（收藏）赤霞珠干红葡萄酒,Eight Baskers Reserve Cabernet Sauvignon,干红,2009,0.145,2.4g/L
+Angelfish  Reserve Cabernet Sauvignon,16,CS-AU-B,"Australia>Riverina,Hilltops>Gundagai,Coonawarra,Heathcote",Cabernet Sauvignon_0.86/Shiraz_0.03/Cabernet Franc_0.07               ,,天使鱼珍藏加本力苏维翁红葡萄酒,Angelfish  Reserve Cabernet Sauvignon,Red Wine,2013,0.14,
+Shottesbrooke Estate Series Cabernet Sauvignon,17,CS-AU-B,Australia>South Australia>McLaren Vale,,Cabernet Sauvignon_1,希拉谷庄园赤霞珠红葡萄酒,Shottesbrooke Estate Series Cabernet Sauvignon,Red,2013,14.5,3.3
+Taylors Jaraman Cabernet Sauvignon ,18,CS-AU-B,Australia>South Australia,,Cabernet Sauvignon,泰勒氏海马缘加本力苏维翁红葡萄酒,Taylors Jaraman Cabernet Sauvignon ,,2013,,
+Wynns The Gables Cabernet Shiraz ,19,CS-AU-B,Australia>South Eastern Australia,,Cabernet Sauvignon/Shiraz,酝思古纳华拉山墙庄园加本力设拉子干红葡萄酒,Wynns The Gables Cabernet Shiraz ,,2012,,
+Wolf Blass Grey Label Cabernet Shiraz ,20,CS-AU-B,Australia>South Australia,,Cabernet Sauvignon/Shiraz,禾富酒园灰牌加本力设拉子红葡萄酒,Wolf Blass Grey Label Cabernet Shiraz ,,2012,,
+LE Prelude Cabernet Merlot ,21,CS-AU-B,Australia>Western Australia,,Cabernet Sauvignon/Merlot,澳大利亚露纹酒园序曲葡萄园加本力梅洛干红葡萄酒,LE Prelude Cabernet Merlot ,,2010,,
+"Moss Wood Amy's, Margaret River ",22,CS-AU-B,Australia>Margaret River ,,Cabernet Sauvignon_0.5/Petit Verdot_0.29/Malbec_0.12,慕丝森林艾米,"Moss Wood Amy's, Margaret River ",Red Wine,2012,0.145,
+"Moss Wood Ribbon Vale Cabernet/Merlot, Margaret River",23,CS-AU-B,Australia>Margaret River >Ribbon Vale Vineyard,,Cabernet Sauvignon_0.75/Merlot_0.18/Cabernet Franc_0.07,慕丝森林缎带谷卡本妮苏维翁/梅洛,"Moss Wood Ribbon Vale Cabernet/Merlot, Margaret River",Red Wine,2012,0.14,
+"Yalumba The Scribbler Cabernet Sauvignon/Shiraz, Barossa Val",24,CS-AU-B,Australia>Barossa Valley,,Cabernet Sauvignon_0.57/Shiraz_0.43,御兰堡涂鸦卡本妮苏维翁/设拉子,"Yalumba The Scribbler Cabernet Sauvignon/Shiraz, Barossa Val",Red Wine,2011,,
+The Coppermine Road ,25,CS-AU-B,Australia>McLaren Vale,,Cabernet Sauvignon_1,,The Coppermine Road ,,2011,0.143,
+Stella Bella Cabernet Sauvignon Merlot,9,CS-AU-B,Australia>Margaret River,,Cabernet Sauvignon_0.73/Merlot_0.27,斯黛拉贝勒酒园赤霞珠美乐红,Stella Bella Cabernet Sauvignon Merlot,Red,2012,0.14,0.5
+St Hugo Coonawarra Cabernet Sauvignon,27,CS-AU-C,Australia>South Australia>Coonawarra,Cabernet Sauvignon_1              ,,圣雨果库纳华拉赤霞珠,St Hugo Coonawarra Cabernet Sauvignon,干红,2010,0.142,0
+Cape d'Estating Mclaren Vale Cabernet Sauvignon 2010,26,CS-AU-C,Australia>SOUTH AUSTRALIA>Mclaren Vale,Cabernet Sauvignon_1                ,,德斯坦湾麦克拉伦谷赤霞珠红葡萄酒,Cape d'Estating Mclaren Vale Cabernet Sauvignon 2010,RED,2010,0.14,
+Taylors St Andrews Cabernet Sauvignon ,28,CS-AU-C,Australia>South Australia,,Cabernet Sauvignon,泰勒氏圣安加本力苏维翁红葡萄酒,Taylors St Andrews Cabernet Sauvignon ,,2012,,
+LE Art Series Cabernet Sauvignon,29,CS-AU-C,Australia>Western Australia,,Cabernet Sauvignon,澳大利亚露纹酒园加本力苏维翁干红葡萄酒,LE Art Series Cabernet Sauvignon,,2011,,
+"Moss Wood Cabernet Sauvignon, Margaret River",30,CS-AU-C,Australia>Eden Valley,,Cabernet Sauvignon_0.95/Petit Verdot_0.04/Cabernet Franc_0.01,慕丝森林卡本妮苏维翁,"Moss Wood Cabernet Sauvignon, Margaret River",Red Wine,2011,,
+"Yalumba The Menzies Cabernet Sauvignon, Coonawarra",31,CS-AU-C,Australia>Coonawarra,,Cabernet Sauvignon_1,御兰堡明德卡本妮苏维翁红葡萄酒,"Yalumba The Menzies Cabernet Sauvignon, Coonawarra",Red Wine,2008,0.145,
+"Yalumba The Signature Cabernet/Shiraz, Barossa Valley",32,CS-AU-C,Australia>Barossa Valley,,Cabernet Sauvignon_0.54/Shiraz_0.46,御兰堡标志卡本妮苏维翁/设拉子红葡萄酒,"Yalumba The Signature Cabernet/Shiraz, Barossa Valley",Red Wine,2010,0.135,
+Chevalier d’Arcins AOC Haut-Medoc,1,CS-B,France>Bordeaux>Haut-Medoc,Cabernet Sauvignon  ,,雅新斯骑士,Chevalier d’Arcins AOC Haut-Medoc,Red,2011,0.125,
+San Pio 2011 IGT Toscana,8,CS-B,Italy>TOSCANA,Cabernet Sauvignon_0.8/Sangiovese_0.2,,圣皮罗红葡萄酒,San Pio 2011 IGT Toscana,red,2011,0.15,干型
+"J. Jencquel & Cie, Medoc, AOP",2,CS-B,France>Bordeaux>Medoc,Cabernet Sauvignon_0.75/Merlot_0.15/Malbec_0.05/Petit Verdot_0.05,,捷杰希，梅多克红,"J. Jencquel & Cie, Medoc, AOP",Red,2013,0.12,
+"J. Jencquel & Cie, Pauillac AOP",3,CS-B,France>Bordeaux>Pauillac,Cabernet Sauvignon_0.6/Merlot_0.4,,捷杰希，波雅克红,"J. Jencquel & Cie, Pauillac AOP",Red,2010,0.125,
+CHATEAU HAUT SELVE Rouge,4,CS-B,France>Grave,,Cabernet Sauvignon_0.5/Merlot_0.5,欧赛尔堡干红葡萄酒,CHATEAU HAUT SELVE Rouge,red,2012,0.135,
+"Villa Maria Reserve Cabernet/Merlot, Hawkes Bay",15,CS-B,New Zealand>Hawkes Bay,,Cabernet Sauvignon_0.88/Merlot_0.12,新玛利庄园霍克斯湾珍藏卡本妮梅洛,"Villa Maria Reserve Cabernet/Merlot, Hawkes Bay",Red Wine,2012,0.13,0
+Fattoria Nittardi Nectar Dei,9,CS-C,Italy>TOSCANA>Maremma,Cabernet Sauvignon_0.4/Merlot_0.2/Syrah_0.2/Petit Verdot_0.15            ,,尼塔帝酒庄星云红葡萄酒,Fattoria Nittardi Nectar Dei,红葡萄酒,2010,0.14,
+ILPOLLENZA COSMINO,10,CS-C,Italy>MARCHE,Cabernet Sauvignon_1              ,,科西米诺红葡萄酒,ILPOLLENZA COSMINO,RED,2008,0.145,
+Babich Patriarch,14,CS-C,New Zealand>Hawke Bay,Cabernet Sauvignon_0.54/Merlot_0.32/Malbec_0.14                ,,百祺元老,Babich Patriarch,干红,2011,0.125,0
+CAPO DI STATO 2007 IGT ROSSO Colli Trevigiani,11,CS-C,Italy>Veneto>Montello,Cabernet Sauvignon_0.65/Cabernet Franc_0.2/Merlot_0.1/Malbec_0.05                ,,加斯帕瑞尼首相干红葡萄酒,CAPO DI STATO 2007 IGT ROSSO Colli Trevigiani,干型红葡萄酒,2007,14%,
+Chateau La Fleur Peyrabon,5,CS-C,France>Bordeaux>Pauillac,Cabernet Sauvignon_0.72/Merlot_0.205/Petit Verdot_0.075                ,,普瑞斯花堡干红,Chateau La Fleur Peyrabon,干红,2012,0.135,0.2
+MARCHESE DI VILLAMARINA PLATINUM CUVEE,12,CS-C,Italy>Sardinia>Alghero,,Cabernet Sauvignon_1,威马侯爵铂醇窖藏干红葡萄酒,MARCHESE DI VILLAMARINA PLATINUM CUVEE,干红,2009,0.135,
+TANCA FARRA,13,CS-C,Italy>Sardinia>Alghero,,Cabernet Sauvignon_0.5/Cannonau_0.5,唐风干红葡萄酒,TANCA FARRA,干红,2009,0.135,
+Marianne Selena           ,17,CS-C,South Africa > Simonsberg/Paarl ,,Cabernet Sauvignon_0.8/Shiraz_0.15/Merlot & Pinotage _0.05,蔓瑞赛琳娜干红葡萄酒,Marianne Selena           ,red,2012,0.125,
+"Chateau Musar Red, ",21,CS-C-C,Lebanon>Bekaa Valley,,Cabernet Sauvignon/Carignan/Cinsault,"睦纱古堡红葡萄酒, 贝卡河谷","Chateau Musar Red, ",Red Wine,2007,0.14,
+Casa Silva Coleccion Cabernet Sauvignon 2014,1,CS-CHI-A,Chile>Colchagua Valley>Colchagua Valley,Cabernet Sauvignon_1                ,,白银庄精选赤霞珠干红葡萄酒 2014,Casa Silva Coleccion Cabernet Sauvignon 2014,red,2014,0.14,dry
+Santa Rita Medalla Real Cabernet Sauvignon,2,CS-CHI-A,Chile>Maipo Valley,Cabernet Sauvignon_0.95/Cabernet Franc_0.05                ,,桑塔丽塔真实勋章本力苏维翁特酿干红葡萄酒,Santa Rita Medalla Real Cabernet Sauvignon,Red,2011,0.14,
+ISLAND EASTER RESERVA CABERNET SAUVIGNON 2012 750ml,3,CS-CHI-A,Chile>Centeal Vally>Chile,Cabernet Sauvignon_1                ,,干露复活节岛珍藏赤霞珠红葡萄酒 ,ISLAND EASTER RESERVA CABERNET SAUVIGNON 2012 750ml,red,2012,0.13,干型
+1865 Cabernet sauvignon,4,CS-CHI-B,Chile>Maipo Valley,Cabernet Sauvignon_1                ,,1865 圣佩特罗赤霞珠干红葡萄酒,1865 Cabernet sauvignon,red,2012,0.145,3.3
+Los Vascos Grande Reserve,5,CS-CHI-B,Chile>Colchagua,Cabernet Sauvignon_0.75/Carmenère_0.1/Syrah_0.1/Malbec_0.05                ,,巴斯克特酿红葡萄酒,Los Vascos Grande Reserve,red,2012,0.14,
+Errazuriz Single Vineyard Cabernet Sauvignon,6,CS-CHI-B,Chile>Valle de Aconcagua,Cabernet Sauvignon_0.85/Cabernet Franc_0.08/Petit Verdot_0.07                ,,单一葡萄园赤霞珠2013,Errazuriz Single Vineyard Cabernet Sauvignon,red,2013,0.14,
+ERRAZURIZ MAX RESERVA CARBERNET SAUVIGNON 2012 750ml ,7,CS-CHI-B,Chile>Aconcagua Valley>Aconcagua Valley,Cabernet Sauvignon_1                ,,伊拉苏庄园珍藏赤霞珠红葡萄酒,ERRAZURIZ MAX RESERVA CARBERNET SAUVIGNON 2012 750ml ,red,2012,0.14,干型
+wise monkey cabernet sauvignon,8,CS-CHI-B,Chile>Central Valley,,Cabernet Sauvignon_1,智猴赤霞珠红葡萄酒,wise monkey cabernet sauvignon,干型,2013,0.133,
+Sideral,12,CS-CHI-C,Chile>Rapel Valley,Cabernet Sauvignon_0.45/Shiraz_0.29/Carmenere_0.16             ,,恒星干红葡萄酒,Sideral,red,2010,0.147,3.1
+Altair,9,CS-CHI-C,Chile>Cachapoal Valley,Cabernet Sauvignon_0.75/Shiraz_0.16/Carmenere_0.07          ,,天鹰干红葡萄酒,Altair,red,2010,0.147,2.51
+Santa Rita Casa Real Cab Sauvignon,10,CS-CHI-C,Chile>Maipo Valley,Cabernet Sauvignon_1                ,,桑塔丽塔真实家园加本力苏维翁干红葡萄酒,Santa Rita Casa Real Cab Sauvignon,Red,2010,0.145,
+Errazuriz Don Maximiano,11,CS-CHI-C,Chile>Valle de Aconcagua,Cabernet Sauvignon_0.75/Carmenere_0.12/Petit Verdot_0.08/Malbec_0.05                ,,马克西米诺庄主珍藏葡萄酒2012,Errazuriz Don Maximiano,red,2012,0.145,
+Carlo Rossi LOT1933 Cabernet Sauvignon,1,CS-US-A,USA>California>Central Valley,Cabernet Sauvignon_0.85/Rubired/Petite Sirah,,加州乐事LOT1933赤霞珠红葡萄酒,Carlo Rossi LOT1933 Cabernet Sauvignon,Dry,2013,0.13,
+"Dark Horse™ Cabernet Sauvignon 
+California",2,CS-US-A,USA>California>Central Valley,Cabernet Sauvignon_1            ,,骏琪赤霞珠红葡萄酒,"Dark Horse™ Cabernet Sauvignon 
+California",Dry,2012,0.135,
+Three Bears Cabernet Sauvignon Reserve,3,CS-US-A,USA>California,Cabernet Sauvignon_1,,三只熊珍藏版赤霞珠干红葡萄酒,Three Bears Cabernet Sauvignon Reserve,Red,2012,0.142,Dry
+Canyon Road Cabernet Sauvignon,4,CS-US-A,USA>California,Cabernet Sauvignon_1                ,,凯岚加本内苏维翁红葡萄酒,Canyon Road Cabernet Sauvignon,红葡萄酒,2013,0.13,6.4
+Alias Red Blend,5,CS-US-A,USA>California,Cabernet Sauvignon_0.5/Merlot_0.5               ,,美酒密探半干红葡萄酒,Alias Red Blend,半干,2013,0.137,
+Beringer California Cabernet Sauvignon ,6,CS-US-A,USA>California,,Cabernet Sauvignon,贝灵哲庄园加州精选加本力苏维翁红葡萄酒,Beringer California Cabernet Sauvignon ,,2013,,
+Carlo Rossi Sonoma County Cabernet Sauvignon ,9,CS-US-B,USA>California>Sonoma County,Cabernet Sauvignon_0.85/Merlot/Petite Sirah             ,,加州乐事所罗门赤霞珠红葡萄酒,Carlo Rossi Sonoma County Cabernet Sauvignon ,Dry,2012,0.138,
+2011 Hill Family Cabernet Sauvignon,10,CS-US-B,USA>California>Napa Valley,Cabernet Sauvignon_0.87/Merlot_0.11/Syrah_0.02                ,,2011利尔酒窖名门赤霞珠,2011 Hill Family Cabernet Sauvignon,,2011,0.152,
+"Black Stallion Cabernet Sauvignon, Napa Valley",11,CS-US-B,USA>Califonia>Napa,,Cabernet Sauvignon_1,黑骏马酒庄 卡本妮苏维翁红葡萄酒 ,"Black Stallion Cabernet Sauvignon, Napa Valley",Red,2012,0.145,<1
+Carlo Rossi Napa Valley Cabernet Sauvignon,12,CS-US-C,USA>California>Napa Valley,Cabernet Sauvignon_0.85/Merlot/Petite Sirah             ,,加州乐事纳帕谷赤霞珠红葡萄酒,Carlo Rossi Napa Valley Cabernet Sauvignon,Dry,2010,0.145,
+Frei Brother Reserve Alexander Valley Cabernet Sauvignon,13,CS-US-C,USA>California>Alexander Valley,Cabernet Sauvignon_1                ,,费雷兄弟亚历山大谷加本内苏维翁红葡萄酒,Frei Brother Reserve Alexander Valley Cabernet Sauvignon,红葡萄酒,2008,0.142,< 4
+Smith & Hook Central Coast Cabernet Sauvignon 2012,14,CS-US-C,USA>California>Central Coast,Cabernet Sauvignon_1                ,,史密斯-虎克赤霞珠红葡萄酒,Smith & Hook Central Coast Cabernet Sauvignon 2012,Red Wine,2012,0.148,
+"Ferrari-Carano, Trésor",15,CS-US-C,USA>California>Sonoma County,Cabernet Sauvignon_0.84/Petit Verdot_0.06/Malbec_0.04,,法拉利卡诺酒庄， 珍宝红,"Ferrari-Carano, Trésor",Red,2010,0.146,
+"St Supéry, Estate Cabernet Sauvignon",16,CS-US-C,USA>California>Napa Valley,Cabernet Sauvignon_0.85/Petit Verdot_0.05/Cabernet Franc_0.05/Malbec_0.03,,顶圣酒庄，赤霞珠红,"St Supéry, Estate Cabernet Sauvignon",Red,2012,0.145,
+The Derelict Vineyard,5,GR-A,Australia>McLaren Vale,,Grenache_1,,The Derelict Vineyard,,2011,0.144,
+DON PASCUAL Clasico Navarra DO 2010,6,GR-A-3,Spain>Navarra>Ribera baja,Grenache_0.5/Tempranillo_0.2/Merlot_0.1/Cabernet Sauvignon_0.1,,唐-帕斯卡 经典里贝拉干红葡萄,DON PASCUAL Clasico Navarra DO 2010,Red,2010,0.13,0.7
+"Mas Martinet Bru, ",7,GR-B,Spain>Priorat DO,,,"玛斯玛尔蒂内圃玉红, 普里奥拉托DO","Mas Martinet Bru, ",Red Wine,2011,0.15,
+The Ironstone Pressings,8,GR-B,Australia>McLaren Vale,,Grenache_0.7/Shiraz_0.25/Mouvedre_0.05,,The Ironstone Pressings,,2011,0.141,
+"Blackbilly Grenache - Shiraz - Mourvedre, McLaren Vale, Australia",4,GR-B-,Australia>McLaren Vale,Grenache_0.54/Shiraz_0.4/Mourvedre_0.06,,布莱克比利歌西慕,"Blackbilly Grenache - Shiraz - Mourvedre, McLaren Vale, Australia",干红,2010,0.145,
+Los Helechos ,19,Mal,Argentina〉Mendoza,Malbec_1,,,Los Helechos ,Red,2012,0.14,
+ESTANCIA MENDOZA Malbec,1,MAL-AR-A,Argentina〉Mendoza,Malbec_1,,艾丽莎门多萨玛贝干红葡萄酒,ESTANCIA MENDOZA Malbec,Red,2014,0.133,
+ESTANCIA MENDOZA Malbec Roble,2,MAL-AR-A,Argentina〉Mendoza,Malbec_1,,艾丽莎门多萨玛贝柔博干红葡萄酒,ESTANCIA MENDOZA Malbec Roble,Red,2013,0.137,
+Lo Tengo Malbec,3,MAL-AR-A,Argentina>Mendoza,Malbec_1,,探戈马尔白克干红葡萄酒,Lo Tengo Malbec,Red,2014,0.14,
+Uxmal Malbec,4,MAL-AR-A,"Argentina>Mendoza>La perforin da，Tupungato，Lu Hande cuyo
+",Malbec_1,,乌斯马尔 马贝克,Uxmal Malbec,干型,2014,0.135,3.55
+Vino De Guarda Esmeralda Fernandez Malbec     ,5,MAL-AR-A,"Argentina>Mendoza>La perforin da，Tupungato，Lu Hande cuyo
+",Malbec_1,,瓜尔达埃斯梅拉达 费尔南德斯 马贝克,Vino De Guarda Esmeralda Fernandez Malbec     ,干型,2012,0.135,
+Alto Uxmal Argentian Style Malbec,6,MAL-AR-A,"Argentina>Mendoza>Tupungato
+",Malbec_1,,乌斯马尔珍藏 马贝克,Alto Uxmal Argentian Style Malbec,干型,2012,0.135,3.1
+ARGENTO Malbec Artesano,7,MAL-AR-A,Argentina>Mendoza,,malbac_1,银谷-阿缇莎红葡萄酒,ARGENTO Malbec Artesano,干型,2014,0.13,
+ZUCCARDI TITO 2011,11,MAL-AR-B,Argentina>Mendoza,Malbac_0.68/Cabernet Sauvignon_0.17/Ancellotta_0.15,,朱卡迪蒂拓红葡萄酒,ZUCCARDI TITO 2011,Red,2011,0.15,3.22g/l
+Argentina Malbec,12,MAL-AR-B,Argentina>Mendoza,Malbec_1,,凯洛马尔贝克红葡萄酒,Argentina Malbec,red,2013,0.14,
+Perdriel Centenario,13,MAL-AR-B,Argentina>Mendoza,Malbec_0.4/Cabernet Sauvignon_0.3/Merlot_0.3,,普里奥庄园世纪珍藏红葡萄酒,Perdriel Centenario,Red,2008,0.145,
+Malbec Alta  Angelica Zapata ,14,MAL-AR-B,"Argentina>Mendoza>Lun Lun Tower Area,Agger Column Area,Monica Lucia Area,Melon Tara Force Area",Malbec_1,,安吉莉卡 萨帕塔 顶级马贝克                                   ,Malbec Alta  Angelica Zapata ,干型,2009,0.14,
+"Dominio Del Plata, Susana Balbo Malbec",15,MAL-AR-B,Argentina>Mendoza,Malbec_0.95/Cabernet Sauvignon_0.05,,德米诺酒庄，苏珊马贝克红,"Dominio Del Plata, Susana Balbo Malbec",Red,2012,0.14,
+ARGENTO Malbec Reserva,16,MAL-AR-B,Argentina>Mendoza,,malbac_1,银谷-马尔贝克珍藏红葡萄酒,ARGENTO Malbec Reserva,干型,2012,0.13,
+Alpasión Malbec,17？,MAL-AR-B,Argentina>Mendoza>Valle de Uco,,malbac_1,,Alpasión Malbec,red,2013,0.152,3
+Alpasión Private Selection,18？,MAL-AR-B,Argentina>Mendoza>Valle de Uco,,malbac_0.54/Cabernet Franc_0.46,,Alpasión Private Selection,red,2012,0.162,2
+Casa de Uco premium,??,MAL-AR-B,argentina>Mendoza>Uco valley,,malbac_1,,Casa de Uco premium,red,2013,0.138,
+Casa de Uco Super premium,??,MAL-AR-B,argentina>Mendoza>Uco valley,,malbac_1,,Casa de Uco Super premium,red,2013,0.14,
+2010 Ladaca Red Wine,6,ME-A,USA>Oregon>Rogue Valley,Merlot_0.61/Malbec_0.19/Cabernet Sauvignon_0.15/Cabernet Franc_0.05,,2010莉嘉红葡萄酒,2010 Ladaca Red Wine,,2010,0.135,
+2009 Ridge Crest Columbia Valley Merlot,7,ME-A,USA>Washington>Columbia Valley,Merlot_1,,2009腾威梅洛,2009 Ridge Crest Columbia Valley Merlot,,2009,0.138,
+MERLOT,14,ME-A,Macedonia>Tikvesh,Merlot_1,,波波夫美露干红葡萄酒,MERLOT,干红,2011,0.14,2.2
+"Villa Maria Private Bin Merlot/Cabernet, Hawkes Bay",1,ME-A,New Zealand>Hawkes Bay,,Merlot_0.75/Cabernet_0.14/Malbec_0.07,新玛利庄园霍克斯湾珍匣梅洛卡本妮,"Villa Maria Private Bin Merlot/Cabernet, Hawkes Bay",Red Wine,2013,0.13,0
+Kingsley Merlot 2012,15,ME-B,Australia>SOUTH EASTERN AUSTRALIA,Merlot_1,,金士利梅洛干红葡萄酒,Kingsley Merlot 2012,RED,2012,0.14,
+ElephantHill Le Phant ,2,ME-B,New Zealand>Hawkes Bay,Merlot_0.65/Cabernet Sauvignon_0.15/Cabernet Franc_0.08/Malbec_0.12,,象山酒庄乐福红葡萄酒,ElephantHill Le Phant ,干红,2012,0.135,
+2007 Basel Cellars Walla Walla Valley Merlot,8,ME-B,USA>Washington>Walla Walla Valley,Merlot_1,,2007巴塞尔酒窖瓦拉瓦拉谷梅洛,2007 Basel Cellars Walla Walla Valley Merlot,,2007,0.145,
+ILPOLLENZA PORPORA,9,ME-B,Italy>MARCHE,Merlot_0.7/Montepulciano_0.3,,波罗波蓝红葡萄酒,ILPOLLENZA PORPORA,RED,2010,0.145,
+Babich Black Label Gimblett Gravels Merlot Cabernet,3,ME-B,New Zealand>Hawke Bay,Merlot_0.76/Cabernet Sauvignon_0.24 ,,百祺黑标金伯莱碎石梅洛赤霞珠,Babich Black Label Gimblett Gravels Merlot Cabernet,干红,2013,0.13,0
+FALCONERA 2009 IGT Merlot Colli Trevigiani,10,ME-B,Italy>Veneto>Montello,Merlot_1,,加斯帕瑞尼飞鹰美乐干红葡萄酒,FALCONERA 2009 IGT Merlot Colli Trevigiani,干型红葡萄酒,2009,13%,
+THE TRIANGLE MERLOT HAWKES BAY  2013 750ml  ,4,ME-B,New Zealand>HAWKES BAY>New Zealand,Merlot_1,,思兰尼“三角”梅洛红葡萄酒,THE TRIANGLE MERLOT HAWKES BAY  2013 750ml  ,red,2013,0.14,干型
+"Vina Casablanca, Nimbus Estate Merlot",16,ME-B,Chile>Casablanca Valley,Merlot_1,,卡萨布兰卡酒庄，尼博山庄系列 梅洛红,"Vina Casablanca, Nimbus Estate Merlot",Red,2011,0.148,
+"Planeta, Merlot Rosso Di Sicilia, IGT",11,ME-B,Italy〉Sicily,Merlot_1,,朴奈达酒庄，西西里 梅乐红,"Planeta, Merlot Rosso Di Sicilia, IGT",Red,2010,0.145,
+Merlot Cabernet2012,5,ME-B,New Zealand>Hawke's Bay,,Merlot/Cabernet,尼可波特 梅洛卡本纳2012,Merlot Cabernet2012,干型,2012,0.125,1.4
+IL BORRO IL BORRO IGT TOSCANA 2010 750ml  ,12,ME-C,Italy>TOSCANA>TOSCANA,Merlot_0.5/Cabernet_0.35/Syrah_0.1/Petit Verdot_0.05,,勃罗家族托斯卡纳红葡萄酒,IL BORRO IL BORRO IGT TOSCANA 2010 750ml  ,red,2010,0.14,干型
+Marianne Desirade       ,17,ME-C,South Africa> Paarl ,,Merlot_0.81/Cabernet Sauvignon _0.19,蔓瑞玳诗干红葡萄酒,Marianne Desirade       ,red,2005,0.155,
+Livio Felluga Vertigo,13,ME-C-B,Italy>Venezia Giulia IGT,,Merlot_0.7/Cabernet Sauvignon_0.3,"丽斐迷魂记, 威尼西亚IGT",Livio Felluga Vertigo,Red Wine,2012,0.13,
+LE NOBLE BORDEAUX AOC ROUGE 2009,1,ME-FR-A,France>Bordeaux,Merlot_0.6/Cabernet Sauvignon_0.2/Cabernet Franc_0.2,,贵族城堡波尔多红葡萄酒2009,LE NOBLE BORDEAUX AOC ROUGE 2009,Red,2009,0.13,0.1g/l
+LEO de La Gaffeliere ,2,ME-FR-A,France>Bordeaux>AOC Bordeaux ,Merlot_0.7/Cabernet Sauvignon_0.3,,嘉芙利庄园波尔多干红葡萄酒,LEO de La Gaffeliere ,Red,2010,0.13,
+Chateau Franc Perat Reserve Rouge,3,ME-FR-A,France>Bordeaux>Entre Deux Mers,Merlot_0.85/Cabernet Sauvignon_0.15,,蒙佩奇弗朗系列珍藏波尔多干红葡萄酒,Chateau Franc Perat Reserve Rouge,干红,2011,0.13,0.9
+Marquis de Bordeaux,4,ME-FR-A,France>Bordeaux>Right Bank,Merlot_0.65/Cabernet Franc_0.35,,波尔多侯爵,Marquis de Bordeaux,Red Still Wine,2012,0.135,2.1
+MALESAN AOC Bordeaux Rouge ,5,ME-FR-A,France>Bordeaux,Merlot_0.5/Cabernet Sauvignon_0.5,,马利尚波尔多红葡萄酒,MALESAN AOC Bordeaux Rouge ,Red,2012,0.125,
+MALESAN VDF Merlot ,6,ME-FR-A,France>Bordeaux,Merlot_1,,马利尚美乐红葡萄酒,MALESAN VDF Merlot ,Red,2013,0.125,
+CHATEAU CANTILLAC AOC Bordeaux Rouge,7,ME-FR-A,France>Bordeaux,Merlot_1,,坎亚酒庄波尔多干红葡萄酒,CHATEAU CANTILLAC AOC Bordeaux Rouge,Red,2012,0.13,
+CHATEAU SAINTE CROIX DES EGRONS AOC Bordeaux Rouge ,8,ME-FR-A,France>Bordeaux,Merlot/Cabernet Sauvignon/Cabernet Franc,,埃格隆十字酒庄波尔多干红葡萄酒,CHATEAU SAINTE CROIX DES EGRONS AOC Bordeaux Rouge ,Red,2012,0.13,
+Chateau Clos Bourbon,9,ME-FR-A,France>Premières Côtes de Bordeaux,,Merlot_0.9/Cabernet Sauvignon _0.1,克劳波本庄园干红葡萄酒,Chateau Clos Bourbon,干红,2011,0.125,
+Chateau Des Rocs       ,15？,ME-FR-A,France >Castillon Cotes de Bordeaux ,,Merlot_0.9/Cabernet Franc_0.1,罗克庄园干红葡萄酒,Chateau Des Rocs       ,red,2012,0.135,
+"Chateau La Pierriere, Cotes de Castillon AOC",10,ME-FR-A,France>Bordeaux>Castillon,,"Merlot_0.85/Cabernet Franc_0.15/Cabernet 
+Sauvignon_0.05",拉比亚庄园红葡萄酒 ,"Chateau La Pierriere, Cotes de Castillon AOC",Red,2013,0.14,>1
+La Petite Chapelle ,11,ME-FR-A,France>Bordeaux>AOC Bordeaux ,,Merlot_0.7/Cabernet Sauvignon_0.15/Cabernet Franc_0.15,霞贝尔,La Petite Chapelle ,Red,2014,,
+Les Hauts de La Gaffeliere ,12,ME-FR-A,France>Bordeaux>AOC Bordeaux ,,Merlot_0.7/Cabernet Sauvignon_0.2/Cabernet Franc_0.1,上嘉芙利干红,Les Hauts de La Gaffeliere ,Red,2012,,
+,13,ME-FR-A,Australia>New South Wales>Orange Town,,Merlot_1,积云60美乐红葡萄酒,,红,2013,0.14,
+"Vina Casablanca, Cefiro Merlot",14,ME-FR-A,Chile>Maipo Valley,,Merlot_1,卡萨布兰卡酒庄，天逸珍藏系列 梅洛红,"Vina Casablanca, Cefiro Merlot",Red,2013,0.135,
+Chateau Gravettes-Samonac elegance,17,ME-FR-B,France>Bordeaux> Côtes de Bourg,Merlot_0.75/Cabernet Sauvignon_0.25,,沙漠纳克古堡优雅系列,Chateau Gravettes-Samonac elegance,红葡萄酒,2011,0.13,
+Ch Saint martin  – Bordeaux Superieur 2012,18,ME-FR-B,France>Bordeaux,Merlot_0.8/Cabernet Sauvignon_0.1/Malbec_0.1,,马丁庄园超级波尔多干红葡萄酒 2012,Ch Saint martin  – Bordeaux Superieur 2012,red,2012,0.13,dry
+LEO de La Gaffeliere ,2,ME-FR-B,France>Bordeaux>AOC Saint-Emilion ,Merlot_0.6/Cabernet Franc_0.1/Cabernet Sauvignon_0.3,,嘉芙利庄园圣达美隆干红葡萄酒,LEO de La Gaffeliere ,Red,2011,0.13,
+château du parc ,20,ME-FR-B,France>Bordeaux>Haut,Merlot_0.86/Cabernet Sauvignon_0.07/Malbec_0.07,,双匙·花园古堡红葡萄酒,château du parc ,Red Wine,2012,0.13,1.9
+Haut Bertinerie Elegance Rouge,21,ME-FR-B,France>Bordeaux>Blaye Mound,Merlot_0.6/Cabernet Sauvignon_0.3/Cabernet Franc_0.1,,高伯乐优雅干红,Haut Bertinerie Elegance Rouge,干红,2009,0.14,
+"COLLECTION ROYAL Ch. Robin Corbin AOC 2008
+                                        Rocher",22,ME-FR-B,France〉Bordeaux>Montagne-St-Emilion,Merlot_0.55/Cabernet Sauvignon_0.3/Cabernet Franc_0.15,,罗泽客宾堡干红葡萄酒,"COLLECTION ROYAL Ch. Robin Corbin AOC 2008
+                                        Rocher",Red,2008,0.13,1.3
+"Clos Gerbaud, AOP Saint Emilion",23,ME-FR-B,France>Bordeaux〉Saint-Emilion,Merlo0.85/Cabernet Sauvignon_0.15,,捷尔波庄园红，圣爱美浓,"Clos Gerbaud, AOP Saint Emilion",Red,2013,0.125,
+"J. Jencquel & Cie, Saint-Emilion Grand Cru",24,ME-FR-B,France>Bordeaux>Saint-Emilion,Merlot/Cabernet Franc/Cabernet Sauvignon,,捷杰希，圣爱美浓红,"J. Jencquel & Cie, Saint-Emilion Grand Cru",Red,2011,0.13,
+Chateau Anthonic,25,ME-FR-B,France>Moulis－en－Medoc,,Merlot_0.68/Cabernet Sauvignon _0.29/Petit Verdot_0.03,昂多尼克古堡干红葡萄酒,Chateau Anthonic,干红,2009,0.14,
+"CHATEAU LOUMELAT 
+CUVEE J.J. LESGOURGUES",26,ME-FR-B,France>Bordeaux>Côtes de Blaye ,,Merlot_0.78/Cabernet Sauvignon_0.22,"洛美庄园特酿干红葡萄酒
+","CHATEAU LOUMELAT 
+CUVEE J.J. LESGOURGUES",red,2011,0.135,
+"Cheval Noir Rouge, Saint Emilion AOC",27,ME-FR-B,France>Bordeaux>Saint Emilion,,Merlot_0.7/Cabernet Franc_0.3,黑马红葡萄酒圣艾米利永AOC,"Cheval Noir Rouge, Saint Emilion AOC",Red,2012,0.135,>1
+Chateau La Tour de Segur ,28,ME-FR-B,France>Bordeaux>AOC Lussac Saint-Emilion,,Merlot_0.91/Cabernet Franc_0.06/Cabernet Sauvignon_0.03,拉图赛歌,Chateau La Tour de Segur ,Red,2012,,
+Les Hauts de La Gaffeliere  ,29,ME-FR-B,France>Bordeaux>AOC Saint-Emilion,,Merlot_0.7/Cabernet Franc_0.1/Cabernet Sauvignon_0.2,上嘉芙利干红,Les Hauts de La Gaffeliere  ,Red,2012,,
+Chateau Chapelle d'Alienor Selection Maracan,30,ME-FR-B,France>Bordeaux>AOC Bordeaux Superieur ,,Merlot_0.6/Cabernet Franc_0.3/Cabernet Sauvignon_0.1,艾诺堂,Chateau Chapelle d'Alienor Selection Maracan,Red,2011,,
+La Dame d'Armens ,31,ME-FR-B,France>Bordeaux>AOC Saint-Emilion Grand Cru ,,Merlot_0.65/Cabernet Franc_0.35,艾眉夫人,La Dame d'Armens ,Red,2012,,
+ABSOLU MAISON IMPERIALE,32,ME-FR-B,France>Bordeaux Superieur,,Merlot_0.8/Cabernet Sauvignon__0.1_Cabernet Franc_0.1,绝对皇室之超波,ABSOLU MAISON IMPERIALE,干型,2009,0.14,3
+Chateau La Tour de  Bernadon,33,ME-FR-B,France>Bordeaux Superieur,,Merlot_0.85/Cabernet Sauvignon_0.15,拉图－贝纳古堡,Chateau La Tour de  Bernadon,干型,2012,0.13,3
+"Chateau Treytins, AOP Pomerol",34,ME-FR-B,France>Bordeaux>Pomerol,,Merlot_0.73/Cabernet Franc_0.26/Cabernet Sauvignon_0.01,泰坦庄园红，波美侯,"Chateau Treytins, AOP Pomerol",Red,2011,,
+Bad Boy,35,ME-FR-C,France>Bordeaux,Merlot_0.95/Cabernet Franc_0.05,,坏男孩红葡萄酒,Bad Boy,干红,2011,0.14,2.5
+château hanteillan ,36,ME-FR-C,France>Bordeaux>Haut-Medoc,Merlot_0.5/Cabernet Sauvignon_0.45/Petit Verdot_0.05,,海特兰古堡红葡萄酒,château hanteillan ,Red Wine,2011,0.13,
+château D'hanteillan ,37,ME-FR-C,France>Bordeaux>Haut-Medoc,Merlot_0.5/Cabernet Sauvignon_0.45/Petit Verdot_0.05,,海特兰古堡红葡萄酒,château D'hanteillan ,Red Wine,2012,0.13,
+château gramond ,38,ME-FR-C,France>Bordeaux>Haut-Medoc,Merlot_0.68/Cabernet Sauvignon_0.2/Petit Verdot_0.12,,双匙·格拉蒙古堡红葡萄酒,château gramond ,Red Wine,2011,0.13,0.3
+Chateau Paradis  Casseuil,39,ME-FR-C,France>Bordeaux>Entre-deux-mers,Merlot_0.7/Cabernet Sauvignon_0.3,,凯萨天堂古堡波尔多法定产区红葡萄酒,Chateau Paradis  Casseuil,red,2012,0.135,
+"Domaine de Cigalus Rouge, IGP Pays d'Oc",43？,ME-FR-C,France>Languedoc-Roussillon>Languedoc-Roussillon,,Merlot_0.31/Syrah_0.25/Cabernet sauvignon_0.2,席加特酒庄红葡萄酒 ,"Domaine de Cigalus Rouge, IGP Pays d'Oc",Red,2012,0.145,>1
+Clos la Gaffeliere  ,40,ME-FR-C,France>Bordeaux>AOC Saint-Emilion Grand Cru ,,Merlot_0.8/Cabernet Franc_0.2,嘉芙利园,Clos la Gaffeliere  ,Red,2012,,
+Chateau Armens  ,41,ME-FR-C,France>Bordeaux>AOC Saint-Emilion Grand Cru ,,Merlot_0.7/Cabernet Franc_0.2/Cabernet Sauvignon_0.1,艾眉,Chateau Armens  ,Red,2010,,
+"Chateau Clarisse, AOP Puisseguin Saint-Emilion",42,ME-FR-C,France>Bordeaux>Saint-Emilion,,Merlot_0.9/Cabernet Franc_0.1,克莱瑞庄园，普瑟冈，圣爱美浓,"Chateau Clarisse, AOP Puisseguin Saint-Emilion",Red,2012,,
+Casa Silva Gran Reserva Petit Verdot 2012,2,OTR,Chile>Colchagua Valley>Colchagua Valley,Petit Verdot_1,,白银庄限量版小维度干红葡萄酒 2012,Casa Silva Gran Reserva Petit Verdot 2012,red,2012,0.145,dry
+Grand Cuvee Reserve,8,OTR,Macedonia>Tikvesh,Vranec_0.4/Cabernet Sauvignon_0.3/Merlot_0.3,,波波夫名品佳酿干红葡萄酒,Grand Cuvee Reserve,干红,2007,0.13,5.4
+Santa Rita Secret Reserve Red Blend,1,OTR,Chile,,,桑塔丽塔‘私家珍酿红葡萄酒,Santa Rita Secret Reserve Red Blend,Red,2013,0.13,
+"Warwick, Three Cape Ladies",5,OTR,South Africa>Stellenbosch,,Pinotage_0.4/Cabernet Sauvignon_0.3/Shiraz_0.3,沃悦客酒庄，三位开普敦仕女红,"Warwick, Three Cape Ladies",Red,2012,0.135,
+The Winemaster's Reserve Pinotage,4,OTR,South Africa>Western Cape>Paarl,,Pinotage_1,,The Winemaster's Reserve Pinotage,Red,,,
+CHATEAU PEYROS VIEILLES VIGNES,10,OTR,France>Madiran,,Tannat_0.8/Cabernet Franc_0.2,百富堡老藤干红葡萄酒,CHATEAU PEYROS VIEILLES VIGNES,red,2008,0.135,
+The Sticks & Stones,6,OTR,Australia>McLaren Vale,,Tempranillo/Grenache/Souzao ,,The Sticks & Stones,,2011,0.138,
+The Fergus,7,OTR,Australia>Clare Valley,,Grenache_0.55/Tempranillo_0.15/Shiraz_0.2/Mataro_0.1,蒂姆亚当斯酒园费格斯红,The Fergus,Red,2012,0.14,1.6
+Sassotondo Ciliegiolo,?,OTR-ITA,Italy>Tuscany>Maremma,,ciliegiolo_1,,Sassotondo Ciliegiolo,red,2014,0.135,"0,2 g/l"
+San Lorenzo,?,OTR-ITA,Italy>Tuscany>Maremma,,ciliegiolo_1,,San Lorenzo,red,2011,0.15,"0,4 g/l"
+Franze,?,OTR-ITA,Italy>Tuscany>Maremma,,ciliegiolo_0.4/teroldego_0.4/sangiovese_0.1/merlot_0.1,,Franze,red,2010,0.14,"1,3 g/l"
+Terre Forti Vino Rosso,1,OTR-ITA-A,Italy,,,泰福迪宝树红葡萄酒,Terre Forti Vino Rosso,干红,,0.115,
+Terre Forti Montepulciano d'Abruzzo,2,OTR-ITA-A,Italy>Abruzzo,Montepulciano_1,,泰福迪银树蒙特布齐诺干红葡萄酒,Terre Forti Montepulciano d'Abruzzo,干红,2013,0.12,
+REFOSCO 2012 RED,3,OTR-ITA-A,Italy>Friuli-Venezia Giulia,REFOSCO_1,,拉图尼拉莱弗斯科红葡萄酒,REFOSCO 2012 RED,red,2012,0.135,干型
+Magno Terra,8,OTR-ITA-B,Italy>Chieti,Montepulciano_1,,玛瑙园 - 地球干红,Magno Terra,Red,2013,0.135,
+Calancia Nero d'Avola e Merlot,9,OTR-ITA-B,Italy>Sicily,Nero d'Avola_0.5/Merlot_0.5,,公爵卡兰尼卡黑达沃拉红葡萄酒,Calancia Nero d'Avola e Merlot,red wine,2012,0.125,
+L'ARCIONE 2009 RED,12,OTR-ITA-B,Italy>Friuli-Venezia Giulia,Pignolo_0.5/Schioppettion_0.5,,拉图尼拉红葡萄酒,L'ARCIONE 2009 RED,red,2009,0.145,干型
+Likos-Aglianico Del Vulture DOC 2011,13,OTR-ITA-B,Italy>Basilicata,Aglianico_1,,里奇艾格尼科红葡萄酒,Likos-Aglianico Del Vulture DOC 2011,red,2011,0.14,干型
+COLLEZIONE FELLINI Amanero IGT 2010,10,OTR-ITA-B,Italy>Sicily,Nero d'Avola_1,,费里尼精选阿玛内罗干红葡萄酒,COLLEZIONE FELLINI Amanero IGT 2010,Red,2010,0.15,10.1
+"Argiolas, Costera, Cannonau di Sardegna, DOC",14,OTR-ITA-B,Italy>Sardegna,Connonau/Carignano/Bovale,,阿吉拉斯酒庄，科斯达红,"Argiolas, Costera, Cannonau di Sardegna, DOC",Red,2012,0.14,
+"Planeta, La Segreta Rosso Di Sicilia, DOC",11,OTR-ITA-B,Italy〉Sicily,Nero d'Avola_0.5/Merlot_0.25/Syrah_0.2/Cabernet Franc_0.05,,朴奈达酒庄，西西里 赛格丽特红,"Planeta, La Segreta Rosso Di Sicilia, DOC",Red,2013,0.13,
+TERRE RARE RISERVA,15,OTR-ITA-B,Italy>Sardinia>Sussex,,Carignan_1,泰瑞珍藏干红葡萄酒,TERRE RARE RISERVA,干红,2009,0.13,
+RAIM ,16,OTR-ITA-B,Italy>Sardinia,,Cannonau/Merlot,瑞美干红葡萄酒,RAIM ,干红,2010,0.13,
+"Tasca d'Almerita Lamuri, ",7?,OTR-ITA-B,Italy>Sicily>Sicilia IGT,,Nero D'Avola_1,"塔斯卡拉姆利红葡萄酒, 西西里IGT","Tasca d'Almerita Lamuri, ",Red Wine,2013,0.135,2
+"Planeta, Frappato, DOC Vittoria",17,OTR-ITA-B,Italy>Sicily,,Frappato_1,朴奈达酒庄，弗莱帕托红,"Planeta, Frappato, DOC Vittoria",Red,2014,,
+Passo Delle Mule,18,OTR-ITA-C,Italy>Sicily,Nero d'Avola_1,,公爵帕索德拉穆红葡萄酒,Passo Delle Mule,red wine,2012,0.135,
+DOMINE DRY WHITE WINE 2012,9,OTW,Spain>RUEDA,Verdejo_0.95/Sauvignon Blanc_0.05,,多米尼卢埃达干白葡萄酒,DOMINE DRY WHITE WINE 2012,WHITE WINE,2012,0.13,
+Angelfish Moscato,1,OTW,Australia>Riverina>Murray Darling Riverland,Muscat Gordo Blanco_0.78/White Frontignac _0.22 ,,天使鱼慕斯卡白葡萄酒,Angelfish Moscato,white wine,2013,0.075,
+PUECH NOBLE BLANC COTEAUX DU LANGUEDOC  2013 750ml,4,OTW,France>South France>South France,Grenache Blanc_0.5/Vermentino_0.35/Viognier_0.15,,皮埃什贵族朗格多克白葡萄酒,PUECH NOBLE BLANC COTEAUX DU LANGUEDOC  2013 750ml,white,2013,0.135,干型
+DON PASCUAL Rueda DO 2010 ,10,OTW,Spain>Rueda,Verdejo_1,,唐-帕斯卡 拉斯阿门多斯干白葡萄酒,DON PASCUAL Rueda DO 2010 ,White,2010/2013,0.125,2
+ROBERT GILLIARD LES MURETTES AOC 2013,12,OTW,Switzerland>Valais>Sion,Chasselas_1,,罗伯特-吉尔 勒斯慕特干白葡萄酒,ROBERT GILLIARD LES MURETTES AOC 2013,White,2013,0.125,3.9
+Dr. Wehrheim Weisser Burgunder Buntstuck (Pinot Blanc),6,OTW,Germany>Pfalz,Pinot Blanc_1,,威海姆酒庄，白比诺白,Dr. Wehrheim Weisser Burgunder Buntstuck (Pinot Blanc),White,2013,0.12,
+"Cuvee Classique,Muscadet Sevre et Maine, AOP",5,OTW,France>Loire Valley,Melon de Bourgogne,,传统佳酿白,"Cuvee Classique,Muscadet Sevre et Maine, AOP",White,2013,0.12,
+Vionta Albarino,11,OTW,Spain>Rias Baixas,,Albarino_1,维恩达庄园干白葡萄酒,Vionta Albarino,White,2013,0.128,
+"Moss Wood Ribbon Vale Sauvignon Blanc /Semillon,Margaret Riv",2,OTW,Australia>Margaret River >Ribbon Vale Vineyard,,Semillon_0.62/Sauvignon Blanc_0.38,慕丝森林缎带谷谢密雍/苏维翁白,"Moss Wood Ribbon Vale Sauvignon Blanc /Semillon,Margaret Riv",White Wine,2013,0.135,
+"Fairview Darling Chenin Blanc, Paarl (SC)",7,OTW,Africa>Paarl,,Chenin  blanc_1,"锦绣庄园白诗南, 帕尔(SC)","Fairview Darling Chenin Blanc, Paarl (SC)",White Wine,2014,0.135,1.3 g/l
+Gelber Muskateller Steirische Klassik ,3,OTW,Austria>Südsteiermark,,Gelber Muskateller_1,,Gelber Muskateller Steirische Klassik ,white wine,2014,0.11,3
+1685 Chardonnay Pinot Noir,8,OTW,South Africa>Coastal Region,,Chardonnay_0.6/Pinot Noir_0.4,特级窖选莎当妮黑皮诺白,1685 Chardonnay Pinot Noir,White,2014,0.13,3.9
+Chenin Blanc,1,OTW-A,,,,布琅兄弟梢南白葡萄酒,Chenin Blanc,,2014,0.11,18.5
+"LiFe Pinot Grigio, ",??,OTW-ITA-,Italy>Delle Venezie IGT,,Pinot Grigio_1,"丽斐生活灰皮诺, 威尼西亚IGT","LiFe Pinot Grigio, ",White Wine,2013,0.13,
+Terre Forti Vino Bianco ,1,OTW-ITA-A,Italy,,,泰福迪宝树白葡萄酒,Terre Forti Vino Bianco ,半干,,0.11,
+RJGIALLA 2013 WHITE,2,OTW-ITA-A,Italy>Friuli-Venezia Giulia,Ribolla gialla_1,,拉图尼拉丽波拉白葡萄酒,RJGIALLA 2013 WHITE,white,2013,0.13,干型
+VERDUZZO 2012 WHITE,3?,OTW-ITA-A,Italy>Friuli-Venezia Giulia,VERDUZZO_1,,拉图尼拉维多佐白葡萄酒,VERDUZZO 2012 WHITE,white,2012,0.125,半甜型
+PAPUNI Inzolia Chardonnay 2013,4,OTW-ITA-A,Italy>Sicily,Inzolia_0.8/Chardonnay_0.2,,帕普妮霞多丽干白葡萄酒,PAPUNI Inzolia Chardonnay 2013,White,2013,0.13,1.68
+MEZZACORONA Pinot Grigio,5,OTW-ITA-A,Italy>Trentino DOC,,Pinot Grigio_1,梅佐考罗那-灰品乐干白葡萄酒,MEZZACORONA Pinot Grigio,干型,2014,0.13,
+IL POLLENZA ANGERA,11,OTW-ITA-B,Italy>MARCHE,Maceratino_1,,安洁拉干白葡萄酒,IL POLLENZA ANGERA,WHITE,2011,0.13,
+MANZONI BIANCO IGT MARCA TREVIGIANA,8,OTW-ITA-B,Italy>Veneto>Treviso,Manzoni Bianco_1,,加斯帕瑞尼曼佐尼干白葡萄酒,MANZONI BIANCO IGT MARCA TREVIGIANA,干型白葡萄酒,2012,13.5%,
+Terre Forti Trebbiano Chardonnay Rubicone,9,OTW-ITA-B,Italy,Trebbiano_0.5/Chardonnay_0.5,,泰福迪银树特比安诺霞多丽白葡萄酒,Terre Forti Trebbiano Chardonnay Rubicone,半干,2014,0.12,
+Soave DOC Sereole,7,OTW-ITA-B,"Italy>Monteforte D'Alpone>Sereole,Soave Classico",Grenache_1,,希蕾欧利索艾维白葡萄酒,Soave DOC Sereole,White Wine,2013,0.13,
+"Tommasi, ""Le Rosse"" Pinot Grigio, IGT",10,OTW-ITA-B,Italy>Veneto,,Pinot Grigio_1,托马斯酒庄，罗斯庄园灰比诺白,"Tommasi, ""Le Rosse"" Pinot Grigio, IGT",White,2013,0.12,
+"Tasca d'Almerita Leone, Sicilia IGT",??,OTW-ITA-B,Italy>Sicily>Sicilia IGT,,Catarratto_0.47/Pinot Bianco _0.22/Sauvignon_0.2,"塔斯卡里昂白葡萄酒, 西西里IGT","Tasca d'Almerita Leone, Sicilia IGT",White Wine,2012,0.13,4.40 
+Giribaldi Dolcetto D'Alba,0,PIED-A,Italy>Piedmont,,Dolcetto_1,吉利巴蒂酒园多赛托达尔巴红,Giribaldi Dolcetto D'Alba,Red,2012,0.125,0.3
+Dolcetto d'Alba Bussia,1,PIED-B,Italy>Piedmont,Dolcetto_1,,多姿桃-达尔巴葡萄酒,Dolcetto d'Alba Bussia,干红,2013,0.13,
+Carla Chiona Dogliani Chioneo,2,PIED-B,Italy>Piedmont,Dolcetto_1 ,,"奇埃罗奇埃尼奥多姿桃红葡萄酒
+",Carla Chiona Dogliani Chioneo,Red Wine,2011,0.14,
+Braida Barbera Del Monferrato La Monella,3,PIED-B,Italy>Piedmont,Barbera_1 ,,百来达小淘气微泡红葡萄酒,Braida Barbera Del Monferrato La Monella,Red Wine,2012,0.145,
+Giacomo Bologna Braida Il Baciale Monferrato Rosso,4,PIED-B,Italy>Piedmont,Barbera_0.6/Pinot Noir_0.2/Cabernet sauvignon_0.1/Merlot_0.1,,百莱达酒庄媒人葡萄酒,Giacomo Bologna Braida Il Baciale Monferrato Rosso,干红,2010,0.145,
+BARBARESCO,5,PIED-B,Italy>Piedmont>Barbaresco,,Nebbiolo_1,巴巴瑞斯克干红葡萄酒,BARBARESCO,干红,2009,0.14,
+Barolo Vendemmia,6,PIED-C,Italy>Piedmont,Nebbiolo_1,,巴罗洛葡萄酒,Barolo Vendemmia,干红,2010,0.135,
+Carla Chiona Langhe Rosso Berenice,7,PIED-C,Italy>Piedmont,Barbera_1 ,,奇埃罗贝仑奈西巴贝拉红葡萄酒,Carla Chiona Langhe Rosso Berenice,Red Wine,2009,0.145,
+G.D.Vajra Langhe Nebbiolo,8,PIED-C,Italy>Piedmont,Nebbiolo_1 ,,瓦嘉拉朗格内比奥罗红葡萄酒,G.D.Vajra Langhe Nebbiolo,Red Wine,2010,0.14,
+Braida Barbera D'Asti Montebruna,9,PIED-C,Italy>Piedmont,Barbera_1 ,,百来达蒙特布鲁娜巴贝拉红葡萄酒,Braida Barbera D'Asti Montebruna,Red Wine,2010,0.145,
+BAROLO,10,PIED-C,Italy>Piedmont>Barolo,,Nebbiolo_1,巴罗洛干红葡萄酒,BAROLO,干红,2009,0.145,
+Giribaldi Barolo DOCG,11,PIED-C,Italy>Piedmont,,Nebbiolo_1,吉利巴蒂酒园巴罗洛红,Giribaldi Barolo DOCG,Red,2010,0.14,0.5
+"Vina Casablanca, Cefiro Pinot Noir",1,PN-A,Chile>Casablanca Valley,Pinot Noir_1,,卡萨布兰卡酒庄，天逸珍藏系列 黑比诺红,"Vina Casablanca, Cefiro Pinot Noir",Red,2013,0.145,
+Leyda Single Vineyard Pinot Noir,2,PN-B,Chile>Leyda Valley,Pinot Noir_1,,金莱达黑皮诺红葡萄酒,Leyda Single Vineyard Pinot Noir,red,2012,0.145,3.5
+2009 Coelho Winery Willamette Valley Pinot Noir,3,PN-B,USA>Oregon>William Valley,Pinot Noir_1,,2009科艾露酒庄威廉姆特谷黑皮诺,2009 Coelho Winery Willamette Valley Pinot Noir,,2009,0.13,
+2005 ADEA Deano's Pinot Noir,4,PN-B,USA>Oregon>William Valley,Pinot Noir_1,,2005艾迪娅酒窖汀奥黑皮诺,2005 ADEA Deano's Pinot Noir,,2005,0.137,
+Hahn Winery California Pinot Noir,5,PN-B,USA>California>Central Coast Monterey,Pinot Noir_1,,加州汉恩酒庄黑皮诺红葡萄酒,Hahn Winery California Pinot Noir,Red Wine,2011,0.145,
+ROBERT GILLIARD DOLE DES MONTS AOC 2013,7,PN-B,Switzerland>Valais>Sion,Pinot Noir_0.65/Gamay_0.35,,罗伯特-吉尔 山坡干红葡萄酒,ROBERT GILLIARD DOLE DES MONTS AOC 2013,Red,2013,0.138,1.8
+Willamette Valley Vineyards Elton Pinot Noir,6,PN-C,USA>Oregon>Eola-Amity Hills,Pinot Noir_1,,维拉米特埃尔顿黑皮诺,Willamette Valley Vineyards Elton Pinot Noir,干型红葡萄酒,2010,0.13,
+"LiFe Pinot Nero, Delle Venezie IGT",8,PN-C,Italy>Delle Venezie IGT,,Pinot Nero_1,"丽斐生活黑皮诺, 威尼西亚IGT","LiFe Pinot Nero, Delle Venezie IGT",Red Wine,2012,0.125,
+HENRI MEURGEY BOURGOGNE PINOT NOIR 2011 750ml ,1,PN-FR-A,France>Burgundy>Burgundy,Pinot Noir_1,,亨利默杰勃艮第黑皮诺红葡萄酒,HENRI MEURGEY BOURGOGNE PINOT NOIR 2011 750ml ,red,2011,0.125,干型
+Domaine Coillot ,2,PN-FR-A,France >Bourgogne,,Pinot Noir_1,科约庄园干红葡萄酒,Domaine Coillot ,red,2012,0.125,
+DOMAINE DE L AIGLE PINOT NOIR 2011 750ml ,4,PN-FR-B,France>South France>South France,Pinot Noir_1,,莱格勒庄园黑皮诺红葡萄酒,DOMAINE DE L AIGLE PINOT NOIR 2011 750ml ,red,2011,0.13,干型
+Bourgogne Pinot Noir Red,3?,PN-FR-B,France>Burgundy,,Pinot Noir_1,,Bourgogne Pinot Noir Red,Red,,,
+Coteaux Bourguignons,5?,PN-FR-B,France>Burgundy,,Gamay_0.5/Pinot Noir_0.5,,Coteaux Bourguignons,Red,,,
+VINCENT MOREY SANTENAY 1ER CRU BEAUREPAIRE 2011,6,PN-FR-C,France>Bordeaux>COTE DE BEAUNE,Pinot Noir_1,,文森莫利香内纳柏兰帕园红葡萄酒,VINCENT MOREY SANTENAY 1ER CRU BEAUREPAIRE 2011,Red,2011,0.135,0.4g/l
+Savigny Les Beaune 1er Cru,7,PN-FR-C,France>Burgundy>Cote de Beaune,Pinot Noir_1,,萨维尼莱博纳一级园干红2011,Savigny Les Beaune 1er Cru,干型,2011,0.13,
+Geyrey-Chambertin Vieilles Vignes,8,PN-FR-C,France>Burgundy>Cte de Nuits,Pinot Noir_1,,日芙海香柏坛（老藤）干红2011,Geyrey-Chambertin Vieilles Vignes,干红,2011,0.13,
+Bouchard P&F Beaune du Chateau Rouge ,9?,PN-FR-C,France>Burgundy>Beaune 1er Cru AOC ,,Pinot Noir_1,"宝尚父子博恩古堡红, 博恩一级葡萄园AOC",Bouchard P&F Beaune du Chateau Rouge ,Red Wine,2011,0.125,
+Kapuka Pinot Noir,1,PN-NZ-A,New Zealand>Marlborough,Pinot Noir_1,,卡葡卡黑比诺干红葡萄酒,Kapuka Pinot Noir,干红,2011,0.135,
+SILENI SATYR PINOT NOIR MARLBOROUGH  2013 750ml ,2,PN-NZ-A,New Zealand>MARLBOROUGH>New Zealand,Pinot Noir_1,,思兰尼萨堤尔黑皮诺红葡萄酒,SILENI SATYR PINOT NOIR MARLBOROUGH  2013 750ml ,red,2013,0.125,干型
+Petit Clos Pinot Noir,3,PN-NZ-A,New Zealand>Marlborough,,Pinot Noir_1,,Petit Clos Pinot Noir,Red,,,
+"Villa Maria Estate Series Pinot Noir, Marlborough",4,PN-NZ-A,New Zealand>Martinborough,,Pinot Noir_1,新玛利庄园马尔堡精选黑皮诺,"Villa Maria Estate Series Pinot Noir, Marlborough",Red Wine,2012,0.135,0
+Hãhã 2014 Marlborough Pinot Noir,5,PN-NZ-A,New Zealand>Marlborough,,Pinot Noir_1,,Hãhã 2014 Marlborough Pinot Noir,Red,2014,0.135,1 g/l
+Gibbston Valley Gold River Piont Noir,11,PN-NZ-B,New Zealand>Central Otago,Pinot Noir_1,,吉布斯山谷酒庄金水河黑皮诺红葡萄酒,Gibbston Valley Gold River Piont Noir,干红,2014,0.14,
+"Babich Black Label Marlborough 
+Pinot Noir
+",12,PN-NZ-B,New Zealand>Marburg,Pinot Noir_1,,百祺黑标马尔堡黑皮诺,"Babich Black Label Marlborough 
+Pinot Noir
+",干红,2013,0.135,1.1
+OLD COACH ROAD Pinot Noir,7,PN-NZ-B,New Zealand>Nelson,,Pinot Noir_1,蔻驰大道-黑品乐红葡萄酒,OLD COACH ROAD Pinot Noir,干型,2013/2014,0.13,
+"Villa Maria Private Bin Pinot Noir, Marlborough",8,PN-NZ-B,New Zealand>Marlborough,,Pinot Noir_1,新玛利庄园马尔堡珍匣黑皮诺,"Villa Maria Private Bin Pinot Noir, Marlborough",Red Wine,2013,0.135,0
+"Villa Maria Cellar Selection Pinot Noir, Marlborough",9,PN-NZ-B,New Zealand>Marlborough,,Pinot Noir_1,新玛利庄园马尔堡窖藏精选黑皮诺,"Villa Maria Cellar Selection Pinot Noir, Marlborough",Red Wine,2013,0.135,0
+"Ata Rangi Crimson Pinot Noir, Martinborough ",10,PN-NZ-B,New Zealand>Martinborough,,Pinot Noir_1,新天地酒园绯红黑皮诺,"Ata Rangi Crimson Pinot Noir, Martinborough ",Red Wine,2011,0.135,
+Ara Single Estate Pinot Noir 2013,13,PN-NZ-B,New Zealand>Marlborough>Waihopai Valley,,Pinot Noir_1,,Ara Single Estate Pinot Noir 2013,Pinot Noir,2013,0.135,0.5
+Gibbston Valley Glenlee Piont Noir,14,PN-NZ-C,New Zealand>Central Otago,Pinot Noir_1,,吉布斯山谷酒庄格莱美黑皮诺红葡萄酒,Gibbston Valley Glenlee Piont Noir,干红,2012,0.13,
+vynfields reserve pinot noir,16,PN-NZ-C,New Zealand>Wairarapa>Martinborough,Pinot Noir_1,,维尼菲尔德珍藏黑皮诺红葡萄酒,vynfields reserve pinot noir,red,2012,0.14,1
+vynfields pinot noir,15,PN-NZ-C,New Zealand>Wairarapa>Martinborough,Pinot Noir_1,,维尼菲尔德黑皮诺红葡萄酒,vynfields pinot noir,red,2012,0.14,1
+Crown Range Cellar Signature Selection Pinot Noir 2013,17,PN-NZ-C,New Zealand>Central Otago,Pinot Noir_1,,特邀酿酒师签名系列黑皮诺干红葡萄酒,Crown Range Cellar Signature Selection Pinot Noir 2013,Red Wine,2013,0.135,1
+Mr. Riggs 'EinRiese' Riesling,3,RI-D,Australia>Adelaide Hills,Riesling_1,,瑞格斯先生安丽芝雷司令半干白葡萄酒,Mr. Riggs 'EinRiese' Riesling,半干白,2014,0.1,3.0g/L
+Hentley Farm The Exception Riesling,4,RI-D,Australia>Eden Valley,Riesling_1,,亨特利庄园雷司令,Hentley Farm The Exception Riesling,干白,2011,0.11,
+"Pikes, Traditionale Riesling",5,RI-D,Australia〉South Australia>Clare Valley,Riesling_1,,派客酒庄，传统雷司令白,"Pikes, Traditionale Riesling",White,2014,0.11,
+Trimbach Riesling,6,RI-D,France>Alsace,,Riesling_1,,Trimbach Riesling,White,,,
+Leeuwin Art Series Riesling ,7,RI-D,Australia>Western Australia,,Riesling,澳大利亚露纹酒园薏丝琳干白葡萄酒,L Art Series Riesling ,,2014,,
+"Jim Barry Lodge Hill Riesling, Clare Valley ",8,RI-D,Australia>Clare Valley,,Riesling_1,金百利庐舍山庄雷司令,"Jim Barry Lodge Hill Riesling, Clare Valley ",White Wine,2014,0.125,
+"Pewsey Vale Riesling, Eden Valley",9,RI-D,Australia>Eden Valley,,Riesling_1,普西河谷雷司令,"Pewsey Vale Riesling, Eden Valley",White Wine,2013,0.125,1.9
+"Pewsey Vale The Contours Riesling, Eden Valley ",10,RI-D,Australia>Eden Valley,,Riesling_1,普西河谷精选雷司令,"Pewsey Vale The Contours Riesling, Eden Valley ",White Wine,2009,0.125,2.6
+Tim Adams Riesling,11,RI-D,Australia>Clare Valley,,Riesling_1,蒂姆亚当斯酒园雷司令白,Tim Adams Riesling,White,2014,0.115,2.2
+"Fritz Haag Riesling QbA Dry, Mosel",1,RI-D-B,Germany>Mosel ,,Riesling_1,"福耕酒庄雷司令干白,莫舍尔(SC)","Fritz Haag Riesling QbA Dry, Mosel",White Wine,2012,0.115,
+"Hugel et Fils Riesling, Alsace AOC",2,RI-D-B,France>Alsace AOC,,Riesling_1,"雨果雷司令, 阿尔萨斯AOC","Hugel et Fils Riesling, Alsace AOC",White Wine,2013,0.1242,3.8
+"Hugel et Fils Gentil, ",12,RI-D-C,France>Alsace AOC,,Riesling_0.15/Gewurztraminer_0.19/Muscat_0.02,"雨果精选, 阿尔萨斯AOC","Hugel et Fils Gentil, ",White Wine,2013,0.125,3.9
+"Hugel et Fils Riesling Jubilee, Alsace AOC",13,RI-D-C,France>Alsace AOC,,Riesling_1,"雨果周年庆典雷司令, 阿尔萨斯AOC","Hugel et Fils Riesling Jubilee, Alsace AOC",White Wine,2008,0.1325,6.5
+"Dr. Loosen Urziger Wurzgarten Riesling Spatlese, Mosel (SC)",20,RI-M-B,Germany>Mosel,,Riesling_1,"露森香园雷司令, 莫舍尔","Dr. Loosen Urziger Wurzgarten Riesling Spatlese, Mosel (SC)",White Wine,2013,0.075,
+vynfields classic riesling,19,RI-OD,New Zealand>Wairarapa>Martinborough,Riesling_1,,维尼菲尔德雷司令经典白葡萄酒,vynfields classic riesling,white,2013,0.125,13
+Weingut Reinhold Haart Haart To Heart Semi-Dry,16,RI-OD,Germany>Mosel>Pittsburgh,Riesling_1,,哈特酒厂 心心相印 半甜白葡萄酒,Weingut Reinhold Haart Haart To Heart Semi-Dry,Sweet Wine,2013,0.105,
+CRAGGY RANGE Te Muna Riesling,17,RI-OD,New Zealand>Martinborough,Riesling,,克拉吉酒庄，特穆纳雷司令白,CRAGGY RANGE Te Muna Riesling,White,2013,0.115,
+"Fritz Haag Brauneberger Riesling Kabinett, Mosel (SC)",18,RI-OD,Germany>Mosel ,,Riesling_1,"福耕酒庄布朗悠芙日冕葡萄园雷司令,莫舍尔","Fritz Haag Brauneberger Riesling Kabinett, Mosel (SC)",White Wine,2013,0.075,
+"Dr. Loosen Dr L Riesling, (SC)",14,RI-OD-A,Germany>Mosel,,Riesling_1,"露森雷司令, 莫舍尔","Dr. Loosen Dr L Riesling, (SC)",White Wine,2014,0.085,
+"Dr. Loosen Wehlener Sonnenuhr Riesling Kabinett, Mosel (SC)",15,RI-OD-B,Germany>Mosel,,Riesling_1,"露森日冕庄园雷司令, 莫舍尔","Dr. Loosen Wehlener Sonnenuhr Riesling Kabinett, Mosel (SC)",White Wine,2013,0.08,
+"Rose d'Anjou, Foliment 2013",2,ROSE,France>Loire Valley>Anjou,Gamay_0.8/Grolleau_0.2,,红唇安茹玫瑰蜜桃红葡萄酒 2013,"Rose d'Anjou, Foliment 2013",rose,2013,0.11,semi sweet
+LISTEL Gris Grain de Gris,3,ROSE,France>Sable de Camargue,Carignan/Grenache/Cinsault,,丽斯特桃红葡萄酒,LISTEL Gris Grain de Gris,Rose,2014,0.125,
+CLOS DE CAPELUNE CRU CLASSE,9,ROSE,France>Provence>Cotes de Provence,Grenache_0.4/Cinsault_0.4/Mourvèdre_0.1/Rolle_0.1,,羞月园列级庄桃红,CLOS DE CAPELUNE CRU CLASSE,ROSE,2014,0.125,0.4
+DOMAINE DE VILLEMAJOU ROSE 2013 750ml ,8,ROSE,France>South France>South France,Shiraz_0.55/Grenache_0.35/Carignan_0.1,,飞马族庄园桃红葡萄酒,DOMAINE DE VILLEMAJOU ROSE 2013 750ml ,rose,2013,0.13,干型
+"AIX Rose, Coteaux d'Aix en Provence AOP",7,ROSE,France>Côtes de Provence,Grenache/Syrah/Cinsault/Counoise,,爱珂溪桃红,"AIX Rose, Coteaux d'Aix en Provence AOP",Rose,2014,0.125,
+The Beach House,6,ROSE,South Africa>Western Cape,,Pinotage_1,海星屋桃红,The Beach House,Rose`,2014,0.125,15
+Terre Forti Sangiovese Rubicone,1,SANG-A,Italy,Sangiovese_1,,泰福迪银树桑娇维赛红葡萄酒,Terre Forti Sangiovese Rubicone,半干,2014,0.12,
+Villa Meletino IGT 2010,2,SANG-A,Italy>TOSCANA>Chianti Classico,Sangiovese_0.8/Merlot_0.2,,梅雷托堡干红葡萄酒,Villa Meletino IGT 2010,Red,2010,0.13,2.77
+Solemma,3？,SANG-A,Italy>Tuscany>Chianti Classico,,Sangiovese_1,,Solemma,Red,2011,0.135,"1,4 g/l"
+Fattoria Nittardi Ad Astra,6,SANG-B,Italy>TOSCANA>Maremma,Sangiovese_0.4/Cabernet Sauvignon_0.25/Merlot_0.15/Syrah_0.15,,"
+尼塔帝酒庄阿波罗红葡萄酒",Fattoria Nittardi Ad Astra,红葡萄酒,2012,0.14,
+Rosso   di Montalcino d.o.c.g. Annata,7,SANG-B,Italy>TOSCANA,Sangiovese_1,,蒙塔希诺的红葡萄酒,Rosso   di Montalcino d.o.c.g. Annata,干红,2012,0.135,
+Terre Forti Romagna Sangiovese ,8,SANG-B,Italy>Romagn,Sangiovese_1,,泰福迪银树罗马涅桑娇维赛干红葡萄酒,Terre Forti Romagna Sangiovese ,干红,2013,0.12,
+Terre Forti Chianti,9,SANG-B,Italy>TOSCANA>Chianti,Sangiovese_1,,泰福迪金树基安蒂干红葡萄酒,Terre Forti Chianti,干红,2013,0.125,
+CASTELLO DI MELETO Chianti Classico DOCG 2010,10,SANG-B,Italy>TOSCANA>Chianti Classico,Sangiovese_0.9/Merlot_0.1,,梅雷托堡经典齐安蒂干红葡萄酒,CASTELLO DI MELETO Chianti Classico DOCG 2010,Red,2010,0.14,0.77
+"Col D’Orcia, Rosso Di Montalcino, DOC",11,SANG-B,Italy>TOSCANA>Montalcino,Sangiovese_1,,科尔多奇亚，蒙塔尔奇诺红,"Col D’Orcia, Rosso Di Montalcino, DOC",Red,2011,0.14,
+"Col d’Orcia, Brunello di Montalcino, DOCG",12,SANG-B,Italy>TOSCANA>Montalcino,Sangiovese_1,,科尔多奇亚， 蒙塔尔奇诺布鲁诺红,"Col d’Orcia, Brunello di Montalcino, DOCG",Red,2009,0.145,
+"Mazzei, Badiola, Toscana IGT",13,SANG-B,Italy>TOSCANA,Sangiovese_0.7/Merlot_0.3,,马泽世家，芭迪奥拉红,"Mazzei, Badiola, Toscana IGT",Red,2012,0.13,
+"Mazzei, Fonterutoli, Chianti Classico DOCG",14,SANG-B,Italy>TOSCANA>Chianti,Sangiovese_0.9/Malvasia Nera/Colorino/Merlot,,马泽世家，凤都奇安蒂经典红,"Mazzei, Fonterutoli, Chianti Classico DOCG",Red,2012,0.135,
+"Ricasoli Brolio, Chianti Classico DOCG",16?,SANG-B,Italy>TOSCANA>Chianti Classico DOCG,,,"瑞卡索布里欧, 经典坎蒂DOCG","Ricasoli Brolio, Chianti Classico DOCG",Red Wine,2012,0.13,
+Badia a Coltibuono Chianti Classico DOCG,15,SANG-B,Italy>Tuscany>Chianti,,Sangiovese_0.9/Canaiolo_0.03/Colorino_0.03,高伯酒园精选驰安稠红,Badia a Coltibuono Chianti Classico DOCG,Red,2011,0.14,1
+"Fattoria Nittardi Casanuova di Nittardi
+",21,SANG-C,Italy>TOSCANA>Chianti Classico,Sangiovese_0.97/Canaiolo Nero_0.03,,尼塔帝酒庄艺术限量版红葡萄酒,"Fattoria Nittardi Casanuova di Nittardi
+",红葡萄酒,2011,0.14,
+Fattoria Nittardi Riserva,22,SANG-C,Italy>TOSCANA>Chianti Classico,Sangiovese_0.95/Merlot_0.05,,尼塔帝酒庄黑标红葡萄酒,Fattoria Nittardi Riserva,红葡萄酒,2010,0.14,
+CASTELLO DI MELETO Poggiarso DOCG 2006,23,SANG-C,Italy>TOSCANA>Chianti Classico,Sangiovese_1,,梅雷托堡经典珍藏齐安蒂干红葡萄酒,CASTELLO DI MELETO Poggiarso DOCG 2006,Red,2006,0.13,0.4
+"Il Poggione, Brunello di Montalcino DOCG",19?,SANG-C,Italy>TUSCANY>Brunello di Montalcino DOCG,,,"宝骄存酿红葡萄酒, 龙奈尔芒塔DOCG","Il Poggione, Brunello di Montalcino DOCG",Red Wine,2009,0.145,
+"Ricasoli Casalferro Merlot, ",20?,SANG-C,Italy>TOSCANA>Tocana IGT,,,"瑞卡索卡萨菲洛梅洛, 托斯卡纳IGT","Ricasoli Casalferro Merlot, ",Red Wine,2008,0.14,
+Temento Green Südsteiermark,5,SB,Austria>Südsteiermark,,Sauvignon Blanc_0.9/Styrian Grape Varieties_0.1,,Temento Green Südsteiermark,white wine,2014,0.11,3
+Sauvignon blanc Steirische Klassik ,6,SB,Austria>Südsteiermark,,Sauvignon Blanc_1,,Sauvignon blanc Steirische Klassik ,white wine,2014,0.12,2
+Zieregg,7,SB,Austria>Südsteiermark,,Sauvignon Blanc_1,,Zieregg,white wine,2013,0.13,1
+Fosilni Breg Sauvignon Blanc,8,SB,Slovenia>Stajerska Slovenija,,Sauvignon Blanc_1,,Fosilni Breg Sauvignon Blanc,white wine,2014,0.115,2
+Fosilni Breg Reserve,9,SB,Slovenia>Stajerska Slovenija,,Sauvignon Blanc_1,,Fosilni Breg Reserve,white wine,2011,0.13,3
+Estiba I Cabernet Sauvignon,20,SB-A,Argentina>Mendoza>Agrelo,Sauvignon Blanc_1 ,,艾斯迪巴▪苏维翁,Estiba I Cabernet Sauvignon,干型,2013,0.13,3.25
+"Oxford Landing Sauvignon Blanc, South Australia",1,SB-A,Australia>South Australia,,Sauvignon Blanc _1,牛津园苏维翁白葡萄酒,"Oxford Landing Sauvignon Blanc, South Australia",White Wine,2013,0.105,2.4
+Leyda Reserva Sauvignon Blanc,3,SB-B,Chile>Leyda Valley,Sauvignon Blanc_1,,银莱达苏维翁白葡萄酒,Leyda Reserva Sauvignon Blanc,white,2013,0.125,2.3
+IL POLLENZA BRIANELLO,12,SB-B,Italy>MARCHE,Sauvignon Blanc_0.9/棠比亚诺_0.1,,布莱诺白葡萄酒,IL POLLENZA BRIANELLO,WHITE,2011,0.135,
+"Vina Casablanca, Nimbus Estate Sauvignon Blanc",4,SB-B,Chile>Casablanca Valley,Sauvignon Blanc_1 ,,卡萨布兰卡酒庄，尼博山庄系列 长相思白,"Vina Casablanca, Nimbus Estate Sauvignon Blanc",White,2014,0.138,
+"Ferrari-Carano, Fumé Blanc",10,SB-B,USA>California>Sonoma County,Sauvignon Blanc_1 ,,法拉利卡诺酒庄，富美白,"Ferrari-Carano, Fumé Blanc",White,2013,0.138,
+"St Supéry, Estate Sauvignon Blanc",11,SB-B,USA>California>Napa Valley,,Sauvignon Blanc_1,顶圣酒庄，长相思白,"St Supéry, Estate Sauvignon Blanc",White,2013,0.135,
+Voyager Estate Sauvignon Blanc Semillon,2,SB-B,Australia>Margaret River,,Sauvignon Blanc_0.63/Semillon_0.37,航海家庄园长相思赛美蓉白,Voyager Estate Sauvignon Blanc Semillon,White,2013,0.13,
+Lechateau Blue  Sauvignon Blanc 2103,1,SB-FR-A,France>Loire Valley>LOIRE,Sauvignon Blanc_1 ,,小蓝鱼长相思干白葡萄酒 2013,Lechateau Blue  Sauvignon Blanc 2103,white,2013,0.12,dry
+MALESAN AOC Bordeaux Blanc,2,SB-FR-A,France>Bordeaux,Sauvignon Blanc_0.5/Sémillon_0.5,,马利尚波尔多干白葡萄酒,MALESAN AOC Bordeaux Blanc,White,2013,0.12,
+Petit Bourgeois Sauvignon Blanc,3,SB-FR-A,France>Loire Valley,,Sauvignon Blanc_1,,Petit Bourgeois Sauvignon Blanc,White,,,
+Les Hauts de La Gaffeliere ,12,SB-FR-A,France>Bordeaux>AOC Bordeaux ,,Sauvignon Blanc_1,上嘉芙利干白,Les Hauts de La Gaffeliere ,White,2014,,
+LEO de La Gaffeliere ,2,SB-FR-A,France>Bordeaux>AOC Bordeaux ,,Sauvignon Blanc_1,嘉芙利庄园波尔多干白葡萄酒,LEO de La Gaffeliere ,White,2014,,
+"Domaine Fouassier, Sancerre, AOP                          ",6,SB-FR-B,France>Loire Valley>Sancerre,Sauvignon Blanc_1 ,,弗榭酒庄，弗榭酒庄白,"Domaine Fouassier, Sancerre, AOP                          ",White,2013,0.125,
+CHATEAU HAUT SELVE Blanc,7,SB-FR-B,France>Grave,,Sauvignon Blanc_0.4-0.6/Semillon_0.5-0.3/Sauvignon Gris_0.1,欧赛尔堡干白葡萄酒,CHATEAU HAUT SELVE Blanc,white,2013,0.13,
+"Joseph Mellot La Chatellenie, Sancerre AOC (D)",8,SB-FR-B,France>Loire valley>Sancerre AOC,,Sauvignon Blanc_1,约瑟夫米罗砂乐霓白 桑塞尔AOC (D),"Joseph Mellot La Chatellenie, Sancerre AOC (D)",White Wine,2013,,
+"Joseph Mellot Tronsec, Pouilly Fume AOC (D)",9,SB-FR-B,France>Loire valley>Pouilly Fume AOC,,Sauvignon Blanc_1,"约瑟夫米罗甘藤白, 普伊芙美AOC (D)","Joseph Mellot Tronsec, Pouilly Fume AOC (D)",White Wine,2013,,
+"Rongopai Marlborough 
+Sauvignon Blanc
+",1,SB-NZ-A,New Zealand>Marburg,Sauvignon Blanc_1 ,,荣格派酒园马尔堡长相思白葡萄酒,"Rongopai Marlborough 
+Sauvignon Blanc
+",干白,2013,0.125,3.9
+SILENI CELLAR SELECTION SAUVIGNON BLANC SILENI MARLBOROUGH  2014 750ml ,2,SB-NZ-A,New Zealand>MARLBOROUGH>MARLBOROUGH,Sauvignon Blanc_1 ,,思兰尼酒窖精选长相思白葡萄酒,SILENI CELLAR SELECTION SAUVIGNON BLANC SILENI MARLBOROUGH  2014 750ml ,white,nv,0.12,干型
+SILENI SATYR SAUVIGNON BLANC MARLBOROUGH  2014 750ml ,3,SB-NZ-A,New Zealand>MARLBOROUGH>New Zealand,Sauvignon Blanc_1 ,,思兰尼萨堤尔长相思白葡萄酒,SILENI SATYR SAUVIGNON BLANC MARLBOROUGH  2014 750ml ,white,2014,0.12,干型
+"Villa Maria Private Bin Sauvignon Blanc, Marlborough",4,SB-NZ-A,New Zealand>Marlborough,,Sauvignon Blanc_1,新玛利庄园马尔堡珍匣长相思,"Villa Maria Private Bin Sauvignon Blanc, Marlborough",White Wine,2014,0.125,4.5
+"Villa Maria Estate Series Sauvignon Blanc, Marlborough",5,SB-NZ-A,New Zealand>Martinborough,,Sauvignon Blanc_1,新玛利庄园马尔堡精选长相思,"Villa Maria Estate Series Sauvignon Blanc, Marlborough",White Wine,2014,0.125,4
+Hãhã 2014 Marlborough Sauvignon Blanc,6?,SB-NZ-A,New Zealand>Marlborough,,Sauvignon Blanc_1,,Hãhã 2014 Marlborough Sauvignon Blanc,White,2014,0.135,1.3 g/l
+Marlborough Music Bay Sauvignon Blanc White Wine 2014,8,SB-NZ-B,New Zealand>Marlborough,Sauvignon Blanc_1,,马尔堡音乐湾长相思白葡萄酒,Marlborough Music Bay Sauvignon Blanc White Wine 2014,白葡萄酒/White Wine,2014,0.14,经销商，大流通
+"Babich Black Label Marlborough 
+Sauvignon Blanc
+",9,SB-NZ-B,New Zealand>Marburg,Sauvignon Blanc_1,,百祺黑标马尔堡长相思,"Babich Black Label Marlborough 
+Sauvignon Blanc
+",干白,2014,0.13,4
+"Babich  Marlborough 
+Sauvignon Blanc
+",10,SB-NZ-B,New Zealand>Marburg,Sauvignon Blanc_1 ,,百祺马尔堡长相思,"Babich  Marlborough 
+Sauvignon Blanc
+",干白,2014,0.13,3.6
+SEIFRIED Sauvignon Blanc,11,SB-NZ-B,New Zealand>Nelson,,Sauvignon Blanc_1,赛菲利-长相思白葡萄酒,SEIFRIED Sauvignon Blanc,干型,2014,0.13,
+"Villa Maria Reserve Sauvignon Blanc, Clifford Bay, Marlborough",12,SB-NZ-B,Australia>Margaret River>Ribbon Vale Vineyard,,Sauvignon Blanc_1,新玛利庄园马尔堡克里福德湾珍藏长相思,"Villa Maria Reserve Sauvignon Blanc, Clifford Bay, Marlborough",White Wine,2014,0.13,3.1
+Ara Single Estate Sauvignon Blanc 2014,14?,SB-NZ-B,New Zealand>Marlborough>Waihopai Valley,,Sauvignon Blanc _1,,Ara Single Estate Sauvignon Blanc 2014,Sauvignon Blanc,2014,0.13,3.08
+CRAGGY RANGE Avery Sauvignon Blanc,13,SB-NZ-B,New Zealand>Marlborough,,Sauvignon Blanc_1,克拉吉酒庄，艾弗莉长相思白,CRAGGY RANGE Avery Sauvignon Blanc,White,2014,,
+"Wairau River, Marlborough Sauvignon Blanc",15,SB-NZ-B,New Zealand,,Sauvignon Blanc_1,维拉河酒庄，长相思白,"Wairau River, Marlborough Sauvignon Blanc",White,2013,0.13,
+Marlborough O:TU Prestige Sauvignon Blanc White Wine 2014,16,SB-NZ-C,New Zealand>Marlborough,Sauvignon Blanc_1,,马尔堡噢特优名望长相思白葡萄酒,Marlborough O:TU Prestige Sauvignon Blanc White Wine 2014,白葡萄酒/White Wine,2013,0.13,酒交所发行
+Laurent Miquel Nord Sud Syrah Rouge,3,SH,France>Languedoc Roussillon,Shiraz_1,,劳伦米格尔南北系列西拉干红葡萄酒,Laurent Miquel Nord Sud Syrah Rouge,干红,2013,0.135,3.27
+CHATEAU MARIS LA TOUGE MINERVOIS LIVINIERES 2011 750ml ,5,SH,France>South France>South France,Shiraz_0.85/Grenache_0.15,,玛丽庄园拉图哲红葡萄酒,CHATEAU MARIS LA TOUGE MINERVOIS LIVINIERES 2011 750ml ,red,2011,0.145,干型
+SILENI CELLAR SELECTION SYRAH 2013,10,SH,New Zealand>MARLBOROUGH>New Zealand,Shiraz_1,,思兰尼酒窖精选西拉红葡萄酒,SILENI CELLAR SELECTION SYRAH 2013,red,2013,0.125,干型
+Domaine Rouviole AOP Minervois La Liviniere,6,SH,France〉Languedoc>Minervois La Liviniere,Shiraz_0.8/Grenache_0.2,,胡微乐，米内瓦里维尼红,Domaine Rouviole AOP Minervois La Liviniere,Red,2009,0.15,
+LES MARQUISES SYRAH,8,SH,France>Rhône Valley>Nimes,,Shiraz_1,拉玛赫侯爵干红葡萄酒,LES MARQUISES SYRAH,干红,2010,0.145,
+"Nicolas Perrin Rouge, Crozes Hermitage  AOC",7,SH,France>Rhone Valley>Crozes Hermitage AOC,,Shiraz_1,"尼古拉斯佩兰酒庄, 克罗兹埃米塔日AOC","Nicolas Perrin Rouge, Crozes Hermitage  AOC",Red Wine,2011,,
+Vinus - Le Syrah Réserve,4,SH,France>Languedoc,,Shiraz_1,,Vinus - Le Syrah Réserve,Red,2013,0.137,2.6
+"David Stone 
+Shiraz Red Wine",16,SH-A,USA>California>Central Valley,Shiraz_1,,大卫斯通设拉子红葡萄酒,"David Stone 
+Shiraz Red Wine",Semi-Dry,NV,0.12,
+wise monkey syrah,12,SH-A,Chile>Maule,,Shiraz_1,智猴西拉珍藏干红,wise monkey syrah,干型,2012,0.135,
+Flinders 2013 South Australia Shiraz ,1,SH-AU-A,Australia>South Australia ,Shiraz_1,,富临发现者南澳西拉子葡萄酒(2013),Flinders 2013 South Australia Shiraz ,干红,2013,0.14,3.1g/L
+Rockart Estate Reserve Release Shiraz ,2？,SH-AU-A,Australia>Barossa Valley,Shiraz_0.836/Cabernet Sauvignon_0.153,,洛特庄园（收藏级）希拉赤霞珠干红葡萄酒,Rockart Estate Reserve Release Shiraz ,干红,2012,0.15,4.4g/l
+Red Deer Station HomesteadShiraz,3,SH-AU-A,Australia>South Australia,Shiraz_1,,"皇鹿驿站
+家园系列
+西拉子干红葡萄酒",Red Deer Station HomesteadShiraz,干红,2012,0.14,4.5g/L
+BETA Northern Shiraz ,4,SH-AU-A,Australia>Barossa,,Shiraz_0.86/CS_0.14,彼得巴罗萨北部干红葡萄酒,BETA Northern Shiraz ,干型,2013,0.145,0.6
+ANGOVE LONG ROW Shiraz,5,SH-AU-A,Australia>South Australia,,Shiraz_1,安戈瓦-朗路-西拉干红葡萄酒 ,ANGOVE LONG ROW Shiraz,干型,2013,0.14,
+Taylors Estate Shiraz ,6?,SH-AU-A,Australia>South Australia,,Shiraz,泰勒氏庄园臻选设拉子红葡萄酒,Taylors Estate Shiraz ,,2014,,
+,7？,SH-AU-A,Australia>SouthAustralia,,Shiraz_0.8/Cabernet Sauvignon_0.2,珍宴西拉子伽本力红葡萄酒,,红,2013,0.13,
+18 Eighty Nine Shiraz,8,SH-AU-A,,,,布琅兄弟设拉子红葡萄酒,18 Eighty Nine Shiraz,,2013,0.14,2.8(dry)
+Jacob's Creek Reserve Shiraz Barossa,12,SH-AU-B,Australia>South Australia>Barossa,Shiraz_1,,杰卡斯珍藏巴罗萨西拉,Jacob's Creek Reserve Shiraz Barossa,干红,2013,0.145,0
+Elgo Estate Shiraz 2010,13,SH-AU-B,Australia>VICTORIA>Stathbogie Ranges,Shiraz_1,,伊谷酒庄西拉干红葡萄酒,Elgo Estate Shiraz 2010,RED,2010,0.14,
+2012 Shiraz Victory,14,SH-AU-B,Australia>Adelaide>Barossa Valley,Shiraz_1,,维多利亚至尊色拉子红葡萄酒,2012 Shiraz Victory,red,2012,0.145,
+Mr. Riggs 'The Gaffer' Shiraz,15,SH-AU-B,Australia>McLaren Vale,Shiraz_1,,瑞格斯先生嘉菲西拉干红葡萄酒,Mr. Riggs 'The Gaffer' Shiraz,干红,2012,0.145,2.6g/L
+Angelfish Reserve Shiraz,9,SH-AU-B,"Australia〉Riverina>Hilltops,Heathcote",Shiraz_0.85/Petit Verdot_0.12,,天使鱼珍藏西拉红葡萄酒,Angelfish Reserve Shiraz,Red Wine,2012,0.135,
+Hentley Farm Caretaker Shiraz,16,SH-AU-B,Australia>Barossa Valley,Shiraz_1,,守护者设拉子,Hentley Farm Caretaker Shiraz,干红,2013,0.148,
+GRANT BURGE 5TH GENERATION BAROSSA SHIRAZ 2013 750ml ,17,SH-AU-B,Australia>Barossa>Barossa,Shiraz_1,,格兰伯爵第五代巴罗萨设拉子红葡萄酒,GRANT BURGE 5TH GENERATION BAROSSA SHIRAZ 2013 750ml ,red,2013,0.14,干型
+Relly's Shiraz,18,SH-AU-B,Australia>South Australia>Clare Valley,Shiraz_1,,莱利斯西拉干红葡萄酒,Relly's Shiraz,干红,2012,0.155,3.3
+"Coriole, Coriole Estate Grown Shiraz",19,SH-AU-B,Australia>McLaren Vale,Shiraz_1,,可利庄园，西拉红,"Coriole, Coriole Estate Grown Shiraz",Red,2012,0.14,
+TOOLANGI SHIRAZ,20,SH-AU-B,Australia>Yarra>Dixons Creek,,Shiraz_1,图朗吉庄园西拉干红葡萄酒,TOOLANGI SHIRAZ,干型,2010,0.13,0.31
+Shottesbrooke Estate Series Shiraz,21？,SH-AU-B,Australia>South Australia>McLaren Vale,,Shiraz_1,希拉谷庄园西拉红葡萄酒,Shottesbrooke Estate Series Shiraz,Red,2013,14.5,4.2
+ANGOVE FAMILY CREST Shiraz,22,SH-AU-B,Australia>South Australia>McLaren Vale,,Shiraz_1,安戈瓦-家族勋章西拉干红葡萄酒 ,ANGOVE FAMILY CREST Shiraz,干型,2012,0.14,
+Wynns Black Label Shiraz ,23,SH-AU-B,Australia>South Eastern Australia,,Shiraz, 酝思古纳华拉酒庄黑牌设拉子干红葡萄酒,Wynns Black Label Shiraz ,,2012,,
+Wolf Blass Grey Label Shiraz ,24,SH-AU-B,Australia>South Australia,,Shiraz,澳大利亚禾富酒园灰牌设拉子干红葡萄酒,Wolf Blass Grey Label Shiraz ,,2012,,
+Wolf Blass Gold Label Shiraz ,25,SH-AU-B,Australia>South Australia,,Shiraz,澳大利亚禾富酒园金牌设拉子干红葡萄酒,Wolf Blass Gold Label Shiraz ,,2012,,
+Leeuwin Siblings Shiraz,26,SH-AU-B,Australia>Western Australia,,Shiraz,澳大利亚露纹酒园兄妹情设拉子干红葡萄酒,Leeuwin Siblings Shiraz,,2011,,
+"Jim Barry Lodge Hill Shiraz, Clare Valley ",27,SH-AU-B,Australia>Clare Valley,,Shiraz_1,金百利庐舍山庄设拉子,"Jim Barry Lodge Hill Shiraz, Clare Valley ",Red Wine,2012,0.14,
+"Yalumba Shiraz/Viognier, Eden Valley",28,SH-AU-B,Australia>Eden Valley,,Shiraz_0.97/Viognier_0.03,御兰堡捍卫者设拉子/维安尼亚红葡萄酒,"Yalumba Shiraz/Viognier, Eden Valley",Red Wine,2010,0.14,
+"Yalumba Patchwork Barossa Shiraz, Barossa Valley",29,SH-AU-B,Australia>Barossa Valley,,Shiraz_1,御兰堡拼布设拉子红葡萄酒,"Yalumba Patchwork Barossa Shiraz, Barossa Valley",Red Wine,2012,,
+,30？,SH-AU-B,Australia>New South Wales>Orange Town,,Shiraz_1,滚动西拉子红葡萄酒,,红,2010,0.135,
+The Laughing Magpie,31?,SH-AU-B,Australia>McLaren Vale,,Shiraz/Viognier,,The Laughing Magpie,,2011,0.142,
+Stella Bella Shiraz,11,SH-AU-B,Australia>Margaret River,,Shiraz_0.964/Viognier_0.036,斯黛拉贝勒酒园西拉红,Stella Bella Shiraz,Red,2009,0.14,0.4
+St Hugo Barossa Shiraz,32,SH-AU-C,Australia>South Australia>Barossa,Shiraz_1,,圣雨果巴罗萨西拉,St Hugo Barossa Shiraz,干红,2009,0.142,0
+Turners Crossing Shiraz Viognier,33,SH-AU-C,Australia>Victoria>Voctoria Bendigo,Shiraz_0.95/Viognier_0.05,,特纳十字庄园设拉子维欧尼红葡萄酒,Turners Crossing Shiraz Viognier,红葡萄酒,2007,0.143,0.23
+Flinders Estate 2012 Barossa Shiraz,34,SH-AU-C,Australia>Barossa Valley,Shiraz_1,,富临西拉子干红葡萄酒（2012）,Flinders Estate 2012 Barossa Shiraz,干红,2012,0.15,0.7g/L
+D Block Reserve Shiraz,35,SH-AU-C,Australia>South Australia>McLaren Vale,Shiraz_1,,圣勒庄园特选设拉子干红葡萄酒,D Block Reserve Shiraz,干红,2010,0.145,2.1
+Soul Growers - Slow Grown,36,SH-AU-C,Australia>Barossa Valley,Shiraz_1,,天鹅庄灵魂种植者缓酿西拉干红葡萄酒,Soul Growers - Slow Grown,干红,2012,0.15,0.49g/l
+Auswan Creek One,37,SH-AU-C,Australia>South Australia,Shiraz_1,,天鹅庄一号希拉干红葡萄酒,Auswan Creek One,干红,2013,0.135,4.4g/l
+Lindsay Collection - Sumit,38,SH-AU-C,Australia>SA>Barossa Valley,Shiraz_1,,琳赛典藏系列2011年西拉苏米特葡萄酒,Lindsay Collection - Sumit,Red Wine,2011,0.149,0.38
+Dry Land Shiraz Dry Red Wine,39,SH-AU-C,Australia>South Australia>Clare Valley,Shiraz_1,,莱利斯旱地西拉干红葡萄酒,Dry Land Shiraz Dry Red Wine,干红,2009,0.15,2.4
+BETA Centenarian Shiraz,40,SH-AU-C,Australia>Barossa,,Shiraz_1,彼得百年老藤干红葡萄酒,BETA Centenarian Shiraz,干型,2008,0.145,0.6
+TOOLANGI ESTATE SHIRAZ,41,SH-AU-C,Australia>Yarra>Dixons Creek,,Shiraz_1,图朗吉庄园西拉干红葡萄酒（酒庄酒）,TOOLANGI ESTATE SHIRAZ,干型,2010,0.135,<0.1
+Shottesbrooke Eliza Reserve Shiraz,42？,SH-AU-C,Australia>South Australia>McLaren Vale,,Shiraz_1,希拉谷伊莉沙收藏西拉红葡萄酒,Shottesbrooke Eliza Reserve Shiraz,Red,2012,14.5,3.6
+Taylors St Andrews Shiraz ,43?,SH-AU-C,Australia>South Australia,,Shiraz,泰勒氏圣安设拉子红葡萄酒,Taylors St Andrews Shiraz ,,2012,,
+"Yalumba Hand Picked Shiraz/Viognier, Eden Valley",44,SH-AU-C,Australia>Eden Valley,,Shiraz_0.98/Viognier_0.02,御兰堡手选设拉子/维安尼亚红葡萄酒,"Yalumba Hand Picked Shiraz/Viognier, Eden Valley",Red Wine,2012,,
+The Dead Arm,45,SH-AU-C,Australia>McLaren Vale,,Shiraz_1,,The Dead Arm,,2011,0.143,
+The Aberfeldy,46,SH-AU-C,Australia>Clare Valley,,Shiraz,蒂姆亚当斯酒园艾柏迪红,The Aberfeldy,Red,2010,0.15,
+Stonecroft Serine Syrah,9,SH-B,New Zealand>Hawkes Bay,Shiraz_1,,石头堡赛润西拉红葡萄酒,Stonecroft Serine Syrah,干红,2013,0.13,
+"Vina Casablanca, Nimbus Syrah",13,SH-B,Chile>Casablanca Valley,Shiraz_1,,卡萨布兰卡酒庄，尼博山庄系列西拉红,"Vina Casablanca, Nimbus Syrah",Red,2012,0.143,
+"Planeta, Syrah Di Sicilia, IGT",17,SH-B,Italy〉Sicily,Shiraz_1,,朴奈达酒庄，西西里 西拉红,"Planeta, Syrah Di Sicilia, IGT",Red,2009,0.14,
+"Fairview Shiraz, Paarl",14,SH-B,Africa>Paarl,,Shiraz_1,"锦绣庄园设拉子, 帕尔","Fairview Shiraz, Paarl",Red Wine,2012,"14,25%","3,2 g/l"
+Three Corner Jack' Shiraz / Cabernet / Merlot,2,SH-BL-AU,Australia>McLaren Vale,Shiraz_0.57/Cabernet Sauvignon_0.3/Merlot_0.13,,瑞格斯先生西拉赤霞珠梅乐混酿红葡萄酒,Three Corner Jack' Shiraz / Cabernet / Merlot,干红,2011,0.145,4.0g/L
+ANGOVE ORGANIC Shiraz Cabernet,3,SH-BL-AU,Australia>South Australia,,Shiraz_0.5/Cabernet Sauvignon_0.5,安戈瓦-纯酿-西拉赤霞珠干红葡萄酒 ,ANGOVE ORGANIC Shiraz Cabernet,干型,2014,0.14,
+"Fairview Cyril Back Shiraz, Paarl",15,SH-C,Africa>Paarl,,Shiraz_1,"锦绣庄园西里尔设拉子, 帕尔","Fairview Cyril Back Shiraz, Paarl",Red Wine,2012,"14,5%","2,9 g/l"
+Trinity Hill Gimblett Gravels Syrah,11,SH-C,New Zealand>Hawkes Bay>Gimblett Gravels,,Shiraz_0.98/Viognier_0.02,,Trinity Hill Gimblett Gravels Syrah,Red,2013,0.13,
+Clos des Mures,?,SOUTH-FR,France>Languedoc,,Shiraz_0.85/Grenache _0.1/Mourvedre_0.05,,Clos des Mures,Red,2013,0.145,2.1
+Le GSM,?,SOUTH-FR,France>Languedoc,,Grenache_0.35/Syrah_0.35/Mourvedre_0.3,,Le GSM,Red,2013,0.14,1.8
+Cote Mas - Cru Pezenas,?,SOUTH-FR,France>Languedoc,,Carignan/Cinsault/Grenache/Syrah,,Cote Mas - Cru Pezenas,Red,2013,0.14,2.8
+LES CLES DE CLEMENT V,A1,SOUTH-FR-A,France>AOC COTES DU RHONE VILLAGES>LAUDUN,Grenache_0.7/Syrah_0.3,,克莱蒙五世 - 小黑教皇,LES CLES DE CLEMENT V,DRY RED ,2012,0.14,
+DOMAINE MAGELLAN MAGELLAN ROUGE 2013 750ml ,A2,SOUTH-FR-A,France>South France>South France,Carignan_0.15/Syrah_0.3/Grenache_0.55,,麦哲伦庄园红葡萄酒,DOMAINE MAGELLAN MAGELLAN ROUGE 2013 750ml ,red,2011,0.14,干型
+COLLECTION ROYALE Pierres Sèches AOC 2009,A3,SOUTH-FR-A,France>Languedoc-Roussillon>Fitou,Carignan_0.35/Grenache_0.35/Syrah_0.3 ,,皮埃尔瑟奇干红葡萄酒,COLLECTION ROYALE Pierres Sèches AOC 2009,Red,2009,0.135,0.49
+CHATEAU LA LIQUIERE VIEILLES VIGNES  2013 750ml ,B8,SOUTH-FR-B,France>South France>South France,Carignan_0.4/Grenache_0.4/Syrah_0.1/Mourvèdre_0.1,,力格庄园老藤红葡萄酒,CHATEAU LA LIQUIERE VIEILLES VIGNES  2013 750ml ,red,2013,0.14,干型
+DOMAINE DE VILLEMAJOU ROUGE 2012 750ml ,B9,SOUTH-FR-B,France>South France>South France,Carignan_0.4/Grenache_0.4/Syrah_0.2,,飞马族庄园红葡萄酒,DOMAINE DE VILLEMAJOU ROUGE 2012 750ml ,red,2012,0.14,干型
+PUECH NOBLE ROUGE COTEAUX DU LANGUEDOC 2013 750ml ,B10,SOUTH-FR-B,France>South France>South France,Shiraz_0.8/Grenache_0.1/Mourvèdre_0.1,,皮埃什贵族朗格多克红葡萄酒,PUECH NOBLE ROUGE COTEAUX DU LANGUEDOC 2013 750ml ,red,2009,0.135,干型
+Côtes du Rhône AOC,B9  B17,SOUTH-FR-B,France>Rhone,,Grenache_0.4/Shiraz_0.5/Mourvèdre_0.1,,Côtes du Rhône AOC,Red,,,
+"Gerard Bertrand Terroir, Minervois AOP",B11,SOUTH-FR-B,France>Languedoc-Roussillon>Languedoc-Roussillon,,Carignan_0.4/Shiraz_0.6,吉哈伯通风土系列红葡萄酒 ,"Gerard Bertrand Terroir, Minervois AOP",Red,2012,0.14,>1
+"Chateau de l'Hospitalet Reserve Rouge, La Clape AOP",B13,SOUTH-FR-B,France>Languedoc-Roussillon>Languedoc-Roussillon,,Grenache_0.3/Shiraz_0.4/Mourvedre_0.3,豪斯古堡珍藏红葡萄酒,"Chateau de l'Hospitalet Reserve Rouge, La Clape AOP",Red,2012,0.145,>1
+"Perrin Reserve Red, Cotes du Rhone AOC",B14,SOUTH-FR-B,France>Rhone Valley>Cotes du Rhone AOC,,,"佩兰珍藏红, 罗纳丘AOC","Perrin Reserve Red, Cotes du Rhone AOC",Red Wine,2012,0.135,
+"Hecht & Bannier, Cotes du Roussillon Villages AOC",B15,SOUTH-FR-B,France>Languedoc-Roussillon>Cotes du Roussillon Villages AOC,,Carignan/Syrah/Grenache/Mourvèdre,"赫克班尼鲁西荣村庄红葡萄酒, 鲁西荣村庄AOC","Hecht & Bannier, Cotes du Roussillon Villages AOC",Red Wine,2010,"14,5%",
+"Sieur D’Arques, Toques & Clochers, Occursus, Limoux Rouge AOP",B16,SOUTH-FR-B,France>Languedoc Roussillon>Limoux,,Merlot/Syrah/Grenache,瑟达克，主厨帽利木红葡萄酒,"Sieur D’Arques, Toques & Clochers, Occursus, Limoux Rouge AOP",Red,2009,,
+M. Chapoutier Occultum Lapidem,C17,SOUTH-FR-C,France>Languedoc Roussillon>Roussillon,Carignan_0.1/Grenache_0.25/Shiraz_0.6/Mourvèdre_0.03,,莎普蒂尔奥拉丹干红葡萄酒,M. Chapoutier Occultum Lapidem,干红,2013,0.14,2
+Ferraton Parvis Chateauneuf-du-Pape,C18,SOUTH-FR-C,France>Rhône Valley>Châteauneuf du Pape,Grenache/Syrah/Mourvèdre,,费童父子，费童帕维红,Ferraton Parvis Chateauneuf-du-Pape,Red,2011,0.155,
+"Gerard Bertrand Parcelle Le Viala, Minervois la Liviniere AOP",C12？,SOUTH-FR-C,France>Languedoc-Roussillon>Languedoc-Roussillon,,Carignan_0.15/Grenache_0.25/Shiraz_0.6,吉哈伯通维拉红葡萄酒,"Gerard Bertrand Parcelle Le Viala, Minervois la Liviniere AOP",Red,2011,0.145,>1
+"Perrin, Chateauneuf du Pape AOC",C19,SOUTH-FR-C,France>Rhone Valley>Cotes du Rhone AOC,,,"佩兰红, 教皇新堡AOC","Perrin, Chateauneuf du Pape AOC",Red Wine,2012,0.145,
+Louis Perdrier Demi-sec,14,Sparkling-MOD-A,France>Bourgogne,Airen_0.5/Ugni Blanc_0.5,,路伊毕迪半干起泡葡萄酒,Louis Perdrier Demi-sec,Sparkling,NV,0.11,
+CORTE GIARA PROSECCO MILLESIMATO ,2,Sparkling-MOD-A,Italy>Veneto>Veneto,Glera_1,,科奇拉普西哥年份起泡葡萄酒 2013 750ml,CORTE GIARA PROSECCO MILLESIMATO ,sparkling,2013,0.11,干型
+CELLAR SELECTION SPARKLING SAUVIGNON BLANC(ZORK) ,1,Sparkling-MOD-A,New Zealand>New Zealand>New Zealand,Sauvignon Blanc_1 ,,思兰尼酒窖精选长相思天然型起泡酒 NV 750ml,CELLAR SELECTION SPARKLING SAUVIGNON BLANC(ZORK) ,sparkling,nv,13% /11.5%,天然型
+"Bisol, Bel Star Cult Extra Dry Prosecco",3,Sparkling-MOD-A,Italy>Veneto>Valdobbiadene,Glera_1,,比索酒庄，亮丽之星风范起泡葡萄酒,"Bisol, Bel Star Cult Extra Dry Prosecco",Sparkling,NV,0.11,
+Pierre Chainier Rose Seduction Brut,4,Sparkling-MOD-A,France>Loire Valley,Pinot Noir/Syrah/Cinsault,,谢尼酒庄桃红起泡酒,Pierre Chainier Rose Seduction Brut,Sparkling,NV,0.115,
+"Villa Maria Lightly Sparkling Sauvignon Blanc , Marlborough",5?,Sparkling-MOD-A,New Zealand>Marlborough,,Sauvignon Blanc_1,新玛利庄园马尔堡轻起泡长相思,"Villa Maria Lightly Sparkling Sauvignon Blanc , Marlborough",Sparkling,2014,0.125,5.7
+Adamo Presecco,11,Sparkling-MOD-B,Italy〉Veneto,Glera_1,,亚当干白起泡葡萄酒,Adamo Presecco,Sparkling,NV,0.115,
+Asolo Prosecco Superiore DOCG,7,Sparkling-MOD-B,Italy>Veneto,Glera_1,,维尼枷锁朴赛克精选起泡酒,Asolo Prosecco Superiore DOCG,Sparkling,2000,11%,
+SOLSI SPUMANTE METODO CLASSICO TRENTO DOC BRUT NV 750ml ,8,Sparkling-MOD-B,Italy>TRENTINO ALTO ADIGE>TRENTINO ALTO ADIGE,Chardonnay_1,,勃罗家族竖琴索尔西特伦托经典起泡酒,SOLSI SPUMANTE METODO CLASSICO TRENTO DOC BRUT NV 750ml ,sparkling,nv,0.125,干型
+DON PASCUAL Semi Seco ,15,Sparkling-MOD-B,Spain>Penedes,Xarello/Macabeo/Parellada,,唐-帕斯卡 半干起泡葡萄酒,DON PASCUAL Semi Seco ,Sparkling,NV,0.115,39.2
+"Bisol, Jeio Prosecco Brut, Valdobbiadene Prosecco Superiore, DOCG",9,Sparkling-MOD-B,Italy>Veneto>Valdobbiadene,Glera_0.9/Pinot Bianco_0.06/Verdiso_0.04,,比索酒庄，卓尔系列天然型起泡酒,"Bisol, Jeio Prosecco Brut, Valdobbiadene Prosecco Superiore, DOCG",Sparkling,NV,0.115,
+"Bisol, “Crede""
+Valdobbiadene Prosecco Superiore, DOCG",10,Sparkling-MOD-B,Italy>Veneto>Valdobbiadene,Glera_0.85/Pinot Bianco_0.1/Verdiso_0.05,,比索酒庄，克瑞德起泡酒,"Bisol, “Crede""
+Valdobbiadene Prosecco Superiore, DOCG",Sparkling,2013,0.115,
+Laurent-Perrier Brut,13,Sparkling-MOD-C,France>Champagne,,Chardonnay_0.5/Pinot Noir_0.35/Pinot Meunier_0.15,,Laurent-Perrier Brut,Sparkling,,,
+Cuvée Rosé,12,Sparkling-MOD-C,France>Champagne,,Pinot Noir_1,,Cuvée Rosé,Sparkling,,,
+Champagne Mansard Brut,7？,Sparkling-TOD,France>Champange,,Chardonnay_0.33/Pinot Noir_0.33/Pinot Meunier_0.33,蔓莎德酒园卡特布兰卡香槟,Champagne Mansard Brut,Sparking,NV,0.12,10.15
+Champagne Mansard Brut Millesime,11？,Sparkling-TOD,France>Champange,,Chardonnay_0.25/Pinot Noir_0.45/Pinot Meunier_0.3,蔓莎德酒园年份香槟,Champagne Mansard Brut Millesime,Sparking,2006,0.12,10.15
+SEGURA VIUDAS CAVA DO BRUT ROSADA,3,Sparkling-TOD-A,Spain>Penedès,Chapa_0.9/Grenache_0.1,,维达斯桃红卡瓦起泡葡萄酒,SEGURA VIUDAS CAVA DO BRUT ROSADA,Sparkling,NV,0.12,8.8g/l
+CLOS MONTBLANC PROYECTO CU4TRO PREMIUM RESERVA 2010 750ml ,2,Sparkling-TOD-A,Spain>Catalunia>Catalunia,Macabeu_0.45/Xarel.lo_0.3/Parellada_0.2/Chardonnay_0.05,,克劳斯蒙布朗珍藏起泡葡萄酒（8）,CLOS MONTBLANC PROYECTO CU4TRO PREMIUM RESERVA 2010 750ml ,sparkling,nv,0.115,天然型
+CLOS MONTBLANC PROYECTO CU4TRO CAVA SILVER NV 750ml ,1,Sparkling-TOD-A,Spain>Catalunia>Catalunia,Macabeu_0.45/Xarel.lo_0.3/Parellada_0.2/Chardonnay_0.05,,克劳斯蒙布朗起泡葡萄酒,CLOS MONTBLANC PROYECTO CU4TRO CAVA SILVER NV 750ml ,sparkling,nv,0.115,天然型
+Chandon Brut,0,Sparkling-TOD-A,"China>Ningxia>East Helan Mountain Wine Region
+",,Chardonnay_0.7/Pinot Noir_0.3,夏桐传统工艺天然高泡葡萄酒,Chandon Brut,Sparkling,NV,0.125,9g/L
+BRUT ROSE CHAMPAGNE  NOMINE RENARED  750ml,5,Sparkling-TOD-B,France>Champagne>Champagne,Chardonnay_0.5/Pinot Meunier_0.5,,诺酩雷纳桃红香槟750ml,BRUT ROSE CHAMPAGNE  NOMINE RENARED  750ml,sparkling,nv,0.125,干型
+"Sieur d’Arques, Premiere Bulle, Blanquette de Limoux, AOP",4,Sparkling-TOD-B,France>Languedoc Roussillon>Limoux,,Mauzac_0.9/Chardonnay_0.05/Chenin Blanc_0.05,瑟达克，1号起泡葡萄酒,"Sieur d’Arques, Premiere Bulle, Blanquette de Limoux, AOP",Sparkling,2012,0.12,
+Champagne Charles de CAZANOVE - Tradition Brut,6,Sparkling-TOD-B,France>Champagne AOP,,Pinot Noir_0.5/Chardonnay_0.3/Pinot Meunier_0.2,凯萨王香槟葡萄酒,Champagne Charles de CAZANOVE - Tradition Brut,干型,NV,0.13,
+"Franciacorta Brut D.O.C.G. ""Primum""",7改10,Sparkling-TOD-C,Italy>Lombardy,Chardonnay_0.75/Pinot nero_0.2/Pinot bianco_0.05,,拉瓦莱天然型起泡葡萄酒,"Franciacorta Brut D.O.C.G. ""Primum""",Sparkling,2011,0.125,
+Duval Leroy Blanc de Blancs 《Grand Cru》Brut,9,Sparkling-TOD-C,France>Champagne,Chardonnay_1,,杜洛儿白中白香槟,Duval Leroy Blanc de Blancs 《Grand Cru》Brut,Sparkling,2006,0.125,
+Champagne Charles de CAZANOVE Brut - Millesime 2005,8,Sparkling-TOD-C,France>Champagne AOP,,Pinot Noir_0.6/Chardonnay_0.4,凯萨王-特选年份香槟葡萄酒,Champagne Charles de CAZANOVE Brut - Millesime 2005,干型,2005,0.13,
+Brachetto d'Acqui D.O.C.G. “Sogno Rosso”,19,SWEET,Italy>Piedmont,Brachetto_1,,索尼奥布拉凯多红葡萄酒,Brachetto d'Acqui D.O.C.G. “Sogno Rosso”,干红,2014,0.06,6.3
+Dilema Sweet Natural White,1,SWEET,Argentina〉Mendoza,,,,Dilema Sweet Natural White,White,2014,0.09,
+Kracher Cuvee Beerenauslese,5,SWEET,Austria〉Burgenland,Welschriesling_0.6/_0.4,,格莱士逐粒精选甜白,Kracher Cuvee Beerenauslese,Sweet Wine,2011,0.11,
+Chateau du Cros Loupiac,6,SWEET,France>Loupiac,,Semillon_0.95/Sauvignon Blanc_0.05,帝可古堡贵腐甜白葡萄酒,Chateau du Cros Loupiac,甜白,2006,0.14,
+Reichsgraf von Kesselstatt Josephshofer Riesling Spatlese,7,SWEET,Germany>Mosel>Middle Mosel,,Riesling_1,冯.开世泰伯爵酒庄约瑟胡佛园雷司令晚收,Reichsgraf von Kesselstatt Josephshofer Riesling Spatlese,white wine,2013,0.08,69.3
+Cienna,2,SWEET,,,,布琅兄弟森娜甜红葡萄酒,Cienna,,2013,0.065,115
+Moscato ,3,SWEET,,,,布琅兄弟莫斯卡托甜白葡萄酒,Moscato ,,2014,0.05,117
+Moscato Rosa,4,SWEET,,,,布琅兄弟莫斯卡托桃红葡萄酒,Moscato Rosa,,2014,0.07,90
+Moscato d'Asti D.O.C.G. “Oroluce”,6,Sweet-MOS,Italy>Piedmont,Moscato_1,,OROLUCE莫斯卡托白葡萄酒,Moscato d'Asti D.O.C.G. “Oroluce”,甜白,2013,0.055,6
+Canyon Road Moscato,10,Sweet-MOS,USA>California,Moscato_1,,凯岚麝香白葡萄酒,Canyon Road Moscato,甜白葡萄酒,2013,0.09,7.11
+Flinders 2014 South Australia Moscato ,2,Sweet-MOS,Australia>South Australia ,Moscato_1,,富临发现者南澳莫斯卡托葡萄酒(2014),Flinders 2014 South Australia Moscato ,甜白,2014,0.085,91.7g/L
+G.D.Vajra Moscato D'Asti,9,Sweet-MOS,Italy>Piedmont,Moscato_1 ,,瓦嘉拉阿斯蒂莫斯卡托甜白葡萄酒,G.D.Vajra Moscato D'Asti,White Wine,2011,0.055,
+Giacomo Bologna Braida Vigna Senza Nome,8,Sweet-MOS,Italy>Moscato d'Asti,Moscato_1 ,,无名葡萄园低醇葡萄酒,Giacomo Bologna Braida Vigna Senza Nome,甜型微气,2013,0.055,104
+GRANT BURGE MOSCATO 2014 750ml ,3,Sweet-MOS,Australia>Australia>Australia,Moscato_1 ,,格兰伯爵墨斯卡多白葡萄酒,GRANT BURGE MOSCATO 2014 750ml ,white,2014,0.08,甜型
+SANMAURIZIO VALLEBELBO ASTI 750ml NV ,7,Sweet-MOS,Italy>Piedmont>Piedmont,Moscato_1,,圣马利佐阿斯提白起泡葡萄酒,SANMAURIZIO VALLEBELBO ASTI 750ml NV ,sparkling,nv,0.075,甜型
+Orange Muscat & Flora,4,Sweet-MOS,,,Orange Muscat_0.8/Flora_0.2,布琅兄弟甜白葡萄酒,Orange Muscat & Flora,,2013,,120
+Stella Bella Pink Muscat,5,Sweet-MOS,Australia>Margaret River,,Muscat Rose_1,斯黛拉贝勒酒园莫斯卡托桃红,Stella Bella Pink Muscat,Sweet Wine,2013,0.075,86
+,3？,TEMP-SP-A,Spain>Produce Of Spain DO Calatayud Denominacion De Origen,Tempranillo_1,,堡罗红葡萄酒,,干红,2012,0.135,4.3
+Finca Villacreces Pruno,1,TEMP-SP-A,Spain>Ribera del duero,Tempranillo_0.9/Cabernet Sauvignon_0.1,,普诺红葡萄酒,Finca Villacreces Pruno,Red,2012,0.14,
+Canals & Nubiola Tinto,5,TEMP-SP-A,Spain>Catalunya,,Tempranillo_0.5/Merlot_0.4/Cabernet Sauvignon_0.1,卡努庄园干红葡萄酒,Canals & Nubiola Tinto,Red,,0.125,
+Valdubon Cosecha,6,TEMP-SP-A,Spain>Ribera del Duero,,Tempranillo_1,维尔博庄园干红葡萄酒,Valdubon Cosecha,Red,2014,0.125,
+Solar Viejo Cosecha,7,TEMP-SP-A,Spain>Rioja,,Tempranillo_1,古拉索庄园干红葡萄酒,Solar Viejo Cosecha,Red,2013,0.137,
+Tentadero Tempranillo Organic & Biodynamic wine ,8,TEMP-SP-A,Spain>La Mancha,,Tempranillo_1,牛斗丹魄有机&生物动力干红葡萄酒 ,Tentadero Tempranillo Organic & Biodynamic wine ,red wine,2013,0.13,
+VINA EGUIA  Crianza,2,TEMP-SP-A,Spain>Rioja D.O.C.,,Tempranillo_1,伊格娅誓言-佳酿红葡萄酒,VINA EGUIA  Crianza,干型,2011,0.13,
+Caelos Serres Crianza 2010 Red Wine,4,TEMP-SP-A,SPAIN>RIOJA>RIOJA ALTA,,Tempranillo_0.85/GARNACHA_0.15,,Caelos Serres Crianza 2010 Red Wine,DRY RED,2010,13%VOL,
+Campo Viejo Reserva,15,TEMP-SP-B,Spain>Rioja,Tempranillo_0.85/Graciano_0.1/Mazuelo_0.05,,帝国田园珍藏,Campo Viejo Reserva,干红,2008,0.135,1.62
+Campo Viejo Gran Reserva,17,TEMP-SP-B,Spain>Rioja,Tempranillo_0.85/Graciano_0.1/Mazuelo_0.05,,帝国田园特优珍藏,Campo Viejo Gran Reserva,干红,2008,0.135,2.7
+Beornia Reserva,18,TEMP-SP-B,Spain>Rioja>Rioja Alta,Tempranillo_0.9/Graciano_0.05/Mazuelo_0.05,,贝尔莱珍藏干红葡萄酒,Beornia Reserva,干红,2010,0.14,1.4
+,14,TEMP-SP-B,Spain>Ribera Del Duero Denominacion De Origen,Tempranillo_1,,堡蔻佳酿干红葡萄酒,,干红,2011,0.135,4.6
+CASTILLO DE PENAFIEL CRIANZA RED WINE 2008,19,TEMP-SP-B,Spain>REBERA DEL DUERO,Tempranillo_1,,潘娜菲尔城堡陈酿级橡木干红葡萄酒,CASTILLO DE PENAFIEL CRIANZA RED WINE 2008,RED WINE,2008,0.13,
+Riscal Rioja Red Reserva,20,TEMP-SP-B,Spain>Rioja,Tempranillo_0.9/Graciano_0.07/Mazuelo_0.03,,瑞格尔侯爵救酒园里奥哈陈年特酿法定产区干红葡萄酒,Riscal Rioja Red Reserva,Red,2010,0.142,
+Bodegas Resalte de Penafiel Pena Roble,10,TEMP-SP-B,Spain>Ribera del Duero,Tempranillo_1 ,,伯德嘉 瑞索特 佩纳 诺布雷 裘文(新贵之选)葡萄酒,Bodegas Resalte de Penafiel Pena Roble,干红,2012,0.14,
+"Emilio Moro, Finca Resalso, DO",11,TEMP-SP-B,Spain>Ribera del Duero,Tempranillo_1,,摩罗酒庄，芬卡红,"Emilio Moro, Finca Resalso, DO",Red,2013,0.135,
+"Emilio Moro, Emilio Moro, DO",12,TEMP-SP-B,Spain>Ribera del Duero,Tempranillo_1,,摩罗酒庄，摩罗艾美红,"Emilio Moro, Emilio Moro, DO",Red,2011,0.145,
+"Luis Cañas, Crianza, DOCa Rioja",13,TEMP-SP-B,Spain〉Rioja,Tempranillo_0.95/Garnacha_0.05,,路易卡纳斯，陈酿红，里奥哈,"Luis Cañas, Crianza, DOCa Rioja",Red,2011,0.14,
+Tentadero  2008 ,21,TEMP-SP-B,Spain>La Mancha,,Tempranillo_0.35/Cabernet Sauvignon_0.35/Syrah_0.1/Merlot _0.1,牛斗混酿干红葡萄酒,Tentadero  2008 ,red wine,2008,0.145,
+Caelos Serres Reserva 2007 Red Wine,16,TEMP-SP-B,SPAIN>RIOJA>RIOJA ALTA,,Tempranillo_0.9/GRACIANO_0.1,,Caelos Serres Reserva 2007 Red Wine,DRY RED,2007,0.135,
+Bodegas y Vinedos Alnardo PSI ,23？,TEMP-SP-B,Spain>Ribera del Duero DO,,Tempranillo_1,"奥纳多庄园理想红葡萄酒, 杜罗河岸DO",Bodegas y Vinedos Alnardo PSI ,Red Wine,2010,,
+Viña Real Crianza,22,TEMP-SP-B,Spain>Rioja>Alta,,Tempranillo_0.9/Garnacha_0.033/Graciano_0.033/Mazuelo_0.033,,Viña Real Crianza,Red,2009,"13,5%","2,1 g/l"
+La Iglesia de Arinzano DOP 2007,24？,TEMP-SP-C,Spain>Navarra>Arinzano,Tempranillo_0.75/Cabernet Sauvignon_0.05/Merlot_0.2,,阿勒查诺教堂干红葡萄酒,La Iglesia de Arinzano DOP 2007,Red,2007,0.14,1.03
+"Abadia Retuerta Selection Especial, Sardon de Duero",25?,TEMP-SP-C,Spain>Sardon de Duero,,Tempranillo_0.75/Cabernet Sauvignon_0.2/Merlot_0.05,"天使之堤精选, 萨顿德尔杜罗","Abadia Retuerta Selection Especial, Sardon de Duero",Red Wine,2010,0.14,
+Imperial Reserva,26,TEMP-SP-C,Spain>Rioja>Alavesa ,,Tempranillo_0.85/Graciano_0.1/Mazuelo_0.05,,Imperial Reserva,Red,2008,"13,7%","1,7 g/l"
+Continho Reserva,27?,TEMP-SP-C,Spain>Rioja>Alavesa ,,Tempranillo_0.85/Graciano_0.1/Grenacha_0.025/Mazuelo_0.025,,Continho Reserva,Red,2007,"14,0%","2,0 g/l"
+Sartori RV Rosso Veronese IGT,1,VENETO-A,Italy>Veneto,Corvina Veronese/Merlot/Cabernet Sauvignon,,桑托利酒庄维罗纳红葡萄酒,Sartori RV Rosso Veronese IGT,干红,2012,0.13,
+CORTE GIARA VALPOLICELLA 2013 750ml  ,2,VENETO-A,Italy>Veneto>Veneto,Corvina Veronese_0.75/Rondinella_0.25,,科奇拉瓦波利切拉红葡萄酒,CORTE GIARA VALPOLICELLA 2013 750ml  ,red,2013,0.125,干型
+Valpolicella DOC,6,VENETO-B,Italy>West Italy>Valpolicella Classico,Corvina_0.8/Rondinella_0.2 ,,瓦波利切拉红葡萄酒,Valpolicella DOC,Red Wine,2013,0.12,
+Secco Bertani Verona IGT,7,VENETO-B,Italy>North Italy〉Verona,Corvina_0.8/Merlot_0.2,,西可-贝塔尼维诺那红葡萄酒,Secco Bertani Verona IGT,Red Wine,2011,0.13,
+Recioto di Soave DOCG,8?,VENETO-B,Italy>Veneto>Soave,,Garganega_1,,Recioto di Soave DOCG,White sparkling wine,2012,0.12,90g/l
+Amarone della Valpolicella DOC,9?,VENETO-C,Italy>Veneto>Valpolicella,,Corvina_0.85/Rondinella_0.1/Molinara_0.05,,Amarone della Valpolicella DOC,Red wine still,2006,0.155,7g/l
+Musella Valpolicella Superiore Vigne Nuove DOC,10,VENETO-C,Italy>Veneto,,Corvina e Corvinone_0.8/Rondinella_0.1/Barbera_0.1,穆塞拉酒园高级瓦珀丽齐拉红,Musella Valpolicella Superiore Vigne Nuove DOC,Red,2012,0.134,4
+Musella Amarone della Valpolicella DOCG,11,VENETO-C,Italy>Veneto,,Corvina e Corvinone_0.7/Rondinella_0.2/Oseleta_0.1,穆塞拉酒园阿玛罗尼红,Musella Amarone della Valpolicella DOCG,Red,2008,0.16,7.5
+Three Bears Zinfandel,1,ZIN-US-A,USA>California,Zinfandel_1,,三只熊仙粉黛干红葡萄酒,Three Bears Zinfandel,Red,2012,0.152,Dry
+Silver Palm Zinfandel,2,ZIN-US-A,USA>California,Zinfandel_0.86/Petit Syrah_0.13/Barbera_0.01,,银葩仙粉黛干红葡萄酒,Silver Palm Zinfandel,干红,2012,0.145,
+FOLIE A DEUX Menage a Trois Red,3,ZIN-US-A,USA>California,,Zinfandel_0.4/Merlot_0.3/Cabernet Sauvignon_0.3,弗利埃都-加州三重奏红葡萄酒 ,FOLIE A DEUX Menage a Trois Red,干型,2013,0.13,
+Beringer  California White Zinfandel ,1,ZIN-US-A,USA>California,,Zinfandel,贝灵哲庄园白仙芬黛桃红葡萄酒,Beringer  California White Zinfandel ,,2013,,
+"Gnarly Head Old Vine Zinfandel, Lodi",4,ZIN-US-A,USA>Califonia>Lodi,,Zinfandel_1,德利卡老藤园馨芳红葡萄酒,"Gnarly Head Old Vine Zinfandel, Lodi",Red,2012,0.135,>1
+OZV Old Vine Zinfdandel,6,ZIN-US-B,USA>California>Lodi,Zinfandel_0.96/Petite Syrah_0.04,,讴美古藤仙粉黛,OZV Old Vine Zinfdandel,干型红葡萄酒,2009,0.1395,
+POTO Zinfandel,7,ZIN-US-B,USA>California,Zinfandel_1,,波特 POTO 2012仙粉黛干红葡萄酒,POTO Zinfandel,Red,2012,0.152,Dry
+POTO Red Blend,0,ZIN-US-B,USA>California,Zinfandel_0.55/Souzão_0.45,,波特 POTO 2012干红葡萄酒,POTO Red Blend,Red,2012,0.148,Dry
+Dancing Bull Zinfandel,9,ZIN-US-B,USA>California,Zinfandel_1,,锐牛金粉黛红葡萄酒,Dancing Bull Zinfandel,红葡萄酒,2013,0.139,4.6
+Ektimo Vineyards Zinfandel,10,ZIN-US-C,USA>California>Sonoma County,Zinfandel_1,,艾克缇摩酒庄索诺玛郡仙粉黛干红葡萄酒,Ektimo Vineyards Zinfandel,Red,2012,0.145,Dry
+Rancho Zabaco Sonoma Heritage Vines Zinfandel,11,ZIN-US-C,USA>Sonoma Country,Zinfandel_1,,萨尔堡索诺玛老藤金粉黛红葡萄酒,Rancho Zabaco Sonoma Heritage Vines Zinfandel,红葡萄酒,2011,0.149,< 5
+"Red Deer Station Vineyards
+Shiraz",10,,Australia>Barossa Valley,Shiraz_1,,"皇鹿驿站
+葡园系列
+西拉子干红葡萄酒","Red Deer Station Vineyards
+Shiraz",干红,2012,0.145,4.6g/L
+"Red Deer Station Royal Reserve 100
+Shiraz",47,,Australia>Barossa Valley,Shiraz_1,,"皇鹿驿站
+皇家珍藏
+100系列
+西拉子干红葡萄酒","Red Deer Station Royal Reserve 100
+Shiraz",干红,2013,0.15,0.8g/L
+QUINTA DO PESSEGUEIRO,11,,Portugal>Douro River>Douro River,Touriga Nacional_0.35/Vinha Velha_0.32/Touriga Francesa_0.25/Tinta Roriz_0.08,,桃源城堡干红,QUINTA DO PESSEGUEIRO,干红葡萄酒,2012,0.135,2
+"Oxford Landing Cabernet/Shiraz, South Australia",1,,Australia>South Australia,,Shiraz/Cabernet Sauvignon,牛津园卡本妮苏维翁/设拉子红葡萄酒,"Oxford Landing Cabernet/Shiraz, South Australia",Red Wine,2012,0.13,
