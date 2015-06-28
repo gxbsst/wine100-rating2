@@ -9,8 +9,8 @@ gem 'mysql2', '0.3.18'
 gem 'passenger'
 gem "cancan"
 gem 'kaminari'
-gem "therubyracer"
-gem "less-rails"
+# gem "therubyracer"
+
 gem 'client_side_validations'
 gem 'jquery-rails', '~> 2.0.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
@@ -39,6 +39,7 @@ group :assets, :production do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :tag => 'v2.2.7'
   gem 'uglifier', '>= 1.0.3'
+  gem "less-rails"
 end
 
 group :development, :test do

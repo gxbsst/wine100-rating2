@@ -176,7 +176,6 @@ GEM
     less-rails (2.6.0)
       actionpack (>= 3.1)
       less (~> 2.6.0)
-    libv8 (3.16.14.9)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -228,7 +227,6 @@ GEM
     rake (10.3.2)
     rdoc (3.12.2)
       json (~> 1.4)
-    ref (1.0.5)
     refinerycms-i18n (2.0.2)
       refinerycms-core (~> 2.0.0)
       routing-filter (>= 0.2.3)
@@ -255,9 +253,6 @@ GEM
       colorize (>= 0.7.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.19.1)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -306,6 +301,5 @@ DEPENDENCIES
   refinerycms-wines!
   sass-rails (~> 3.2.3)
   sextant
-  therubyracer
   twitter-bootstrap-rails!
   uglifier (>= 1.0.3)
