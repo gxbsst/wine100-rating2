@@ -7,7 +7,12 @@ module Refinery
         crudify :'refinery/wines/wine',
                 :title_attribute => 'name_zh', :xhr_paging => true
         def index
-          @wines = Refinery::Wines::Wine.order(:created_a => 'DESC').page(1).per_page(1000)
+          if params[:search]
+            q = "%#{params[:search]}%"
+            @wines = Refinery::Wines::Wine.order(:created_a => 'DESC').where(["name_zh LIKE ? OR name_en Like ? ", q, q]).page(1).per_page(10000)
+          else
+            @wines = Refinery::Wines::Wine.order(:created_a => 'DESC').page(1).per_page(10000)
+          end
         end
 
         def export_wine_notes
