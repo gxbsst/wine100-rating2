@@ -15,7 +15,12 @@ module Refinery
         def export_member_note
           @members = ::User.where(:id => params[:member_ids])
           render  :xlsx => 'export_user_notes',:filename =>  "user_notes", :disposition =>  'inline'
+        end
 
+        def export_leader_note
+          leaders = ['pbasso','lyang','amaling', 'fzhao', 'fwalker', 'acaillard', 'ray.wu','dbrookes', 'ian.dai']
+          @members = ::User.where(:name => leaders)
+          render  :xlsx => 'export_leader_notes',:filename =>  "leaders_notes", :disposition =>  'inline'
         end
 
       end

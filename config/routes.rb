@@ -45,6 +45,7 @@ Wine100::Application.routes.draw do
   match "refinery/test_papers/export_all", :to => "refinery/test_papers/admin/test_papers#export_all", :as => :export_all
   match "refinery/members/export_e_group", :to => "refinery/members/admin/members#export_e_group", :as => :export_e_group
   match "refinery/members/export_user_note", :to => "refinery/members/admin/members#export_member_note", :as => :export_user_note
+  match "refinery/members/export_leader_note", :to => "refinery/members/admin/members#export_leader_note", :as => :export_leader_note
   match "refinery/wines/export_wine_notes", :to => "refinery/wines/admin/wines#export_wine_notes", :as => :export_wine_notes
 
   #match "refinery/user_groups/:user_group_id/items", :to => "refinery/user_groups/admin/items#index"

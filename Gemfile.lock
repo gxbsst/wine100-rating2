@@ -190,6 +190,7 @@ GEM
       rack
       rake (>= 0.8.1)
     polyglot (0.3.5)
+    power_assert (0.2.2)
     pry (0.9.12)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -247,6 +248,8 @@ GEM
       colorize (>= 0.7.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    test-unit (3.0.8)
+      power_assert
     thor (0.19.1)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -294,5 +297,6 @@ DEPENDENCIES
   refinerycms-wines!
   sass-rails (~> 3.2.3)
   sextant
+  test-unit
   twitter-bootstrap-rails!
   uglifier (>= 1.0.3)

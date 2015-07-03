@@ -54,6 +54,7 @@ group :development do
   gem 'capistrano3-puma'
   gem 'capistrano-rvm'
   gem 'capistrano-bundler'
+  gem 'test-unit'
 end
 
 group :production do

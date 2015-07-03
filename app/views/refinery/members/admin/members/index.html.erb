@@ -22,7 +22,9 @@
     <div class="form-actions-left">
       <%#= submit_tag "将用户导入用户组", :class => "wymupdate button" %>
       <%= submit_tag "将用户导入用户组", :class => "wymupdate button", 'ng-click' => "submitUserGroup()"  %>
-      <%= submit_tag '导出所选用户所写品酒词', :class => "wymupdate button", 'ng-click' => 'SubmitUserNote()' %>
+      <%= submit_tag '导出所选用户所写品酒词', :class => "wymupdate button", 'ng-click' => 'action="/refinery/members/export_user_note"' %>
+      <%= submit_tag '导出组长所写品酒词及最终评分', :class => "wymupdate button", 'ng-click' => 'action="/refinery/members/export_leader_note"' %>
+      <!--<input class="wymupdate button" name="commit" ng-click="action= '/refinery/members/export_leader_note'" type="submit" value="1导出所选用户所写品酒词">-->
     </div>
   </div>
 <% end %>
