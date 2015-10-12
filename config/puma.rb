@@ -40,7 +40,7 @@ environment 'production'
 
 # Store the pid of the server in the file at “path”.
 #
-pidfile '/var/www/pbl_base_service/current/pids/puma.pid'
+pidfile '/tmp/puma.pid'
 
 # Use “path” as the file to store the server info state. This is
 # used by “pumactl” to query and control the server.
@@ -65,14 +65,14 @@ pidfile '/var/www/pbl_base_service/current/pids/puma.pid'
 #
 # The default is “0, 16”.
 #
-threads 4, 12
+threads 8, 32
 
 # Bind the server to “url”. “tcp://”, “unix://” and “ssl://” are the only
 # accepted protocols.
 #
 # The default is “tcp://0.0.0.0:9292”.
 #
-bind 'tcp://0.0.0.0:9292'
+bind 'tcp://0.0.0.0:3000'
 # bind 'unix:///var/run/puma.sock'
 # bind 'unix:///var/run/puma.sock?umask=0777'
 # bind 'ssl://127.0.0.1:9292?key=path_to_key&cert=path_to_cert'
