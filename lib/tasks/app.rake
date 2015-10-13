@@ -41,7 +41,7 @@ namespace :app do
     ActiveRecord::Base.connection.execute("TRUNCATE refinery_wine_groups")
     ActiveRecord::Base.connection.execute("TRUNCATE refinery_wine_groups_wine_group_items")
 
-    file = Rails.root.join('lib', 'tasks', 'data', '2015', 'Sheet1-表格 1.csv')
+    file = Rails.root.join('lib', 'tasks', 'data', '2015', 'SWCC服务器上载文件.csv')
     csv = CSV.open(file, :headers => false)
     csv.each do |item|
       print("*" * 1)
