@@ -41,7 +41,7 @@ namespace :app do
     ActiveRecord::Base.connection.execute("TRUNCATE refinery_wine_groups")
     ActiveRecord::Base.connection.execute("TRUNCATE refinery_wine_groups_wine_group_items")
 
-    file = Rails.root.join('lib', 'tasks', 'data', '2015', 'SWCC服务器上载文件.csv')
+    file = Rails.root.join('lib', 'tasks', 'data', '2015', 'SWCC服务器上载文件 5.csv')
     csv = CSV.open(file, :headers => false)
     csv.each do |item|
       print("*" * 1)
@@ -50,10 +50,10 @@ namespace :app do
       grape = item[3]
       name_zh = item[4]
       name_en = item[0]
-      vintage = item[7]
-      sugar = item[9]
-      wine_style = item[6]
-      alcohol = item[8]
+      vintage = item[8]
+      sugar = item[10]
+      wine_style = item[7]
+      alcohol = item[9]
       wine = Refinery::Wines::Wine.find_or_create_by_name_en_and_vingate(name_en,
                                                                          vintage,
                                                                          name_zh: name_zh,
