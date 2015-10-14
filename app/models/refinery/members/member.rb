@@ -11,7 +11,7 @@ module Refinery
       acts_as_indexed :fields => [:name, :password_digest, :email, :password_cleartext, :current_sign_in_ip, :last_sign_in_ip]
 
       validates :name, :presence => true, :uniqueness => true
-
+      has_many :final_awards, :class_name => 'Award', :foreign_key => 'refinery_member_id'
       validates :password, :presence => true, :on => :create
 
       before_validation :set_password
@@ -20,6 +20,10 @@ module Refinery
       def set_password
         self.password = self.password_cleartext
         self.password_confirmation = self.password_cleartext
+      end
+
+      def final_a
+        ::Award.where(:refinery_member_id => self.id)
       end
 
     end

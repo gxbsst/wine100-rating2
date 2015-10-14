@@ -2,7 +2,7 @@ module Refinery
   module Wines
     class Wine < Refinery::Core::BaseModel
       self.table_name = 'refinery_wines'
-
+      default_scope order('uuid')
       attr_accessible :name_zh, :name_en, :region_en, :region_zh, :vingate, :sugar, :grape_vairety, :description, :position, :uuid, :wine_style, :alcohol
 
       acts_as_indexed :fields => [:name_zh, :name_en, :region_en, :region_zh, :vingate, :sugar, :grape_vairety, :description]
@@ -44,6 +44,7 @@ module Refinery
       def region
         "#{region_zh} #{region_en}"
       end
+
 
     end
   end

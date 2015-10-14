@@ -1,7 +1,7 @@
 module Refinery
   module WineGroups
     class WineGroupItem < Refinery::Core::BaseModel
-
+      default_scope order('position')
       belongs_to :wine_group, :class_name => '::Refinery::WineGroups::WineGroup', :foreign_key => :group_id
       belongs_to :wine, :class_name => 'Refinery::Wines::Wine', :foreign_key => :wine_id
       has_many :test_papers, :class_name => 'Refinery::TestPapers::TestPaper', :foreign_key => :group_item_id

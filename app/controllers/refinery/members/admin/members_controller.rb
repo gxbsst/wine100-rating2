@@ -7,7 +7,7 @@ module Refinery
                 :title_attribute => 'name', :xhr_paging => true
 
         def export_e_group
-          @members = ::User.where(:role => 'e_group')
+          @members = ::User.where(:role => ['e_group','leader'])
           render  :xlsx => 'export_e_group_note',:filename =>  "e_group_date", :disposition =>  'inline'
 
         end

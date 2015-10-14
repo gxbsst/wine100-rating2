@@ -37,6 +37,6 @@ module ChallengesHelper
 
   def alcohol(alcohol)
     return '无/None' if alcohol.blank?
-    number_to_percentage(alcohol.try(:to_f))
+    number_to_percentage(alcohol.try(:to_f)*100)
   end
 end

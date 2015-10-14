@@ -45,15 +45,16 @@ namespace :app do
     csv = CSV.open(file, :headers => false)
     csv.each do |item|
       print("*" * 1)
-      group_name, uuid = item[1].split('_') if item[1].present?
-      region = item[2].split('>').delete_if {|i| i.blank? }.join('>') if item[2].present?
-      grape = item[3]
-      name_zh = item[4]
+      position = item[1]
+      group_name, uuid = item[2].split('_') if item[1].present?
+      region = item[3].split('>').delete_if {|i| i.blank? }.join('>') if item[2].present?
+      grape = item[4]
+      name_zh = item[5]
       name_en = item[0]
-      vintage = item[8]
-      sugar = item[10]
-      wine_style = item[7]
-      alcohol = item[9]
+      vintage = item[9]
+      sugar = item[11]
+      wine_style = item[8]
+      alcohol = item[10]
       wine = Refinery::Wines::Wine.find_or_create_by_name_en_and_vingate(name_en,
                                                                          vintage,
                                                                          name_zh: name_zh,
@@ -69,7 +70,8 @@ namespace :app do
       puts "#{item[4]} #{item[3]}" unless wine.id
 
       group = Refinery::WineGroups::WineGroup.find_or_create_by_name(group_name)
-      Refinery::WineGroups::WineGroupItem.find_or_create_by_wine_id_and_group_id(wine.id, group.id)
+      wine_group_item = Refinery::WineGroups::WineGroupItem.find_or_create_by_wine_id_and_group_id(wine.id, group.id)
+      wine_group_item.update_attribute(:position, position)
 
     end
   end

@@ -4,6 +4,7 @@ class AwardsController < ApplicationController
 
   def create
     award = Award.find_or_initialize_by_wine_id_and_refinery_member_id(params['wine_id'], current_user.id)
+
     award.award = params['award']
     award.wine_id = params['wine_id']
     if award.save!
